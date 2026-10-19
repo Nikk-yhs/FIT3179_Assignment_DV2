@@ -1,0 +1,781 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Taken inspiration from https://vega.github.io/vega/examples/serpentine-timeline/ but I altered the serpent shape into a brick rectangle for the lego theme and added my own data into the visualizaiton.",
+  "width": 940,
+  "height": 510,
+  "padding": 15,
+  "signals": [
+    {
+      "name": "left",
+      "value": 220
+    },
+    {
+      "name": "top",
+      "value": 95
+    },
+    {
+      "name": "brickWidth",
+      "value": 500
+    },
+    {
+      "name": "brickHeight",
+      "value": 250
+    },
+    {
+      "name": "gap",
+      "value": 44
+    },
+    {
+      "name": "pathLength",
+      "update": "2*(brickWidth + brickHeight) - gap"
+    },
+    {
+      "name": "domain",
+      "init": "[year(now())-100, year(now())]"
+    },
+    {
+      "name": "brickColor",
+      "value": "#e4ca22"
+    },
+    {
+      "name": "labelsOnHover",
+      "value": true
+    },
+    {
+      "name": "includeArrows",
+      "value": true
+    },
+    {
+      "name": "hoverFocus",
+      "value": null,
+      "on": [
+        {
+          "events": "@milestone_markers:mouseover",
+          "update": "datum.domain"
+        },
+        {
+          "events": "@milestone_markers:mouseout",
+          "update": "null"
+        }
+      ]
+    },
+    {
+      "name": "tickCount",
+      "value": 11
+    },
+    {
+      "name": "labelOffset",
+      "value": 56
+    }
+  ],
+  "scales": [
+    {
+      "name": "timeDistance",
+      "type": "linear",
+      "zero": false,
+      "nice": false,
+      "clamp": true,
+      "domain": {
+        "signal": "domain"
+      },
+      "range": [
+        0,
+        {
+          "signal": "pathLength"
+        }
+      ]
+    }
+  ],
+  "data": [
+    {
+      "name": "dataset",
+      "values": [
+        {
+          "domain": 1932,
+          "label": "A beginning in wooden toys",
+          "description": "Ole Kirk Kristiansen began producing wooden toys in 1932, including cars and airplanes.",
+          "source_url": "https://www.lego.com/en-us/history/articles/b-the-beginning-of-the-lego-group"
+        }
+      ]
+    },
+    {
+      "name": "milestones",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "isValid(datum.domain) && datum.domain >= domain[0] && datum.domain <= domain[1]"
+        },
+        {
+          "type": "formula",
+          "expr": "gap/2 + scale('timeDistance', datum.domain)",
+          "as": "distance"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.distance <= brickWidth ? 0 : datum.distance <= brickWidth + brickHeight ? 1 : datum.distance <= 2*brickWidth + brickHeight ? 2 : 3",
+          "as": "side"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? left + datum.distance : datum.side === 1 ? left + brickWidth : datum.side === 2 ? left + 2*brickWidth + brickHeight - datum.distance : left",
+          "as": "x"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? top : datum.side === 1 ? top + datum.distance - brickWidth : datum.side === 2 ? top + brickHeight : top + 2*(brickWidth + brickHeight) - datum.distance",
+          "as": "y"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 1 ? 1 : datum.side === 3 ? -1 : 0",
+          "as": "nx"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? -1 : datum.side === 2 ? 1 : 0",
+          "as": "ny"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 1 ? 'left' : datum.side === 3 ? 'right' : 'center'",
+          "as": "align"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? 'bottom' : datum.side === 2 ? 'top' : 'middle'",
+          "as": "baseline"
+        }
+      ]
+    },
+    {
+      "name": "ticks",
+      "transform": [
+        {
+          "type": "sequence",
+          "start": 0,
+          "stop": {
+            "signal": "tickCount"
+          },
+          "as": "index"
+        },
+        {
+          "type": "formula",
+          "expr": "domain[0] + (domain[1]-domain[0])*datum.index/(tickCount-1)",
+          "as": "domain"
+        },
+        {
+          "type": "formula",
+          "expr": "gap/2 + scale('timeDistance', datum.domain)",
+          "as": "distance"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.distance <= brickWidth ? 0 : datum.distance <= brickWidth + brickHeight ? 1 : datum.distance <= 2*brickWidth + brickHeight ? 2 : 3",
+          "as": "side"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? left + datum.distance : datum.side === 1 ? left + brickWidth : datum.side === 2 ? left + 2*brickWidth + brickHeight - datum.distance : left",
+          "as": "x"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? top : datum.side === 1 ? top + datum.distance - brickWidth : datum.side === 2 ? top + brickHeight : top + 2*(brickWidth + brickHeight) - datum.distance",
+          "as": "y"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 1 ? 1 : datum.side === 3 ? -1 : 0",
+          "as": "nx"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? -1 : datum.side === 2 ? 1 : 0",
+          "as": "ny"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 1 ? 'left' : datum.side === 3 ? 'right' : 'center'",
+          "as": "align"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? 'bottom' : datum.side === 2 ? 'top' : 'middle'",
+          "as": "baseline"
+        },
+        {
+          "type": "filter",
+          "expr": "datum.index > 0 && datum.index < tickCount-1"
+        }
+      ]
+    },
+    {
+      "name": "path",
+      "values": [
+        {
+          "index": 0
+        },
+        {
+          "index": 1
+        },
+        {
+          "index": 2
+        },
+        {
+          "index": 3
+        },
+        {
+          "index": 4
+        }
+      ],
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum.index === 0 ? left + gap/2 : datum.index === 1 || datum.index === 2 ? left + brickWidth : left",
+          "as": "x"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.index <= 1 ? top : datum.index <= 3 ? top + brickHeight : top + gap/2",
+          "as": "y"
+        }
+      ]
+    },
+    {
+      "name": "studs",
+      "transform": [
+        {
+          "type": "sequence",
+          "start": 0,
+          "stop": 8,
+          "as": "index"
+        },
+        {
+          "type": "formula",
+          "expr": "left + brickWidth*(1 + datum.index%4)/5",
+          "as": "x"
+        },
+        {
+          "type": "formula",
+          "expr": "top + brickHeight*(1 + floor(datum.index/4))/3",
+          "as": "y"
+        }
+      ]
+    },
+    {
+      "name": "arrows",
+      "values": [
+        {
+          "fraction": 0.23
+        },
+        {
+          "fraction": 0.48
+        },
+        {
+          "fraction": 0.73
+        },
+        {
+          "fraction": 0.94
+        }
+      ],
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "domain[0]+(domain[1]-domain[0])*datum.fraction",
+          "as": "domain"
+        },
+        {
+          "type": "formula",
+          "expr": "gap/2 + scale('timeDistance', datum.domain)",
+          "as": "distance"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.distance <= brickWidth ? 0 : datum.distance <= brickWidth + brickHeight ? 1 : datum.distance <= 2*brickWidth + brickHeight ? 2 : 3",
+          "as": "side"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? left + datum.distance : datum.side === 1 ? left + brickWidth : datum.side === 2 ? left + 2*brickWidth + brickHeight - datum.distance : left",
+          "as": "x"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? top : datum.side === 1 ? top + datum.distance - brickWidth : datum.side === 2 ? top + brickHeight : top + 2*(brickWidth + brickHeight) - datum.distance",
+          "as": "y"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 1 ? 1 : datum.side === 3 ? -1 : 0",
+          "as": "nx"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? -1 : datum.side === 2 ? 1 : 0",
+          "as": "ny"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 1 ? 'left' : datum.side === 3 ? 'right' : 'center'",
+          "as": "align"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? 'bottom' : datum.side === 2 ? 'top' : 'middle'",
+          "as": "baseline"
+        }
+      ]
+    },
+    {
+      "name": "ends",
+      "values": [
+        {
+          "position": "Start"
+        },
+        {
+          "position": "End"
+        }
+      ],
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum.position === 'Start' ? domain[0] : domain[1]",
+          "as": "domain"
+        },
+        {
+          "type": "formula",
+          "expr": "gap/2 + scale('timeDistance', datum.domain)",
+          "as": "distance"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.distance <= brickWidth ? 0 : datum.distance <= brickWidth + brickHeight ? 1 : datum.distance <= 2*brickWidth + brickHeight ? 2 : 3",
+          "as": "side"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? left + datum.distance : datum.side === 1 ? left + brickWidth : datum.side === 2 ? left + 2*brickWidth + brickHeight - datum.distance : left",
+          "as": "x"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? top : datum.side === 1 ? top + datum.distance - brickWidth : datum.side === 2 ? top + brickHeight : top + 2*(brickWidth + brickHeight) - datum.distance",
+          "as": "y"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 1 ? 1 : datum.side === 3 ? -1 : 0",
+          "as": "nx"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? -1 : datum.side === 2 ? 1 : 0",
+          "as": "ny"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 1 ? 'left' : datum.side === 3 ? 'right' : 'center'",
+          "as": "align"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.side === 0 ? 'bottom' : datum.side === 2 ? 'top' : 'middle'",
+          "as": "baseline"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "brick_shadow",
+      "type": "rect",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "left+5"
+          },
+          "y": {
+            "signal": "top+7"
+          },
+          "width": {
+            "signal": "brickWidth"
+          },
+          "height": {
+            "signal": "brickHeight"
+          },
+          "fill": {
+            "value": "#000000"
+          },
+          "fillOpacity": {
+            "value": 0.12
+          }
+        }
+      }
+    },
+    {
+      "name": "brick_body",
+      "type": "rect",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "left"
+          },
+          "y": {
+            "signal": "top"
+          },
+          "width": {
+            "signal": "brickWidth"
+          },
+          "height": {
+            "signal": "brickHeight"
+          },
+          "fill": {
+            "signal": "brickColor"
+          }
+        }
+      }
+    },
+    {
+      "name": "stud_shadows",
+      "type": "symbol",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "datum.x+2"
+          },
+          "y": {
+            "signal": "datum.y+4"
+          },
+          "shape": {
+            "value": "circle"
+          },
+          "size": {
+            "value": 3700
+          },
+          "fill": {
+            "value": "#000000"
+          }
+        }
+      },
+      "from": {
+        "data": "studs"
+      }
+    },
+    {
+      "name": "stud_faces",
+      "type": "symbol",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "shape": {
+            "value": "circle"
+          },
+          "size": {
+            "value": 3500
+          },
+          "fill": {
+            "signal": "brickColor"
+          },
+          "stroke": {
+            "value": "#e6d353"
+          },
+          "strokeWidth": {
+            "value": 3
+          }
+        }
+      },
+      "from": {
+        "data": "studs"
+      }
+    },
+    {
+      "name": "rectangle_timeline",
+      "type": "line",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "stroke": {
+            "value": "#343434"
+          },
+          "strokeWidth": {
+            "value": 5
+          },
+          "strokeJoin": {
+            "value": "miter"
+          },
+          "interpolate": {
+            "value": "linear"
+          }
+        }
+      },
+      "from": {
+        "data": "path"
+      }
+    },
+    {
+      "name": "direction_arrows",
+      "type": "symbol",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "shape": {
+            "value": "triangle-up"
+          },
+          "angle": {
+            "signal": "datum.side*90+90"
+          },
+          "size": {
+            "value": 170
+          },
+          "fill": {
+            "value": "#343434"
+          },
+          "stroke": {
+            "value": "white"
+          },
+          "strokeWidth": {
+            "value": 1
+          },
+          "opacity": {
+            "signal": "includeArrows ? 1 : 0"
+          }
+        }
+      },
+      "from": {
+        "data": "arrows"
+      }
+    },
+    {
+      "name": "tick_marks",
+      "type": "rule",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "x2": {
+            "signal": "datum.x+datum.nx*9"
+          },
+          "y2": {
+            "signal": "datum.y+datum.ny*9"
+          },
+          "stroke": {
+            "value": "#777"
+          },
+          "strokeWidth": {
+            "value": 1
+          }
+        }
+      },
+      "from": {
+        "data": "ticks"
+      }
+    },
+    {
+      "name": "tick_labels",
+      "type": "text",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "datum.x+datum.nx*17"
+          },
+          "y": {
+            "signal": "datum.y+datum.ny*17"
+          },
+          "text": {
+            "signal": "format(datum.domain, '.0f')"
+          },
+          "align": {
+            "field": "align"
+          },
+          "baseline": {
+            "field": "baseline"
+          },
+          "fontSize": {
+            "value": 11
+          },
+          "fill": {
+            "value": "#666"
+          }
+        }
+      },
+      "from": {
+        "data": "ticks"
+      }
+    },
+    {
+      "name": "endpoint_labels",
+      "type": "text",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "datum.x+datum.nx*18"
+          },
+          "y": {
+            "signal": "datum.y+datum.ny*18"
+          },
+          "text": {
+            "signal": "datum.position + ' \u00b7 ' + format(datum.domain, '.0f')"
+          },
+          "align": {
+            "field": "align"
+          },
+          "baseline": {
+            "field": "baseline"
+          },
+          "fontSize": {
+            "value": 11
+          },
+          "fontWeight": {
+            "value": "bold"
+          },
+          "fill": {
+            "value": "#343434"
+          }
+        }
+      },
+      "from": {
+        "data": "ends"
+      }
+    },
+    {
+      "name": "milestone_connectors",
+      "type": "rule",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "x2": {
+            "signal": "datum.x+datum.nx*(labelOffset-7)"
+          },
+          "y2": {
+            "signal": "datum.y+datum.ny*(labelOffset-7)"
+          },
+          "stroke": {
+            "value": "#C7352C"
+          },
+          "opacity": {
+            "signal": "!labelsOnHover || hoverFocus === datum.domain ? 1 : 0"
+          }
+        }
+      },
+      "from": {
+        "data": "milestones"
+      }
+    },
+    {
+      "name": "milestone_markers",
+      "type": "symbol",
+      "interactive": true,
+      "encode": {
+        "update": {
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "shape": {
+            "value": "circle"
+          },
+          "size": {
+            "signal": "hoverFocus === datum.domain ? 240 : 150"
+          },
+          "fill": {
+            "signal": "isValid(datum.color) ? datum.color : '#D52B1E'"
+          },
+          "stroke": {
+            "value": "white"
+          },
+          "strokeWidth": {
+            "value": 2
+          },
+          "cursor": {
+            "signal": "isValid(datum.source_url) && datum.source_url !== '' ? 'pointer' : 'default'"
+          },
+          "tooltip": {
+            "signal": "{'Year': datum.domain, 'Event': datum.label, 'Description': isValid(datum.description) && datum.description !== '' ? datum.description : 'No description added yet.', 'Source': isValid(datum.source_url) && datum.source_url !== '' ? 'Click the circle to open the source.' : 'No source added yet.'}"
+          },
+          "href": {
+            "signal": "isValid(datum.source_url) && datum.source_url !== '' ? datum.source_url : null"
+          }
+        }
+      },
+      "from": {
+        "data": "milestones"
+      }
+    },
+    {
+      "name": "milestone_labels",
+      "type": "text",
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "datum.x+datum.nx*labelOffset"
+          },
+          "y": {
+            "signal": "datum.y+datum.ny*labelOffset"
+          },
+          "text": {
+            "signal": "datum.domain + ' \u2014 ' + datum.label"
+          },
+          "align": {
+            "field": "align"
+          },
+          "baseline": {
+            "field": "baseline"
+          },
+          "fontSize": {
+            "value": 12
+          },
+          "fontWeight": {
+            "value": "bold"
+          },
+          "fill": {
+            "value": "#B32218"
+          },
+          "opacity": {
+            "signal": "!labelsOnHover || hoverFocus === datum.domain ? 1 : 0"
+          }
+        }
+      },
+      "from": {
+        "data": "milestones"
+      }
+    }
+  ]
+}

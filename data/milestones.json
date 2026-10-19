@@ -1,0 +1,24 @@
+[
+  {
+    "event_id": "wooden_toys",
+    "year_start": 1932,
+    "year_end": 1932,
+    "precision": "year",
+    "title": "A beginning in wooden toys",
+    "description": "Ole Kirk Kristiansen begins producing wooden toys, laying the foundations of the LEGO Group.",
+    "chapter": "beginnings",
+    "source_url": "https://www.lego.com/en-us/history/articles/b-the-beginning-of-the-lego-group",
+    "verification_note": ""
+  },
+  {
+    "event_id": "brick_patent",
+    "year_start": 1958,
+    "year_end": 1958,
+    "precision": "year",
+    "title": "The modern LEGO brick takes shape",
+    "description": "The LEGO Group files a patent application for the stud-and-tube brick design that improves how bricks connect.",
+    "chapter": "beginnings",
+    "source_url": "https://www.lego.com/en-us/history/articles/d-the-stud-and-tube-principle",
+    "verification_note": "Patent application submitted on 28 January 1958."
+  }
+]

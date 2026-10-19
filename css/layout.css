@@ -1,0 +1,40 @@
+html, body { 
+    background-color: #5aa3cc;
+}
+
+.pure-u-1 img {
+    width: 100vw;
+    height: 18vw;
+}
+
+.pure-u-1-3 {
+    width: 60vw;
+    height: 30vw;
+}
+
+.c1-timeline {
+    width: 100vw;
+    height: 20vw;
+}
+
+.m1-map {
+    width: 100vw;
+    height: 20vw;
+}
+
+.text_div {
+    font: 100;
+}
+
+#timeline{
+    width: 60%;
+    height: 60%;
+}
+
+/* Fonts */
+
+h1 {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 10;
+  font-style: bold;
+}
