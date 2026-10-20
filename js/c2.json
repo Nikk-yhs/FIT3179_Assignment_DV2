@@ -2,9 +2,72 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "data": {
-        "url": "data/sets.csv",
-        "format": {
-          "type": "csv"
-        }
+    "url": "data/annual_releases.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "set_count": "number"
+      }
     }
+  },
+
+
+  "mark": {
+    "type": "bar",
+    "color": "#d62828"
+  },
+
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "sort": "ascending",
+      "title": "Release year",
+      "axis": {
+        "labelAngle": -90,
+        "labelOverlap": true
+      }
+    },
+
+    "y": {
+      "field": "set_count",
+      "type": "quantitative",
+      "title": "Set designs released",
+      "scale": {
+        "zero": true
+      },
+      "axis": {
+        "format": ",.0f",
+        "tickMinStep": 1
+      }
+    },
+
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Release year"
+      },
+      {
+        "field": "set_count",
+        "type": "quantitative",
+        "title": "Set designs released",
+        "format": ",.0f"
+      }
+    ]
+  },
+
+  "config": {
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#eeeeee"
+    },
+    "title": {
+      "fontSize": 20,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 8
+    }
+  }
 }
