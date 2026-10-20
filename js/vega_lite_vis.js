@@ -21,3 +21,9 @@ var vg_4 = "js/map3_landmarks.json"
 vegaEmbed('#m3-map', vg_4).then(function(result){
 
 }).catch(console.error);
+
+var vg_4 = "js/c2.json"
+
+vegaEmbed('#c2-annual', vg_4).then(function(result){
+
+}).catch(console.error);

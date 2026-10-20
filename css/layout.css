@@ -14,11 +14,13 @@ html, body {
 .chapter_text{
     width: 100%;
     text-align: center;
+    margin: 60px 0 30px;
 }
 
 .center_text {
     width: 100%;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .outer{
