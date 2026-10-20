@@ -1,7 +1,16 @@
-event_id,origin,destination,year_start,year_end,date_precision,event_type,description,source_url
-norway_1953,Billund,Norway,1953,1953,year,Licensed production,Licensed production begins with Svein Stromberg in Norway.,https://www.lego.com/en-us/history/articles/d-early-expansion
-sweden_1955,Billund,Sweden,1955,1955,year,Partnership export,Lego establishes a partnership with AB Lundby Leksaksfabrik a toy company outside Gothenburg, Sweden making it their first export.,https://www.lego.com/en-us/history/articles/d-earliest-export 
-iceland_1955,Billund,Iceland,1955, 1955,year,Partnership export,Lego enters  a licensing agreement with S.I.B.S. to manufacture and sell lego proeducts.,https://www.lego.com/en-us/history/articles/d-an-unusual-partnership-in-iceland 
-germany_1956,Billund,Germany,1956,1956,year,Sales subsidiary,LEGO establishes its first foreign sales subsidiary in Germany.,https://www.lego.com/en-us/history/articles/d-early-expansion
-switzerland_1956_1958,Billund,Switzerland,1956,1958,range,Sales office,A sales office is established during the documented 1956–1958 expansion period.,https://www.lego.com/en-us/history/articles/d-early-expansion
-netherlands_1956_1958,Billund,netherlands,1956,1958,range,Sales office,A sales office is established during the documented 1956–1958 expansion period.,https://www.lego.com/en-us/history/articles/d-early-expansion
+event_id,destination,year_start,year_end,date_precision,event_type,origin_lon,origin_lat,destination_lon,destination_lat,description,source_url
+norway_1953,Norway,1953,1953,year,Licensed production,9.12,55.73,9,62,Licensed production begins with Svein Stromberg.,https://www.lego.com/en-us/history/articles/d-early-expansion
+sweden_1955,Sweden,1955,1955,year,Market expansion,9.12,55.73,15,62,Expansion reaches Sweden.,https://www.lego.com/en-us/history/articles/d-earliest-export
+iceland_1955,Iceland,1955,1955,year,Partnership,9.12,55.73,-19,65,A partnership is established in Iceland.,https://www.lego.com/en-us/history/articles/d-an-unusual-partnership-in-iceland 
+germany_1956,Germany,1956,1956,year,Sales subsidiary,9.12,55.73,10.5,51,The first foreign sales subsidiary is established.,https://www.lego.com/en-us/history/articles/d-early-expansion
+switzerland_1956_1958,Switzerland,1956,1958,range,Sales office,9.12,55.73,8.2,46.8,A sales office is established during 1956–1958.,https://www.lego.com/en-us/history/articles/d-early-expansion
+netherlands_1956_1958,Netherlands,1956,1958,range,Sales office,9.12,55.73,5.3,52.2,A sales office is established during 1956–1958.,https://www.lego.com/en-us/history/articles/d-early-expansion
+austria_1956_1958,Austria,1956,1958,range,Sales office,9.12,55.73,14.1,47.6,A sales office is established during 1956–1958.,https://www.lego.com/en-us/history/articles/d-early-expansion
+belgium_1956_1958,Belgium,1956,1958,range,Sales office,9.12,55.73,4.7,50.8,A sales office is established during 1956–1958.,https://www.lego.com/en-us/history/articles/d-early-expansion
+italy_1956_1958,Italy,1956,1958,range,Sales office,9.12,55.73,12.5,42.5,A sales office is established during 1956–1958.,https://www.lego.com/en-us/history/articles/d-early-expansion
+portugal_1956_1958,Portugal,1956,1958,range,Sales office,9.12,55.73,-8,39.5,A sales office is established during 1956–1958.,https://www.lego.com/en-us/history/articles/d-early-expansion
+usa_1961,United States,1961,1961,year,Production and sales licence,9.12,55.73,-100,39,A licensing agreement covers production and sales.,https://www.lego.com/en-us/history/articles/e-production-of-lego-bricks-in-north-america
+canada_1961,Canada,1961,1961,year,Production and sales licence,9.12,55.73,-106,57,A licensing agreement covers production and sales.,https://www.lego.com/en-us/history/articles/e-production-of-lego-bricks-in-north-america
+brazil_1986	Brazil,1986,1986,year,Sales office,9.12,55.73,-52,-10, The Manaus factory begins operating and a sales office is established in Sao Paulo.,https://www.lego.com/en-us/history/articles/g-production-in-brazil
+china_distribution_2014,China,2014,2014,year,Distribution centre opening,9.12,55.73,104,35,A new Asian distribution centre opens in Shanghai.,https://www.lego.com/en-us/history/articles/j-returning-to-asia
+uae_2019,United Arab Emirates,2019,2019,year,Regional headquarters opening,9.12,55.73,54,24,LEGO opens its Middle East and Africa headquarters in Dubai to support business across 68 markets.,https://www.lego.com/en-us/aboutus/news/2019/february/the-lego-group-launches-middle-east-and-africa-headquarters-in-dubai

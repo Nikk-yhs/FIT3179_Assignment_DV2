@@ -35,7 +35,7 @@
     },
     {
       "name": "brickColor",
-      "value": "#e4ca22"
+      "value": "#FFD700"
     },
     {
       "name": "labelsOnHover",
@@ -93,9 +93,80 @@
         {
           "domain": 1932,
           "label": "A beginning in wooden toys",
-          "description": "Ole Kirk Kristiansen began producing wooden toys in 1932, including cars and airplanes.",
+          "description": "Ole Kirk Kristiansen founded the Lego group and began producing wooden toys in 1932.",
           "source_url": "https://www.lego.com/en-us/history/articles/b-the-beginning-of-the-lego-group"
+        },
+        {
+          "domain": 1949,
+          "label": "The first plastic bricks",
+          "description": "The first ever product marketed under the name automatic binding bricks were released.",
+          "source_url": "https://www.lego.com/en-us/history/articles/c-entering-the-age-of-plastics"
+
+        },
+        {
+          "domain": 1958,
+          "label": "Brick patent",
+          "description": "On January 28, 1958 at 1:58 pm, the LEGO Group submits a patent application for “a toy building element”. ",
+          "source_url": "https://www.lego.com/en-us/history/articles/d-the-stud-and-tube-principle"
+        },
+        {
+          "domain": 1961,
+          "label": "Production of Lego in North America",
+          "description": "The Lego group began production in North America with a licensing agreement with Samsonite.",
+          "source_url": "https://www.lego.com/en-us/history/articles/e-production-of-lego-bricks-in-north-america"
+
+        },
+        {
+          "domain": 1968,
+          "label": "Legoland was born",
+          "description": "The first Legoland was created in Billund Denmark with a large opening day. The success sparked Legoland to go global.",
+          "source_url": "https://www.lego.com/en-us/history/articles/e-the-first-legoland-park"
+
+        },
+        {
+          "domain": 1969,
+          "label": "Lego DUPLO bricks is launched globally",
+          "description": "LEGO DUPLO bricks is the first set of bricks that expanded their target audience to preschool children,",
+          "source_url": "https://www.lego.com/en-us/history/articles/e-lego-duplo"
+
+        },
+        {
+          "domain": 1973,
+          "label": "Modernisation of company practices",
+          "description": "Lego strives for automation in manufacturing, enhancing safety and undergoes a graphical facelfit for it's logo. Cementing it's self internationally.",
+          "source_url": "https://www.lego.com/en-us/history/articles/f-a-modern-international-company"
+        },
+        {
+          "domain": 1999,
+          "label": "Lego Star Wars",
+          "description": "Lego Star Wars was the Lego group's first IP franchise and it opened the gates to many more.",
+          "source_url": "https://www.lego.com/en-us/aboutus/news/2019/april/the-greatest-battles-built-since-1999-celebrating-20-years-of-lego-star-wars-fandom"
+        },
+        {
+          "domain": 2006,
+          "label": "Lego Architecture",
+          "description": "Architect Adam Reed Tucker beings creating models of landmark buildings catching the eye of the Lego community with large models.",
+          "source_url": "https://www.lego.com/en-us/history/articles/i-lego-architecture"
+        },
+        {
+          "domain": 2014,
+          "label": "The Lego Movie",
+          "description": "The release of the lego movie which brought lego sets to life on film. Grossing 468.1 million worldwide.",
+          "source_url": "https://www.lego.com/en-ca/themes/retired/lego-movie"
+        },
+        {
+          "domain": 2020,
+          "label": "Adult focused lego products",
+          "description": "Lego began releasing revised packaging marked with 18+ designed to appeal towards the adult demographic.",
+          "source_url": "https://brickarchitect.com/2020/new-design-for-afol-products/"
+        },
+        {
+          "domain": 2025,
+          "label": "Continuous expansion",
+          "description": "The lego group opens a new factory in Vietnam marking the company's sixth factory worldwide and second in Asia.",
+          "source_url": "https://www.lego.com/en-us/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam"
         }
+
       ]
     },
     {
@@ -267,16 +338,22 @@
       "name": "arrows",
       "values": [
         {
-          "fraction": 0.23
+          "fraction": 0.15
         },
         {
-          "fraction": 0.48
+          "fraction": 0.30
         },
         {
-          "fraction": 0.73
+          "fraction": 0.45
         },
         {
-          "fraction": 0.94
+          "fraction": 0.60
+        },
+        {
+          "fraction": 0.75
+        },
+        {
+          "fraction": 0.95
         }
       ],
       "transform": [
@@ -454,7 +531,7 @@
             "value": "circle"
           },
           "size": {
-            "value": 3700
+            "value": 3800
           },
           "fill": {
             "value": "#000000"
@@ -487,10 +564,10 @@
             "signal": "brickColor"
           },
           "stroke": {
-            "value": "#e6d353"
+            "value": "#f4cf0d"
           },
           "strokeWidth": {
-            "value": 3
+            "value": 4
           }
         }
       },
@@ -547,13 +624,13 @@
             "signal": "datum.side*90+90"
           },
           "size": {
-            "value": 170
+            "value": 300
           },
           "fill": {
-            "value": "#343434"
+            "value": "White"
           },
           "stroke": {
-            "value": "white"
+            "value": "Black"
           },
           "strokeWidth": {
             "value": 1
@@ -712,13 +789,13 @@
             "value": "circle"
           },
           "size": {
-            "signal": "hoverFocus === datum.domain ? 240 : 150"
+            "signal": "hoverFocus === datum.domain ? 300 : 150"
           },
           "fill": {
-            "signal": "isValid(datum.color) ? datum.color : '#D52B1E'"
+            "signal": "isValid(datum.color) ? datum.color : '#DA291C'"
           },
           "stroke": {
-            "value": "white"
+            "value": "black"
           },
           "strokeWidth": {
             "value": 2

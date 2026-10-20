@@ -1,0 +1,11 @@
+#c1-timeline{
+    width: 30%;
+    height: 60%;
+}
+
+#m1-map {
+    top: 100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+}

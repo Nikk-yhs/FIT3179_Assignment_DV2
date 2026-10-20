@@ -1,0 +1,220 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": 850,
+  "height": 450,
+
+  "projection": {
+    "type": "equalEarth"
+  },
+
+  "params": [
+    {
+      "name": "selectedYear",
+      "value": 1961,
+      "bind": {
+        "input": "range",
+        "min": 1932,
+        "max": 2026,
+        "step": 1,
+        "name": "Connections established by: "
+      }
+    }
+  ],
+
+  "layer": [
+    {
+      "data": {
+        "url": "data/ne_110m_admin_0_countries.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_0_countries"
+        }
+      },
+
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e5e7eb",
+        "stroke": "white",
+        "strokeWidth": 0.5
+      }
+    },
+
+    {
+      "data": {
+        "url": "data/expansion_events.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "year_start": "number",
+            "year_end": "number",
+            "origin_lon": "number",
+            "origin_lat": "number",
+            "destination_lon": "number",
+            "destination_lat": "number"
+          }
+        }
+      },
+
+      "transform": [
+        {
+          "filter": "datum.year_end <= selectedYear"
+        },
+        {
+          "calculate": "datum.year_start === datum.year_end ? toString(datum.year_start) : toString(datum.year_start) + '–' + toString(datum.year_end)",
+          "as": "date_label"
+        }
+      ],
+
+      "layer": [
+        {
+          "mark": {
+            "type": "rule",
+            "color": "#2563eb",
+            "strokeWidth": 1.8,
+            "opacity": 0.6
+          },
+
+          "encoding": {
+            "longitude": {
+              "field": "origin_lon",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "origin_lat",
+              "type": "quantitative"
+            },
+            "longitude2": {
+              "field": "destination_lon"
+            },
+            "latitude2": {
+              "field": "destination_lat"
+            }
+          }
+        },
+
+        {
+          "mark": {
+            "type": "circle",
+            "size": 85,
+            "color": "#2563eb",
+            "stroke": "white",
+            "strokeWidth": 1,
+            "opacity": 1
+          },
+
+          "encoding": {
+            "longitude": {
+              "field": "destination_lon",
+              "type": "quantitative"
+            },
+            "latitude": {
+              "field": "destination_lat",
+              "type": "quantitative"
+            },
+
+            "tooltip": [
+              {
+                "field": "destination",
+                "type": "nominal",
+                "title": "Destination"
+              },
+              {
+                "field": "date_label",
+                "type": "nominal",
+                "title": "Documented date"
+              },
+              {
+                "field": "event_type",
+                "type": "nominal",
+                "title": "Connection"
+              },
+              {
+                "field": "description",
+                "type": "nominal",
+                "title": "Details"
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "data": {
+        "values": [
+          {
+            "place": "Billund",
+            "longitude": 9.12,
+            "latitude": 55.73
+          }
+        ]
+      },
+
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        }
+      },
+
+      "layer": [
+        {
+          "mark": {
+            "type": "point",
+            "shape": "diamond",
+            "filled": true,
+            "size": 150,
+            "color": "#d71920",
+            "stroke": "white",
+            "strokeWidth": 1,
+            "opacity": 1
+          },
+
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "place",
+                "type": "nominal",
+                "title": "Narrative origin"
+              }
+            ]
+          }
+        },
+
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": 10,
+            "dy": -12,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "color": "#a51217"
+          },
+
+          "encoding": {
+            "text": {
+              "field": "place"
+            }
+          }
+        }
+      ]
+    }
+  ],
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "title": {
+      "fontSize": 18,
+      "subtitleFontSize": 12
+    }
+  }
+}

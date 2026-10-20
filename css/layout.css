@@ -1,10 +1,12 @@
+/*Layout of html settings*/
+
 html, body { 
-    background-color: #5aa3cc;
+    background-color: #FFFFFF;
 }
 
 .pure-u-1 img {
     width: 100vw;
-    height: 18vw;
+    height: 20vw;
 }
 
 .pure-u-1-3 {
@@ -12,29 +14,18 @@ html, body {
     height: 30vw;
 }
 
-.c1-timeline {
-    width: 100vw;
-    height: 20vw;
-}
-
-.m1-map {
-    width: 100vw;
-    height: 20vw;
-}
-
-.text_div {
-    font: 100;
-}
-
-#timeline{
-    width: 60%;
-    height: 60%;
-}
-
-/* Fonts */
+/* Text settings */
 
 h1 {
   font-family: "Rubik Mono One", monospace;
   font-weight: 10;
   font-style: bold;
+}
+
+h2{
+    font-family: "Rubik Mono One", monospace; /* might change the heading 2 fonts */
+}
+
+p{
+    font-family: "Rubik Mono One"  /* change the paragraph fonts */
 }
