@@ -9,3 +9,9 @@ var vg_2 = "js/map1_connections.json"
 vegaEmbed('#m1-map', vg_2).then(function(result){
 
 }).catch(console.error);
+
+var vg_3 = "js/map2_manufacturing.json"
+
+vegaEmbed('#m2-map', vg_3).then(function(result){
+
+}).catch(console.error);

@@ -1,11 +1,23 @@
-#c1-timeline{
-    width: 30%;
-    height: 60%;
+#c1-timeline {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
 }
 
 #m1-map {
-    top: 100px;
-    bottom: 100px;
-    left: 100px;
-    right: 100px;
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+}
+
+#m2-map {
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
 }

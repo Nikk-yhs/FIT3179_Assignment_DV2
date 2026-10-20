@@ -1,25 +1,30 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "Taken inspiration from https://vega.github.io/vega/examples/serpentine-timeline/ but I altered the serpent shape into a brick rectangle for the lego theme and added my own data into the visualizaiton.",
-  "width": 940,
-  "height": 510,
-  "padding": 15,
+  "width": 1000,
+  "height": 430,
+  "padding": {
+      "top": 10,
+      "bottom": 10,
+      "left": 10,
+      "right": 10
+  },
   "signals": [
     {
       "name": "left",
-      "value": 220
+      "value": 100
     },
     {
       "name": "top",
-      "value": 95
+      "value": 40
     },
     {
       "name": "brickWidth",
-      "value": 500
+      "update": "width - 2 * left"
     },
     {
       "name": "brickHeight",
-      "value": 250
+      "update": "height - 2 * top"
     },
     {
       "name": "gap",
@@ -65,7 +70,7 @@
     },
     {
       "name": "labelOffset",
-      "value": 56
+      "value": 24
     }
   ],
   "scales": [
