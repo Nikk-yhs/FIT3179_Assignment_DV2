@@ -1,0 +1,113 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": 850,
+  "height": 450,
+
+  "title": {
+    "text": "Where LEGO is made"
+  },
+
+  "projection": {
+    "type": "equalEarth"
+  },
+
+  "data": {
+    "url": "data/ne_50m_admin_0_countries.topojson",
+    "format": {
+      "type": "topojson",
+      "feature": "ne_50m_admin_0_countries"
+    }
+  },
+
+  "transform": [
+    {
+      "lookup": "properties.ADM0_A3",
+
+      "from": {
+        "data": {
+          "url": "data/manufacturing_countries.csv",
+          "format": {
+            "type": "csv"
+          }
+        },
+
+        "key": "country_code",
+
+        "fields": [
+          "facility",
+          "status"
+        ]
+      }
+    },
+
+    {
+      "calculate": "isValid(datum.status) ? datum.status : 'Not listed in this dataset'",
+      "as": "factory_status"
+    },
+
+    {
+      "calculate": "isValid(datum.facility) ? datum.facility : 'Not applicable'",
+      "as": "facility_label"
+    }
+  ],
+
+  "mark": {
+    "type": "geoshape",
+    "stroke": "white",
+    "strokeWidth": 0.6
+  },
+
+  "encoding": {
+    "color": {
+      "field": "factory_status",
+      "type": "nominal",
+      "title": "Factory presence",
+
+      "scale": {
+        "domain": [
+          "Operating factory",
+          "Not listed in this dataset"
+        ],
+
+        "range": [
+          "#d71920",
+          "#e5e7eb"
+        ]
+      },
+
+      "legend": {
+        "orient": "bottom"
+      }
+    },
+
+    "tooltip": [
+      {
+        "field": "properties.NAME",
+        "type": "nominal",
+        "title": "Country"
+      },
+      {
+        "field": "factory_status",
+        "type": "nominal",
+        "title": "Status"
+      },
+      {
+        "field": "facility_label",
+        "type": "nominal",
+        "title": "Factory location"
+      }
+    ]
+  },
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "title": {
+      "fontSize": 18,
+      "subtitleFontSize": 12
+    }
+  }
+}

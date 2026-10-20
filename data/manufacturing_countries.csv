@@ -1,7 +1,8 @@
-country_code,country,facility,status,checked_on,source_url
-DNK,Denmark,Billund,Operating factory,2026-10-20,https://www.lego.com/en-us/careers/manufacturing
-CZE,Czechia,Kladno,Operating factory,2026-10-20,https://www.lego.com/en-us/careers/manufacturing
-HUN,Hungary,Nyiregyhaza,Operating factory,2026-10-20,https://www.lego.com/en-us/careers/manufacturing
-MEX,Mexico,Monterrey,Operating factory,2026-10-20,https://www.lego.com/en-us/careers/manufacturing
-CHN,China,Jiaxing,Operating factory,2026-10-20,https://www.lego.com/en-us/careers/manufacturing
-VNM,Vietnam,Ho Chi Minh City area,Operating factory,2026-10-20,https://www.lego.com/en-us/careers/manufacturing
+country_code,country,facility,status,source_url
+DNK,Denmark,Billund,Operating factory,https://www.lego.com/en-us/careers/manufacturing
+CZE,Czechia,Kladno,Operating factory,https://www.lego.com/en-us/careers/manufacturing
+HUN,Hungary,Nyiregyhaza,Operating factory,https://www.lego.com/en-us/careers/manufacturing
+MEX,Mexico,Monterrey,Operating factory,https://www.lego.com/en-us/careers/manufacturing
+CHN,China,Jiaxing,Operating factory,,https://www.lego.com/en-us/careers/manufacturing
+VNM,Vietnam,Ho Chi Minh City area,Operating factory,https://www.lego.com/en-us/careers/manufacturing
+USA,United States Of America, Virginia,Operating factory,https://www.lego.com/en-us/careers/manufacturing
