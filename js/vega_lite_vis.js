@@ -15,3 +15,9 @@ var vg_3 = "js/map2_manufacturing.json"
 vegaEmbed('#m2-map', vg_3).then(function(result){
 
 }).catch(console.error);
+
+var vg_4 = "js/map3_landmarks.json"
+
+vegaEmbed('#m3-map', vg_4).then(function(result){
+
+}).catch(console.error);

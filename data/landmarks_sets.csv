@@ -1,0 +1,61 @@
+set_id,landmark,country,continent,pieces,longitude,latitude,source_url,coordinate_source,map_default
+3450,Statue of Liberty,United States,North America,2882,-74.04444,40.68917,https://www.lego.com/en-us/service/building-instructions/3450,https://en.wikipedia.org/wiki/Statue_of_Liberty,1
+10181,Eiffel Tower,France,Europe,3428,2.294500,48.858222,https://www.lego.com/en-us/service/building-instructions/10181,https://en.wikipedia.org/wiki/Eiffel_Tower,0
+10189,Taj Mahal,India,Asia,5922,78.0419,27.175,https://www.lego.com/en-us/service/building-instructions/10189,https://en.wikipedia.org/wiki/Taj_Mahal,0
+10214,Tower Bridge,United Kingdom,Europe,4287,-0.0753,51.5056,https://www.lego.com/en-us/service/building-instructions/10214,https://en.wikipedia.org/wiki/Tower_Bridge,1
+10234,Sydney Opera House,Australia,Oceania,2989,151.21514,-33.85681,https://www.lego.com/en-us/service/building-instructions/10234,https://en.wikipedia.org/wiki/Sydney_Opera_House,1
+10253,Big Ben (Elizabeth Tower),United Kingdom,Europe,4163,-0.1245,51.5007,https://www.lego.com/en-us/service/building-instructions/10253,https://en.wikipedia.org/wiki/Big_Ben,1
+10256,Taj Mahal,India,Asia,5923,78.0419,27.175,https://www.lego.com/en-us/service/building-instructions/10256,https://en.wikipedia.org/wiki/Taj_Mahal,1
+10272,Old Trafford,United Kingdom,Europe,3898,-2.291389,53.463056,https://www.lego.com/en-us/service/building-instructions/10272,https://en.wikipedia.org/wiki/Old_Trafford,1
+10276,Colosseum,Italy,Europe,9036,12.4922,41.8903,https://www.lego.com/en-us/service/building-instructions/10276,https://en.wikipedia.org/wiki/Colosseum,1
+10284,Camp Nou,Spain,Europe,5509,2.1228,41.3808,https://www.lego.com/en-us/service/building-instructions/10284,https://en.wikipedia.org/wiki/Camp_Nou,1
+10299,Santiago Bernabeu Stadium,Spain,Europe,5876,-3.68835,40.45306,https://www.lego.com/en-us/service/building-instructions/10299,https://en.wikipedia.org/wiki/Santiago_Bernab%C3%A9u_Stadium,1
+10307,Eiffel Tower,France,Europe,10001,2.294500,48.858222,https://www.lego.com/en-us/service/building-instructions/10307,https://en.wikipedia.org/wiki/Eiffel_Tower,1
+21000,Willis Tower,United States,North America,69,-87.6358,41.8789,https://www.lego.com/en-us/service/building-instructions/21000,https://en.wikipedia.org/wiki/Willis_Tower,1
+21001,John Hancock Center,United States,North America,69,-87.6230,41.8988,https://www.lego.com/en-us/service/building-instructions/21001,https://en.wikipedia.org/wiki/John_Hancock_Center,1
+21002,Empire State Building,United States,North America,77,-73.9856,40.7483,https://www.lego.com/en-us/service/building-instructions/21002,https://en.wikipedia.org/wiki/Empire_State_Building,0
+21003,Seattle Space Needle,United States,North America,57,-122.3491,47.6204,https://www.lego.com/en-us/service/building-instructions/21003,https://en.wikipedia.org/wiki/Space_Needle,1
+21004,Solomon R. Guggenheim Museum,United States,North America,208,-73.95889,40.78306,https://www.lego.com/en-us/service/building-instructions/21004,https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum,0
+21005,Fallingwater,United States,North America,811,-79.46783,39.90626,https://www.lego.com/en-us/service/building-instructions/21005,https://en.wikipedia.org/wiki/Fallingwater,1
+21006,White House,United States,North America,561,-77.03639,38.89778,https://www.lego.com/en-us/service/building-instructions/21006,https://en.wikipedia.org/wiki/White_House,0
+21007,Rockefeller Center,United States,North America,240,-73.97917,40.75861,https://www.lego.com/en-us/service/building-instructions/21007,https://en.wikipedia.org/wiki/Rockefeller_Center,1
+21008,Burj Khalifa,United Arab Emirates,Asia,208,55.2742,25.1972,https://www.lego.com/en-us/service/building-instructions/21008,https://en.wikipedia.org/wiki/Burj_Khalifa,0
+21009,Farnsworth House,United States,North America,546,-88.5357,41.6350,https://www.lego.com/en-us/service/building-instructions/21009,https://en.wikipedia.org/wiki/Farnsworth_House,1
+21010,Robie House,United States,North America,2276,-87.595917,41.789833,https://www.lego.com/en-us/service/building-instructions/21010,https://en.wikipedia.org/wiki/Robie_House,1
+21011,Brandenburg Gate,Germany,Europe,363,13.3777,52.5163,https://www.lego.com/en-us/service/building-instructions/21011,https://en.wikipedia.org/wiki/Brandenburg_Gate,1
+21012,Sydney Opera House,Australia,Oceania,270,151.21514,-33.85681,https://www.lego.com/en-us/service/building-instructions/21012,https://en.wikipedia.org/wiki/Sydney_Opera_House,0
+21013,Big Ben (Elizabeth Tower),United Kingdom,Europe,346,-0.1245,51.5007,https://www.lego.com/en-us/service/building-instructions/21013,https://en.wikipedia.org/wiki/Big_Ben,0
+21014,Villa Savoye,France,Europe,660,2.02833,48.92444,https://www.lego.com/en-us/service/building-instructions/21014,https://en.wikipedia.org/wiki/Villa_Savoye,1
+21015,Leaning Tower of Pisa,Italy,Europe,345,10.39639,43.72306,https://www.lego.com/en-us/service/building-instructions/21015,https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa,1
+21016,Sungnyemun,South Korea,Asia,325,126.97528,37.56000,https://www.lego.com/en-us/service/building-instructions/21016,https://en.wikipedia.org/wiki/Namdaemun,1
+21017,Imperial Hotel (original Tokyo site),Japan,Asia,1188,139.75822,35.67231,https://www.lego.com/en-us/service/building-instructions/21017,https://en.wikipedia.org/wiki/Imperial_Hotel%2C_Tokyo,1
+21018,United Nations Headquarters,United States,North America,597,-73.96806,40.74944,https://www.lego.com/en-us/service/building-instructions/21018,https://en.wikipedia.org/wiki/Headquarters_of_the_United_Nations,1
+21019,Eiffel Tower,France,Europe,321,2.294500,48.858222,https://www.lego.com/en-us/service/building-instructions/21019,https://en.wikipedia.org/wiki/Eiffel_Tower,0
+21020,Trevi Fountain,Italy,Europe,731,12.48306,41.90083,https://www.lego.com/en-us/service/building-instructions/21020,https://en.wikipedia.org/wiki/Trevi_Fountain,0
+21021,Marina Bay Sands,Singapore,Asia,602,103.86,1.2825,https://www.lego.com/en-us/service/building-instructions/21021,https://en.wikipedia.org/wiki/Marina_Bay_Sands,1
+21022,Lincoln Memorial,United States,North America,274,-77.050139,38.889278,https://www.lego.com/en-us/service/building-instructions/21022,https://en.wikipedia.org/wiki/Lincoln_Memorial,1
+21023,Flatiron Building,United States,North America,471,-73.98972,40.74111,https://www.lego.com/en-us/service/building-instructions/21023,https://en.wikipedia.org/wiki/Flatiron_Building,1
+21024,Louvre,France,Europe,695,2.3358,48.8611,https://www.lego.com/en-us/service/building-instructions/21024,https://en.wikipedia.org/wiki/Louvre,1
+21029,Buckingham Palace,United Kingdom,Europe,780,-0.14194,51.50083,https://www.lego.com/en-us/service/building-instructions/21029,https://en.wikipedia.org/wiki/Buckingham_Palace,1
+21030,United States Capitol,United States,North America,1032,-77.00889,38.88972,https://www.lego.com/en-us/service/building-instructions/21030,https://en.wikipedia.org/wiki/United_States_Capitol,1
+21031,Burj Khalifa,United Arab Emirates,Asia,333,55.2742,25.1972,https://www.lego.com/en-us/service/building-instructions/21031,https://en.wikipedia.org/wiki/Burj_Khalifa,1
+21035,Solomon R. Guggenheim Museum,United States,North America,744,-73.95889,40.78306,https://www.lego.com/en-us/service/building-instructions/21035,https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum,1
+21036,Arc de Triomphe,France,Europe,386,2.295028,48.873778,https://www.lego.com/en-us/service/building-instructions/21036,https://en.wikipedia.org/wiki/Arc_de_Triomphe,1
+21037,LEGO House,Denmark,Europe,774,9.114861,55.731000,https://www.lego.com/en-us/service/building-instructions/21037,https://en.wikipedia.org/wiki/Lego_House_(Billund),1
+21041,Great Wall of China (representative point),China,Asia,551,116.56444,40.43139,https://www.lego.com/en-us/service/building-instructions/21041,https://en.wikipedia.org/wiki/Great_Wall_of_China,1
+21042,Statue of Liberty,United States,North America,1685,-74.04444,40.68917,https://www.lego.com/en-us/service/building-instructions/21042,https://en.wikipedia.org/wiki/Statue_of_Liberty,0
+21045,Trafalgar Square,United Kingdom,Europe,1197,-0.12806,51.50806,https://www.lego.com/en-us/service/building-instructions/21045,https://en.wikipedia.org/wiki/Trafalgar_Square,1
+21046,Empire State Building,United States,North America,1767,-73.9856,40.7483,https://www.lego.com/en-us/service/building-instructions/21046,https://en.wikipedia.org/wiki/Empire_State_Building,1
+21054,White House,United States,North America,1483,-77.03639,38.89778,https://www.lego.com/en-us/service/building-instructions/21054,https://en.wikipedia.org/wiki/White_House,1
+21055,Burj Khalifa,United Arab Emirates,Asia,333,55.2742,25.1972,https://www.lego.com/en-us/service/building-instructions/21055,https://en.wikipedia.org/wiki/Burj_Khalifa,0
+21056,Taj Mahal,India,Asia,2022,78.0419,27.175,https://www.lego.com/en-us/service/building-instructions/21056,https://en.wikipedia.org/wiki/Taj_Mahal,0
+21058,Great Pyramid of Giza,Egypt,Africa,1476,31.13417,29.97917,https://www.lego.com/en-us/service/building-instructions/21058,https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza,1
+21060,Himeji Castle,Japan,Asia,2125,134.69389,34.83944,https://www.lego.com/en-us/service/building-instructions/21060,https://en.wikipedia.org/wiki/Himeji_Castle,1
+21061,Notre-Dame de Paris,France,Europe,4383,2.35000,48.85306,https://www.lego.com/en-us/service/building-instructions/21061,https://en.wikipedia.org/wiki/Notre-Dame_de_Paris,1
+21062,Trevi Fountain,Italy,Europe,1880,12.48306,41.90083,https://www.lego.com/en-us/service/building-instructions/21062,https://en.wikipedia.org/wiki/Trevi_Fountain,1
+21063,Neuschwanstein Castle,Germany,Europe,3455,10.74944,47.55750,https://www.lego.com/en-us/service/building-instructions/21063,https://en.wikipedia.org/wiki/Neuschwanstein_Castle,1
+21067,Tower Bridge,United Kingdom,Europe,3745,-0.0753,51.5056,https://www.lego.com/en-us/service/building-instructions/21067,https://en.wikipedia.org/wiki/Tower_Bridge,0
+40026,Statue of Liberty,United States,North America,39,-74.04444,40.68917,https://www.bricklink.com/v2/catalog/catalogitem.page?S=40026-1,https://en.wikipedia.org/wiki/Statue_of_Liberty,0
+40199,Billund Airport,Denmark,Europe,286,9.15194,55.74028,https://www.lego.com/en-us/service/building-instructions/40199,https://en.wikipedia.org/wiki/Billund_Airport,1
+4000010,LEGO House,Denmark,Europe,250,9.114861,55.731000,https://brickset.com/sets?query=4000010,https://en.wikipedia.org/wiki/Lego_House_(Billund),0
+4000016,Billund Airport,Denmark,Europe,281,9.15194,55.74028,https://www.bricklink.com/v2/catalog/catalogitem.page?S=4000016,https://en.wikipedia.org/wiki/Billund_Airport,0

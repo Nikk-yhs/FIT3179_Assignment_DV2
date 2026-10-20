@@ -21,3 +21,11 @@
     margin-right: auto;
     padding-right: 0;
 }
+
+#m3-map {
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+}
