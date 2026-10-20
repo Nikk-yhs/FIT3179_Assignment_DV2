@@ -1,0 +1,794 @@
+decade,theme_family,theme_id,theme_label,set_count
+1940,Other,365,System [365],3
+1940,Other,371,Supplemental [371],2
+1950,Other,365,System [365],4
+1950,Other,368,HO 1:87 Vehicles [368],24
+1950,Other,371,Supplemental [371],92
+1950,Other,372,Town Plan [372],36
+1950,Other,746,Database Sets [746],17
+1960,Creative building,465,Universal Building Set [465],2
+1960,Creative building,473,Supplemental [473],2
+1960,Other,234,12V [234],12
+1960,Other,235,4.5V [235],36
+1960,Other,365,System [365],46
+1960,Other,368,HO 1:87 Vehicles [368],38
+1960,Other,369,Jumbo Bricks [369],7
+1960,Other,371,Supplemental [371],123
+1960,Other,372,Town Plan [372],4
+1960,Other,413,Building [413],3
+1960,Other,507,Educational and Dacta [507],7
+1960,Other,516,Duplo and Explore [516],1
+1960,Other,523,Samsonite [523],2
+1960,Other,716,Modulex [716],35
+1960,Other,746,Database Sets [746],8
+1960,Other,756,Samsonite [756],94
+1960,Preschool,505,Basic Set [505],2
+1970,Castle & fantasy,189,Classic Castle [189],4
+1970,Creative building,465,Universal Building Set [465],32
+1970,Creative building,472,Gears [472],9
+1970,Creative building,473,Supplemental [473],32
+1970,Other,227,Christmas [227],2
+1970,Other,234,12V [234],13
+1970,Other,235,4.5V [235],32
+1970,Other,363,Boat [363],9
+1970,Other,364,Building Set with People [364],30
+1970,Other,371,Supplemental [371],3
+1970,Other,390,Fabuland [390],15
+1970,Other,404,Hobby Sets [404],8
+1970,Other,405,Homemaker [405],30
+1970,Other,412,Airport [412],18
+1970,Other,413,Building [413],18
+1970,Other,414,Castle [414],1
+1970,Other,415,Coast Guard [415],1
+1970,Other,416,Construction [416],41
+1970,Other,417,Fire [417],12
+1970,Other,418,Gas Station [418],6
+1970,Other,419,Harbor [419],3
+1970,Other,420,Hospital [420],9
+1970,Other,421,Police [421],10
+1970,Other,422,Space [422],3
+1970,Other,423,Vehicle [423],31
+1970,Other,424,Western [424],4
+1970,Other,433,Minitalia [433],19
+1970,Other,443,Service Packs [443],29
+1970,Other,453,Technic [453],8
+1970,Other,456,Train [456],25
+1970,Other,471,Ferries [471],2
+1970,Other,507,Educational and Dacta [507],7
+1970,Other,511,Building Set with People [511],1
+1970,Other,516,Duplo and Explore [516],6
+1970,Other,517,Learning [517],2
+1970,Other,528,Supplemental [528],1
+1970,Other,599,LEGO Exclusive [599],1
+1970,Other,668,Scala [668],6
+1970,Other,729,Airlines [729],2
+1970,Other,756,Samsonite [756],25
+1970,Preschool,504,Duplo [504],2
+1970,Preschool,505,Basic Set [505],31
+1970,Preschool,632,Town [632],4
+1970,Preschool,652,Playhouse [652],3
+1970,Space,130,Classic Space [130],19
+1970,Space,143,Supplemental [143],7
+1970,Technic & engineering,4,Expert Builder [4],28
+1970,Town & everyday life,67,Classic Town [67],53
+1980,Castle & fantasy,186,Castle [186],3
+1980,Castle & fantasy,187,Black Falcons [187],6
+1980,Castle & fantasy,188,Black Knights [188],1
+1980,Castle & fantasy,189,Classic Castle [189],4
+1980,Castle & fantasy,194,Forestmen [194],4
+1980,Castle & fantasy,199,Lion Knights [199],17
+1980,Creative building,465,Universal Building Set [465],26
+1980,Creative building,467,Basic [467],76
+1980,Creative building,473,Supplemental [473],40
+1980,Other,227,Christmas [227],6
+1980,Other,229,Easter [229],1
+1980,Other,234,12V [234],28
+1980,Other,235,4.5V [235],20
+1980,Other,363,Boat [363],6
+1980,Other,390,Fabuland [390],92
+1980,Other,405,Homemaker [405],2
+1980,Other,443,Service Packs [443],133
+1980,Other,453,Technic [453],87
+1980,Other,456,Train [456],39
+1980,Other,471,Ferries [471],6
+1980,Other,507,Educational and Dacta [507],2
+1980,Other,511,Building Set with People [511],1
+1980,Other,516,Duplo and Explore [516],51
+1980,Other,524,Service Packs [524],11
+1980,Other,525,Technic [525],27
+1980,Other,529,Technic [529],13
+1980,Other,533,Town [533],9
+1980,Other,534,Universal Building Set [534],8
+1980,Other,559,Value Packs [559],1
+1980,Other,598,Promotional [598],1
+1980,Other,668,Scala [668],3
+1980,Other,728,McDonalds [728],14
+1980,Other,729,Airlines [729],4
+1980,Pirates,148,Pirates I [148],12
+1980,Preschool,504,Duplo [504],10
+1980,Preschool,505,Basic Set [505],39
+1980,Preschool,632,Town [632],46
+1980,Preschool,634,Trains [634],9
+1980,Preschool,652,Playhouse [652],12
+1980,Preschool,663,Rattles [663],22
+1980,Space,128,Blacktron I [128],6
+1980,Space,130,Classic Space [130],64
+1980,Space,132,Futuron [132],17
+1980,Space,139,Space Police I [139],6
+1980,Space,143,Supplemental [143],5
+1980,Technic & engineering,1,Technic [1],21
+1980,Technic & engineering,4,Expert Builder [4],11
+1980,Technic & engineering,19,Supplemental [19],2
+1980,Technic & engineering,21,Universal Building Set [21],11
+1980,Technic & engineering,278,Model Team [278],3
+1980,Town & everyday life,67,Classic Town [67],182
+1990,Action & adventure,297,Desert [297],25
+1990,Action & adventure,299,Jungle [299],10
+1990,Castle & fantasy,186,Castle [186],4
+1990,Castle & fantasy,188,Black Knights [188],13
+1990,Castle & fantasy,190,Dragon Knights [190],13
+1990,Castle & fantasy,191,Dark Forest [191],3
+1990,Castle & fantasy,194,Forestmen [194],3
+1990,Castle & fantasy,195,Fright Knights [195],16
+1990,Castle & fantasy,199,Lion Knights [199],6
+1990,Castle & fantasy,201,Royal Knights [201],9
+1990,Castle & fantasy,203,Wolfpack [203],3
+1990,Creative building,465,Universal Building Set [465],1
+1990,Creative building,467,Basic [467],123
+1990,Creative building,470,Classic Basic [470],44
+1990,Creative building,473,Supplemental [473],18
+1990,Creative building,674,Early Creator [674],1
+1990,Licensed worlds,158,Star Wars [158],13
+1990,Other,207,Advent [207],1
+1990,Other,212,Classic Basic [212],1
+1990,Other,227,Christmas [227],12
+1990,Other,229,Easter [229],2
+1990,Other,230,Halloween [230],1
+1990,Other,236,9V [236],40
+1990,Other,307,Aquazone [307],1
+1990,Other,308,Aquanauts [308],8
+1990,Other,309,Aquaraiders I [309],3
+1990,Other,311,Aquasharks [311],4
+1990,Other,312,Hydronauts [312],7
+1990,Other,313,Stingrays [313],5
+1990,Other,318,Belville [318],37
+1990,Other,363,Boat [363],6
+1990,Other,399,Freestyle [399],67
+1990,Other,408,LEGO Brand Store [408],2
+1990,Other,434,Ninja [434],33
+1990,Other,442,Rock Raiders [442],8
+1990,Other,443,Service Packs [443],111
+1990,Other,453,Technic [453],54
+1990,Other,456,Train [456],10
+1990,Other,462,Soccer [462],23
+1990,Other,464,Time Cruisers [464],9
+1990,Other,471,Ferries [471],7
+1990,Other,475,Western [475],18
+1990,Other,480,Znap [480],19
+1990,Other,507,Educational and Dacta [507],14
+1990,Other,516,Duplo and Explore [516],91
+1990,Other,517,Learning [517],5
+1990,Other,520,RCX [520],6
+1990,Other,524,Service Packs [524],19
+1990,Other,525,Technic [525],52
+1990,Other,526,Soft Bricks [526],3
+1990,Other,528,Supplemental [528],9
+1990,Other,529,Technic [529],25
+1990,Other,530,Control Lab [530],7
+1990,Other,531,eLAB [531],3
+1990,Other,533,Town [533],11
+1990,Other,534,Universal Building Set [534],13
+1990,Other,559,Value Packs [559],5
+1990,Other,598,Promotional [598],2
+1990,Other,668,Scala [668],49
+1990,Other,728,McDonalds [728],5
+1990,Other,729,Airlines [729],5
+1990,Other,746,Database Sets [746],4
+1990,Pirates,148,Pirates I [148],49
+1990,Preschool,440,Primo [440],63
+1990,Preschool,504,Duplo [504],12
+1990,Preschool,505,Basic Set [505],129
+1990,Preschool,632,Town [632],74
+1990,Preschool,634,Trains [634],17
+1990,Preschool,635,Winnie the Pooh [635],7
+1990,Preschool,652,Playhouse [652],30
+1990,Preschool,658,Dino [658],13
+1990,Preschool,660,Little Forest Friends [660],7
+1990,Preschool,663,Rattles [663],1
+1990,Preschool,664,Toolo [664],13
+1990,Preschool,665,Western [665],9
+1990,Space,126,Space [126],1
+1990,Space,128,Blacktron I [128],1
+1990,Space,129,Blacktron II [129],14
+1990,Space,131,Exploriens [131],9
+1990,Space,132,Futuron [132],2
+1990,Space,133,Ice Planet 2002 [133],11
+1990,Space,134,Insectoids [134],19
+1990,Space,136,M:Tron [136],9
+1990,Space,138,RoboForce [138],4
+1990,Space,140,Space Police II [140],8
+1990,Space,142,Spyrius [142],9
+1990,Space,143,Supplemental [143],3
+1990,Space,144,UFO [144],18
+1990,Space,145,Unitron [145],4
+1990,Technic & engineering,1,Technic [1],94
+1990,Technic & engineering,3,Competition [3],14
+1990,Technic & engineering,19,Supplemental [19],3
+1990,Technic & engineering,20,Throwbot Slizer [20],12
+1990,Technic & engineering,21,Universal Building Set [21],10
+1990,Technic & engineering,259,NXT [259],2
+1990,Technic & engineering,260,RCX [260],12
+1990,Technic & engineering,261,Star Wars [261],1
+1990,Technic & engineering,278,Model Team [278],12
+1990,Town & everyday life,50,Town [50],21
+1990,Town & everyday life,51,Arctic [51],2
+1990,Town & everyday life,67,Classic Town [67],164
+1990,Town & everyday life,86,Divers [86],12
+1990,Town & everyday life,87,Extreme Team [87],21
+1990,Town & everyday life,88,Launch Command [88],5
+1990,Town & everyday life,89,Outback [89],5
+1990,Town & everyday life,90,Paradisa [90],18
+1990,Town & everyday life,92,Res-Q [92],11
+1990,Town & everyday life,93,Space Port [93],22
+1990,Town & everyday life,94,Town Jr. [94],37
+1990,Town & everyday life,106,City Center [106],10
+1990,Vehicles & racing,122,RC [122],1
+2000,Action & adventure,298,Dino Island [298],18
+2000,Action & adventure,300,Orient Expedition [300],27
+2000,Action & adventure,302,Agents [302],13
+2000,Action & adventure,304,Alpha Team [304],7
+2000,Action & adventure,305,Mission Deep Sea [305],17
+2000,Action & adventure,306,Mission Deep Freeze [306],8
+2000,Action & adventure,439,Power Miners [439],19
+2000,Buildings & display,252,Architecture [252],8
+2000,Castle & fantasy,186,Castle [186],2
+2000,Castle & fantasy,187,Black Falcons [187],1
+2000,Castle & fantasy,193,Fantasy Era [193],31
+2000,Castle & fantasy,197,Knights Kingdom I [197],21
+2000,Castle & fantasy,198,Knights Kingdom II [198],70
+2000,Castle & fantasy,199,Lion Knights [199],1
+2000,Creative building,22,Creator [22],87
+2000,Creative building,34,Make & Create [34],49
+2000,Creative building,35,Bricks & More [35],28
+2000,Creative building,204,Designer Sets [204],48
+2000,Creative building,406,Inventor [406],6
+2000,Creative building,467,Basic [467],5
+2000,Creative building,470,Classic Basic [470],7
+2000,Creative building,478,X-Pod [478],24
+2000,Creative building,672,Creator 3-in-1 [672],31
+2000,Creative building,673,Creator Expert [673],19
+2000,Creative building,674,Early Creator [674],36
+2000,Licensed worlds,158,Star Wars [158],207
+2000,Licensed worlds,171,Ultimate Collector Series [171],21
+2000,Licensed worlds,246,Harry Potter [246],53
+2000,Licensed worlds,264,Indiana Jones [264],20
+2000,Licensed worlds,272,SpongeBob SquarePants [272],10
+2000,Licensed worlds,388,Mickey Mouse [388],5
+2000,Other,155,Modular Buildings [155],4
+2000,Other,157,Bricktober [157],1
+2000,Other,206,Seasonal [206],2
+2000,Other,207,Advent [207],1
+2000,Other,208,City [208],5
+2000,Other,210,Belville [210],1
+2000,Other,211,Castle [211],1
+2000,Other,213,Clikits [213],2
+2000,Other,214,Creator [214],4
+2000,Other,215,Pirates [215],1
+2000,Other,227,Christmas [227],35
+2000,Other,228,Creator [228],2
+2000,Other,229,Easter [229],10
+2000,Other,230,Halloween [230],6
+2000,Other,231,Thanksgiving [231],1
+2000,Other,236,9V [236],62
+2000,Other,254,Bulk Bricks [254],136
+2000,Other,273,Studios [273],53
+2000,Other,274,Jurassic Park III [274],2
+2000,Other,276,Sculptures [276],3
+2000,Other,277,Mosaic [277],6
+2000,Other,279,4 Juniors [279],22
+2000,Other,280,Jack Stone [280],28
+2000,Other,287,Spider-Man [287],3
+2000,Other,301,Other [301],21
+2000,Other,310,Aquaraiders II [310],9
+2000,Other,317,Avatar: The Last Airbender [317],2
+2000,Other,318,Belville [318],51
+2000,Other,385,Dino Attack / Dino 2010 [385],12
+2000,Other,386,Dinosaurs [386],17
+2000,Other,387,Discovery [387],8
+2000,Other,389,Exo-Force [389],47
+2000,Other,397,Factory [397],7
+2000,Other,398,FIRST LEGO League [398],10
+2000,Other,404,Hobby Sets [404],1
+2000,Other,407,Island Xtreme Stunts [407],13
+2000,Other,408,LEGO Brand Store [408],22
+2000,Other,409,Monthly Mini Model Build [409],16
+2000,Other,425,Legoland Parks [425],28
+2000,Other,434,Ninja [434],4
+2000,Other,438,Power Functions [438],15
+2000,Other,442,Rock Raiders [442],9
+2000,Other,443,Service Packs [443],2
+2000,Other,453,Technic [453],1
+2000,Other,456,Train [456],1
+2000,Other,458,Sports [458],5
+2000,Other,459,Basketball [459],35
+2000,Other,460,Gravity Games [460],11
+2000,Other,461,Hockey [461],19
+2000,Other,462,Soccer [462],81
+2000,Other,463,Spybotics [463],4
+2000,Other,474,Vikings [474],8
+2000,Other,475,Western [475],4
+2000,Other,500,Clikits [500],83
+2000,Other,502,Games [502],10
+2000,Other,507,Educational and Dacta [507],17
+2000,Other,510,Serious Play [510],11
+2000,Other,516,Duplo and Explore [516],83
+2000,Other,517,Learning [517],3
+2000,Other,518,Mindstorms [518],2
+2000,Other,519,NXT [519],2
+2000,Other,520,RCX [520],8
+2000,Other,521,WeDo [521],6
+2000,Other,524,Service Packs [524],40
+2000,Other,525,Technic [525],81
+2000,Other,526,Soft Bricks [526],2
+2000,Other,528,Supplemental [528],9
+2000,Other,529,Technic [529],6
+2000,Other,530,Control Lab [530],2
+2000,Other,531,eLAB [531],2
+2000,Other,533,Town [533],6
+2000,Other,535,Collectible Minifigures [535],6
+2000,Other,559,Value Packs [559],4
+2000,Other,598,Promotional [598],18
+2000,Other,599,LEGO Exclusive [599],5
+2000,Other,668,Scala [668],15
+2000,Other,685,Galidor [685],21
+2000,Other,697,Batman [697],14
+2000,Other,698,UCS [698],1
+2000,Other,706,Spider-Man [706],16
+2000,Other,717,Speed Racer [717],4
+2000,Other,728,McDonalds [728],1
+2000,Other,729,Airlines [729],4
+2000,Other,746,Database Sets [746],30
+2000,Pirates,148,Pirates I [148],5
+2000,Pirates,153,Pirates II [153],12
+2000,Preschool,440,Primo [440],74
+2000,Preschool,441,Quatro [441],11
+2000,Preschool,504,Duplo [504],18
+2000,Preschool,505,Basic Set [505],134
+2000,Preschool,626,Bob the Builder [626],31
+2000,Preschool,628,Dora the Explorer [628],4
+2000,Preschool,631,Thomas & Friends [631],18
+2000,Preschool,632,Town [632],40
+2000,Preschool,634,Trains [634],26
+2000,Preschool,635,Winnie the Pooh [635],8
+2000,Preschool,647,Castle [647],10
+2000,Preschool,650,Legoville [650],70
+2000,Preschool,651,Pirates [651],4
+2000,Preschool,652,Playhouse [652],8
+2000,Preschool,657,Action Wheelers [657],9
+2000,Preschool,658,Dino [658],3
+2000,Preschool,659,Dolls [659],6
+2000,Preschool,660,Little Forest Friends [660],3
+2000,Preschool,661,Little Robots [661],15
+2000,Preschool,662,Princess Castle [662],6
+2000,Preschool,666,Zooters [666],3
+2000,Space,126,Space [126],2
+2000,Space,135,Life On Mars [135],26
+2000,Space,137,Mars Mission [137],21
+2000,Space,141,Space Police III [141],12
+2000,Technic & engineering,1,Technic [1],63
+2000,Technic & engineering,3,Competition [3],4
+2000,Technic & engineering,16,RoboRiders [16],28
+2000,Technic & engineering,17,Speed Slammers [17],5
+2000,Technic & engineering,18,Star Wars [18],11
+2000,Technic & engineering,19,Supplemental [19],10
+2000,Technic & engineering,20,Throwbot Slizer [20],5
+2000,Technic & engineering,258,Mindstorms [258],1
+2000,Technic & engineering,259,NXT [259],29
+2000,Technic & engineering,260,RCX [260],10
+2000,Technic & engineering,261,Star Wars [261],1
+2000,Technic & engineering,278,Model Team [278],1
+2000,Technic & engineering,324,Bionicle [324],386
+2000,Technic & engineering,341,Playsets [341],13
+2000,Town & everyday life,50,Town [50],13
+2000,Town & everyday life,51,Arctic [51],9
+2000,Town & everyday life,52,City [52],18
+2000,Town & everyday life,53,Airport [53],11
+2000,Town & everyday life,54,Cargo [54],5
+2000,Town & everyday life,55,Coast Guard [55],12
+2000,Town & everyday life,56,Construction [56],23
+2000,Town & everyday life,57,Farm [57],5
+2000,Town & everyday life,58,Fire [58],22
+2000,Town & everyday life,59,Harbor [59],2
+2000,Town & everyday life,60,Hospital [60],10
+2000,Town & everyday life,61,Police [61],27
+2000,Town & everyday life,63,Traffic [63],16
+2000,Town & everyday life,66,Trains [66],11
+2000,Town & everyday life,91,Race [91],16
+2000,Town & everyday life,94,Town Jr. [94],3
+2000,Town & everyday life,104,Town Plan [104],1
+2000,Town & everyday life,105,World City [105],45
+2000,Town & everyday life,106,City Center [106],11
+2000,Vehicles & racing,112,Racers [112],164
+2000,Vehicles & racing,114,Ferrari [114],25
+2000,Vehicles & racing,118,Promotional [118],21
+2000,Vehicles & racing,122,RC [122],24
+2010,Action & adventure,303,Ultra Agents [303],15
+2010,Action & adventure,315,Atlantis [315],24
+2010,Action & adventure,435,Ninjago [435],318
+2010,Action & adventure,439,Power Miners [439],4
+2010,Action & adventure,605,Nexo Knights [605],110
+2010,Action & adventure,616,The LEGO Ninjago Movie [616],35
+2010,Action & adventure,676,Hidden Side [676],12
+2010,Buildings & display,252,Architecture [252],32
+2010,Buildings & display,253,Skylines [253],11
+2010,Castle & fantasy,186,Castle [186],7
+2010,Castle & fantasy,196,Kingdoms [196],17
+2010,Castle & fantasy,199,Lion Knights [199],1
+2010,Castle & fantasy,600,Elves [600],42
+2010,Creative building,22,Creator [22],40
+2010,Creative building,35,Bricks & More [35],35
+2010,Creative building,621,Classic [621],35
+2010,Creative building,672,Creator 3-in-1 [672],128
+2010,Creative building,673,Creator Expert [673],29
+2010,Licensed worlds,158,Star Wars [158],506
+2010,Licensed worlds,171,Ultimate Collector Series [171],16
+2010,Licensed worlds,246,Harry Potter [246],39
+2010,Licensed worlds,263,Pirates of the Caribbean [263],17
+2010,Licensed worlds,269,Cars [269],28
+2010,Licensed worlds,271,Prince of Persia [271],6
+2010,Licensed worlds,272,SpongeBob SquarePants [272],4
+2010,Licensed worlds,275,Toy Story [275],21
+2010,Licensed worlds,570,Teenage Mutant Ninja Turtles [570],23
+2010,Licensed worlds,577,Minecraft [577],52
+2010,Licensed worlds,579,Disney Princess [579],39
+2010,Licensed worlds,602,Jurassic World [602],31
+2010,Licensed worlds,608,Disney [608],6
+2010,Licensed worlds,667,Fantastic Beasts [667],2
+2010,Licensed worlds,687,Frozen [687],19
+2010,Other,155,Modular Buildings [155],10
+2010,Other,156,Mini [156],1
+2010,Other,157,Bricktober [157],20
+2010,Other,206,Seasonal [206],14
+2010,Other,207,Advent [207],2
+2010,Other,208,City [208],10
+2010,Other,209,Star Wars [209],9
+2010,Other,211,Castle [211],1
+2010,Other,216,Friends [216],8
+2010,Other,227,Christmas [227],68
+2010,Other,228,Creator [228],28
+2010,Other,229,Easter [229],18
+2010,Other,230,Halloween [230],16
+2010,Other,231,Thanksgiving [231],7
+2010,Other,232,Valentine [232],10
+2010,Other,270,Ben 10 [270],6
+2010,Other,277,Mosaic [277],1
+2010,Other,301,Other [301],55
+2010,Other,398,FIRST LEGO League [398],34
+2010,Other,408,LEGO Brand Store [408],107
+2010,Other,409,Monthly Mini Model Build [409],125
+2010,Other,410,Pick A Model [410],32
+2010,Other,425,Legoland Parks [425],22
+2010,Other,432,Master Builder Academy [432],21
+2010,Other,437,Pharaoh's Quest [437],9
+2010,Other,438,Power Functions [438],4
+2010,Other,443,Service Packs [443],3
+2010,Other,471,Ferries [471],2
+2010,Other,481,Dino [481],7
+2010,Other,502,Games [502],37
+2010,Other,507,Educational and Dacta [507],55
+2010,Other,509,SPIKE [509],1
+2010,Other,510,Serious Play [510],8
+2010,Other,516,Duplo and Explore [516],53
+2010,Other,518,Mindstorms [518],26
+2010,Other,519,NXT [519],6
+2010,Other,521,WeDo [521],31
+2010,Other,524,Service Packs [524],19
+2010,Other,525,Technic [525],120
+2010,Other,526,Soft Bricks [526],1
+2010,Other,528,Supplemental [528],8
+2010,Other,529,Technic [529],11
+2010,Other,533,Town [533],7
+2010,Other,535,Collectible Minifigures [535],32
+2010,Other,536,Series 1 Minifigures [536],19
+2010,Other,537,Series 2 Minifigures [537],19
+2010,Other,538,Series 3 Minifigures [538],19
+2010,Other,539,Series 4 Minifigures [539],19
+2010,Other,540,Series 5 Minifigures [540],19
+2010,Other,541,Series 6 Minifigures [541],19
+2010,Other,542,Series 7 Minifigures [542],19
+2010,Other,543,Series 8 Minifigures [543],19
+2010,Other,544,Series 9 Minifigures [544],19
+2010,Other,545,Series 10 Minifigures [545],20
+2010,Other,546,Team GB [546],12
+2010,Other,547,Series 11 Minifigures [547],19
+2010,Other,548,Series 12 Minifigures [548],19
+2010,Other,549,The LEGO Movie [549],19
+2010,Other,550,The Simpsons Series 1 [550],19
+2010,Other,551,Series 13 Minifigures [551],19
+2010,Other,552,Series 14 Minifigures [552],19
+2010,Other,553,The Simpsons Series 2 [553],19
+2010,Other,554,Series 15 Minifigures [554],19
+2010,Other,555,Disney Series 1 [555],21
+2010,Other,556,Series 16 Minifigures [556],19
+2010,Other,557,DFB Minifigures [557],19
+2010,Other,558,Monster Fighters [558],14
+2010,Other,559,Value Packs [559],5
+2010,Other,560,Universe [560],2
+2010,Other,562,The Hobbit [562],23
+2010,Other,566,The Lord of the Rings [566],18
+2010,Other,571,Legends of Chima [571],98
+2010,Other,572,Speedorz [572],30
+2010,Other,573,Constraction [573],16
+2010,Other,575,The Lone Ranger [575],8
+2010,Other,576,LEGO Ideas and CUUSOO [576],31
+2010,Other,578,The LEGO Movie [578],33
+2010,Other,580,Mixels [580],123
+2010,Other,590,Fusion [590],4
+2010,Other,591,Juniors [591],29
+2010,Other,592,DC Comics Super Heroes [592],4
+2010,Other,593,Disney Princess [593],5
+2010,Other,595,Friends [595],8
+2010,Other,596,Marvel Super Heroes [596],4
+2010,Other,597,Ninjago [597],4
+2010,Other,598,Promotional [598],69
+2010,Other,599,LEGO Exclusive [599],41
+2010,Other,603,Scooby-Doo [603],10
+2010,Other,604,Dimensions [604],68
+2010,Other,606,Angry Birds [606],6
+2010,Other,607,Ghostbusters [607],2
+2010,Other,609,The LEGO Batman Movie Series 1 [609],23
+2010,Other,610,Brickheadz [610],87
+2010,Other,611,Series 17 Minifigures [611],19
+2010,Other,615,Cars [615],8
+2010,Other,617,DC Super Hero Girls [617],12
+2010,Other,618,The LEGO Ninjago Movie [618],23
+2010,Other,619,Cities of Wonders [619],18
+2010,Other,620,Jurassic World: Fallen Kingdom [620],3
+2010,Other,622,Series 18 Minifigures [622],20
+2010,Other,625,Unikitty! [625],26
+2010,Other,646,Xtra [646],13
+2010,Other,654,The Powerpuff Girls [654],2
+2010,Other,655,Powered Up [655],7
+2010,Other,656,Harry Potter and Fantastic Beasts Series 1 [656],25
+2010,Other,669,Overwatch [669],13
+2010,Other,670,The LEGO Movie II [670],42
+2010,Other,671,Forma [671],4
+2010,Other,675,The LEGO Movie II [675],23
+2010,Other,677,Disney Series 2 [677],21
+2010,Other,680,Stranger Things [680],3
+2010,Other,681,Series 19 Minifigures [681],20
+2010,Other,683,LEGO Originals [683],13
+2010,Other,686,Chinese Traditional Festivals [686],4
+2010,Other,695,Super Heroes DC [695],26
+2010,Other,696,Super Heroes Marvel [696],26
+2010,Other,697,Batman [697],60
+2010,Other,698,UCS [698],2
+2010,Other,700,Justice League [700],16
+2010,Other,701,Superman [701],13
+2010,Other,702,Avengers [702],52
+2010,Other,704,Guardians of the Galaxy [704],11
+2010,Other,705,Iron Man [705],6
+2010,Other,706,Spider-Man [706],31
+2010,Other,707,X-Men [707],3
+2010,Other,708,The LEGO Batman Movie [708],44
+2010,Other,710,Harry Potter [710],1
+2010,Other,711,The LEGO Batman Movie Series 2 [711],23
+2010,Other,719,BrickLink Designer Program [719],13
+2010,Other,729,Airlines [729],1
+2010,Other,746,Database Sets [746],25
+2010,Other,779,Chinese (Lunar) New Year [779],14
+2010,Other,782,Captain America [782],9
+2010,Other,783,Incredibles 2 [783],3
+2010,Pirates,153,Pirates II [153],2
+2010,Pirates,154,Pirates III [154],9
+2010,Preschool,504,Duplo [504],38
+2010,Preschool,505,Basic Set [505],61
+2010,Preschool,506,Cars [506],18
+2010,Preschool,627,Planes [627],4
+2010,Preschool,629,Miles From Tomorrowland [629],3
+2010,Preschool,630,Marvel [630],4
+2010,Preschool,632,Town [632],152
+2010,Preschool,633,Toy Story [633],5
+2010,Preschool,634,Trains [634],14
+2010,Preschool,635,Winnie the Pooh [635],3
+2010,Preschool,636,My Town [636],11
+2010,Preschool,638,Jake and the Never Land Pirates [638],7
+2010,Preschool,639,Sofia the First [639],3
+2010,Preschool,640,Disney Princess [640],12
+2010,Preschool,641,Mickey & Friends [641],13
+2010,Preschool,647,Castle [647],3
+2010,Preschool,648,Doc McStuffins [648],4
+2010,Preschool,652,Playhouse [652],2
+2010,Preschool,653,DC Comics [653],7
+2010,Preschool,722,Jurassic World [722],2
+2010,Preschool,790,Seasonal [790],1
+2010,Space,126,Space [126],2
+2010,Space,127,Alien Conquest [127],10
+2010,Space,141,Space Police III [141],5
+2010,Space,146,Galaxy Squad [146],12
+2010,Technic & engineering,1,Technic [1],123
+2010,Technic & engineering,19,Supplemental [19],1
+2010,Technic & engineering,259,NXT [259],13
+2010,Technic & engineering,262,EV3 [262],13
+2010,Technic & engineering,324,Bionicle [324],50
+2010,Technic & engineering,360,Protectors [360],6
+2010,Technic & engineering,400,Hero Factory [400],32
+2010,Technic & engineering,401,Heroes [401],44
+2010,Technic & engineering,403,Villains [403],33
+2010,Town & everyday life,52,City [52],84
+2010,Town & everyday life,53,Airport [53],19
+2010,Town & everyday life,54,Cargo [54],2
+2010,Town & everyday life,55,Coast Guard [55],12
+2010,Town & everyday life,56,Construction [56],29
+2010,Town & everyday life,57,Farm [57],6
+2010,Town & everyday life,58,Fire [58],50
+2010,Town & everyday life,59,Harbor [59],16
+2010,Town & everyday life,60,Hospital [60],5
+2010,Town & everyday life,61,Police [61],107
+2010,Town & everyday life,63,Traffic [63],33
+2010,Town & everyday life,64,Off-Road [64],6
+2010,Town & everyday life,65,Arctic [65],21
+2010,Town & everyday life,66,Trains [66],17
+2010,Town & everyday life,494,Friends [494],358
+2010,Town & everyday life,614,Jungle [614],9
+2010,Town & everyday life,679,Mars Exploration [679],11
+2010,Vehicles & racing,112,Racers [112],31
+2010,Vehicles & racing,114,Ferrari [114],7
+2010,Vehicles & racing,123,World Racers [123],9
+2010,Vehicles & racing,601,Speed Champions [601],37
+2020,Action & adventure,435,Ninjago [435],280
+2020,Action & adventure,676,Hidden Side [676],20
+2020,Action & adventure,693,Monkie Kid [693],58
+2020,Action & adventure,749,Dreamzzz [749],61
+2020,Buildings & display,252,Architecture [252],8
+2020,Buildings & display,253,Skylines [253],3
+2020,Buildings & display,721,Icons [721],68
+2020,Buildings & display,769,Botanicals [769],33
+2020,Castle & fantasy,186,Castle [186],4
+2020,Creative building,22,Creator [22],61
+2020,Creative building,621,Classic [621],42
+2020,Creative building,672,Creator 3-in-1 [672],93
+2020,Creative building,673,Creator Expert [673],3
+2020,Licensed worlds,158,Star Wars [158],267
+2020,Licensed worlds,171,Ultimate Collector Series [171],12
+2020,Licensed worlds,246,Harry Potter [246],98
+2020,Licensed worlds,263,Pirates of the Caribbean [263],1
+2020,Licensed worlds,264,Indiana Jones [264],3
+2020,Licensed worlds,275,Toy Story [275],1
+2020,Licensed worlds,388,Mickey Mouse [388],10
+2020,Licensed worlds,577,Minecraft [577],130
+2020,Licensed worlds,579,Disney Princess [579],66
+2020,Licensed worlds,602,Jurassic World [602],86
+2020,Licensed worlds,608,Disney [608],54
+2020,Licensed worlds,687,Frozen [687],17
+2020,Licensed worlds,690,Super Mario [690],180
+2020,Licensed worlds,724,Avatar [724],9
+2020,Licensed worlds,747,Sonic The Hedgehog [747],20
+2020,Licensed worlds,794,Lightyear [794],3
+2020,Other,155,Modular Buildings [155],6
+2020,Other,157,Bricktober [157],23
+2020,Other,206,Seasonal [206],17
+2020,Other,207,Advent [207],1
+2020,Other,208,City [208],6
+2020,Other,209,Star Wars [209],6
+2020,Other,216,Friends [216],6
+2020,Other,227,Christmas [227],82
+2020,Other,228,Creator [228],5
+2020,Other,229,Easter [229],28
+2020,Other,230,Halloween [230],20
+2020,Other,231,Thanksgiving [231],2
+2020,Other,232,Valentine [232],18
+2020,Other,301,Other [301],95
+2020,Other,398,FIRST LEGO League [398],88
+2020,Other,408,LEGO Brand Store [408],193
+2020,Other,409,Monthly Mini Model Build [409],12
+2020,Other,425,Legoland Parks [425],7
+2020,Other,474,Vikings [474],1
+2020,Other,507,Educational and Dacta [507],34
+2020,Other,509,SPIKE [509],30
+2020,Other,510,Serious Play [510],2
+2020,Other,516,Duplo and Explore [516],8
+2020,Other,528,Supplemental [528],2
+2020,Other,535,Collectible Minifigures [535],1
+2020,Other,559,Value Packs [559],12
+2020,Other,576,LEGO Ideas and CUUSOO [576],62
+2020,Other,598,Promotional [598],151
+2020,Other,599,LEGO Exclusive [599],33
+2020,Other,610,Brickheadz [610],99
+2020,Other,646,Xtra [646],6
+2020,Other,655,Powered Up [655],12
+2020,Other,682,Trolls: World Tour [682],9
+2020,Other,683,LEGO Originals [683],8
+2020,Other,684,DC Super Heroes [684],19
+2020,Other,686,Chinese Traditional Festivals [686],31
+2020,Other,688,DOTS [688],94
+2020,Other,689,Minions [689],9
+2020,Other,691,Harry Potter and Fantastic Beasts Series 2 [691],19
+2020,Other,692,Series 20 Minifigures [692],19
+2020,Other,694,Brick Sketches [694],8
+2020,Other,695,Super Heroes DC [695],4
+2020,Other,696,Super Heroes Marvel [696],29
+2020,Other,697,Batman [697],64
+2020,Other,698,UCS [698],3
+2020,Other,701,Superman [701],3
+2020,Other,702,Avengers [702],46
+2020,Other,704,Guardians of the Galaxy [704],5
+2020,Other,706,Spider-Man [706],67
+2020,Other,707,X-Men [707],6
+2020,Other,709,LEGO Art [709],23
+2020,Other,710,Harry Potter [710],6
+2020,Other,712,Series 21 Minifigures [712],16
+2020,Other,713,VIDIYO [713],50
+2020,Other,714,Looney Tunes [714],16
+2020,Other,715,Marvel Series 1 [715],16
+2020,Other,718,Series 22 Minifigures [718],16
+2020,Other,719,BrickLink Designer Program [719],40
+2020,Other,720,The Muppets [720],16
+2020,Other,725,Series 23 Minifigures [725],16
+2020,Other,743,Series 24 Minifigures [743],16
+2020,Other,745,Disney 100 [745],22
+2020,Other,746,Database Sets [746],43
+2020,Other,748,Gabby's Dollhouse [748],9
+2020,Other,750,Marvel Series 2 [750],17
+2020,Other,751,Marvel [751],4
+2020,Other,752,Animal Crossing [752],17
+2020,Other,753,Series 25 Minifigures [753],16
+2020,Other,755,Spidey and His Amazing Friends [755],13
+2020,Other,762,Series 26 Minifigures [762],16
+2020,Other,763,Despicable Me 4 [763],5
+2020,Other,764,The Legend of Zelda [764],1
+2020,Other,765,Wicked [765],11
+2020,Other,766,Fortnite [766],11
+2020,Other,767,Dungeons & Dragons [767],16
+2020,Other,768,Wednesday [768],5
+2020,Other,770,Horizon Adventures [770],1
+2020,Other,771,Series 27 Minifigures [771],16
+2020,Other,772,Bluey [772],5
+2020,Other,774,Formula 1 [774],17
+2020,Other,775,One Piece [775],6
+2020,Other,778,VIP Add-On Packs [778],10
+2020,Other,779,Chinese (Lunar) New Year [779],17
+2020,Other,780,Disney [780],2
+2020,Other,781,The Infinity Saga [781],54
+2020,Other,782,Captain America [782],2
+2020,Other,784,Spider-Man - Across the Spider-Verse [784],17
+2020,Other,785,Nike [785],4
+2020,Pirates,147,Pirates [147],1
+2020,Preschool,504,Duplo [504],33
+2020,Preschool,505,Basic Set [505],23
+2020,Preschool,506,Cars [506],4
+2020,Preschool,630,Marvel [630],5
+2020,Preschool,632,Town [632],41
+2020,Preschool,633,Toy Story [633],1
+2020,Preschool,634,Trains [634],4
+2020,Preschool,635,Winnie the Pooh [635],1
+2020,Preschool,640,Disney Princess [640],7
+2020,Preschool,641,Mickey & Friends [641],5
+2020,Preschool,652,Playhouse [652],4
+2020,Preschool,653,DC Comics [653],1
+2020,Preschool,722,Jurassic World [722],3
+2020,Preschool,788,Bluey [788],2
+2020,Preschool,789,Peppa Pig [789],8
+2020,Preschool,790,Seasonal [790],3
+2020,Technic & engineering,1,Technic [1],121
+2020,Technic & engineering,258,Mindstorms [258],3
+2020,Town & everyday life,52,City [52],116
+2020,Town & everyday life,53,Airport [53],7
+2020,Town & everyday life,54,Cargo [54],2
+2020,Town & everyday life,55,Coast Guard [55],3
+2020,Town & everyday life,56,Construction [56],25
+2020,Town & everyday life,57,Farm [57],10
+2020,Town & everyday life,58,Fire [58],34
+2020,Town & everyday life,59,Harbor [59],5
+2020,Town & everyday life,60,Hospital [60],7
+2020,Town & everyday life,61,Police [61],58
+2020,Town & everyday life,63,Traffic [63],19
+2020,Town & everyday life,64,Off-Road [64],6
+2020,Town & everyday life,65,Arctic [65],8
+2020,Town & everyday life,66,Trains [66],5
+2020,Town & everyday life,494,Friends [494],284
+2020,Town & everyday life,614,Jungle [614],8
+2020,Town & everyday life,679,Mars Exploration [679],1
+2020,Town & everyday life,744,Stuntz [744],26
+2020,Town & everyday life,793,Space [793],18
+2020,Vehicles & racing,601,Speed Champions [601],55

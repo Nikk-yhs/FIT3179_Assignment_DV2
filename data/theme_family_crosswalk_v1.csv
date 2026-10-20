@@ -1,0 +1,497 @@
+theme_id,theme_name,root_theme,theme_family,eligible,crosswalk_version
+1,Technic,Technic,Technic & engineering,1,v1
+3,Competition,Technic,Technic & engineering,1,v1
+4,Expert Builder,Technic,Technic & engineering,1,v1
+16,RoboRiders,Technic,Technic & engineering,1,v1
+17,Speed Slammers,Technic,Technic & engineering,1,v1
+18,Star Wars,Technic,Technic & engineering,1,v1
+19,Supplemental,Technic,Technic & engineering,1,v1
+20,Throwbot Slizer,Technic,Technic & engineering,1,v1
+21,Universal Building Set,Technic,Technic & engineering,1,v1
+22,Creator,Creator,Creative building,1,v1
+34,Make & Create,Make & Create,Creative building,1,v1
+35,Bricks & More,Make & Create,Creative building,1,v1
+50,Town,Town,Town & everyday life,1,v1
+51,Arctic,Town,Town & everyday life,1,v1
+52,City,City,Town & everyday life,1,v1
+53,Airport,City,Town & everyday life,1,v1
+54,Cargo,City,Town & everyday life,1,v1
+55,Coast Guard,City,Town & everyday life,1,v1
+56,Construction,City,Town & everyday life,1,v1
+57,Farm,City,Town & everyday life,1,v1
+58,Fire,City,Town & everyday life,1,v1
+59,Harbor,City,Town & everyday life,1,v1
+60,Hospital,City,Town & everyday life,1,v1
+61,Police,City,Town & everyday life,1,v1
+63,Traffic,City,Town & everyday life,1,v1
+64,Off-Road,City,Town & everyday life,1,v1
+65,Arctic,City,Town & everyday life,1,v1
+66,Trains,City,Town & everyday life,1,v1
+67,Classic Town,Town,Town & everyday life,1,v1
+86,Divers,Town,Town & everyday life,1,v1
+87,Extreme Team,Town,Town & everyday life,1,v1
+88,Launch Command,Town,Town & everyday life,1,v1
+89,Outback,Town,Town & everyday life,1,v1
+90,Paradisa,Town,Town & everyday life,1,v1
+91,Race,Town,Town & everyday life,1,v1
+92,Res-Q,Town,Town & everyday life,1,v1
+93,Space Port,Town,Town & everyday life,1,v1
+94,Town Jr.,Town,Town & everyday life,1,v1
+104,Town Plan,Town,Town & everyday life,1,v1
+105,World City,Town,Town & everyday life,1,v1
+106,City Center,Town,Town & everyday life,1,v1
+112,Racers,Racers,Vehicles & racing,1,v1
+114,Ferrari,Racers,Vehicles & racing,1,v1
+118,Promotional,Racers,Vehicles & racing,1,v1
+122,RC,Racers,Vehicles & racing,1,v1
+123,World Racers,Racers,Vehicles & racing,1,v1
+126,Space,Space,Space,1,v1
+127,Alien Conquest,Space,Space,1,v1
+128,Blacktron I,Space,Space,1,v1
+129,Blacktron II,Space,Space,1,v1
+130,Classic Space,Space,Space,1,v1
+131,Exploriens,Space,Space,1,v1
+132,Futuron,Space,Space,1,v1
+133,Ice Planet 2002,Space,Space,1,v1
+134,Insectoids,Space,Space,1,v1
+135,Life On Mars,Space,Space,1,v1
+136,M:Tron,Space,Space,1,v1
+137,Mars Mission,Space,Space,1,v1
+138,RoboForce,Space,Space,1,v1
+139,Space Police I,Space,Space,1,v1
+140,Space Police II,Space,Space,1,v1
+141,Space Police III,Space,Space,1,v1
+142,Spyrius,Space,Space,1,v1
+143,Supplemental,Space,Space,1,v1
+144,UFO,Space,Space,1,v1
+145,Unitron,Space,Space,1,v1
+146,Galaxy Squad,Space,Space,1,v1
+147,Pirates,Pirates,Pirates,1,v1
+148,Pirates I,Pirates,Pirates,1,v1
+153,Pirates II,Pirates,Pirates,1,v1
+154,Pirates III,Pirates,Pirates,1,v1
+155,Modular Buildings,Modular Buildings,Other,1,v1
+156,Mini,Modular Buildings,Other,1,v1
+157,Bricktober,Promotional,Other,1,v1
+158,Star Wars,Star Wars,Licensed worlds,1,v1
+171,Ultimate Collector Series,Star Wars,Licensed worlds,1,v1
+186,Castle,Castle,Castle & fantasy,1,v1
+187,Black Falcons,Castle,Castle & fantasy,1,v1
+188,Black Knights,Castle,Castle & fantasy,1,v1
+189,Classic Castle,Castle,Castle & fantasy,1,v1
+190,Dragon Knights,Castle,Castle & fantasy,1,v1
+191,Dark Forest,Castle,Castle & fantasy,1,v1
+193,Fantasy Era,Castle,Castle & fantasy,1,v1
+194,Forestmen,Castle,Castle & fantasy,1,v1
+195,Fright Knights,Castle,Castle & fantasy,1,v1
+196,Kingdoms,Castle,Castle & fantasy,1,v1
+197,Knights Kingdom I,Castle,Castle & fantasy,1,v1
+198,Knights Kingdom II,Castle,Castle & fantasy,1,v1
+199,Lion Knights,Castle,Castle & fantasy,1,v1
+201,Royal Knights,Castle,Castle & fantasy,1,v1
+203,Wolfpack,Castle,Castle & fantasy,1,v1
+204,Designer Sets,Creator,Creative building,1,v1
+206,Seasonal,Seasonal,Other,1,v1
+207,Advent,Seasonal,Other,1,v1
+208,City,Seasonal,Other,1,v1
+209,Star Wars,Seasonal,Other,1,v1
+210,Belville,Seasonal,Other,1,v1
+211,Castle,Seasonal,Other,1,v1
+212,Classic Basic,Seasonal,Other,1,v1
+213,Clikits,Seasonal,Other,1,v1
+214,Creator,Seasonal,Other,1,v1
+215,Pirates,Seasonal,Other,1,v1
+216,Friends,Seasonal,Other,1,v1
+227,Christmas,Seasonal,Other,1,v1
+228,Creator,Seasonal,Other,1,v1
+229,Easter,Seasonal,Other,1,v1
+230,Halloween,Seasonal,Other,1,v1
+231,Thanksgiving,Seasonal,Other,1,v1
+232,Valentine,Seasonal,Other,1,v1
+233,Train,Train,Other,1,v1
+234,12V,Train,Other,1,v1
+235,4.5V,Train,Other,1,v1
+236,9V,Train,Other,1,v1
+240,RC Train,Train,Other,1,v1
+241,Supplemental,Train,Other,1,v1
+246,Harry Potter,Harry Potter,Licensed worlds,1,v1
+252,Architecture,Architecture,Buildings & display,1,v1
+253,Skylines,Architecture,Buildings & display,1,v1
+254,Bulk Bricks,Bulk Bricks,Other,1,v1
+258,Mindstorms,Mindstorms,Technic & engineering,1,v1
+259,NXT,Mindstorms,Technic & engineering,1,v1
+260,RCX,Mindstorms,Technic & engineering,1,v1
+261,Star Wars,Mindstorms,Technic & engineering,1,v1
+262,EV3,Mindstorms,Technic & engineering,1,v1
+263,Pirates of the Caribbean,Disney,Licensed worlds,1,v1
+264,Indiana Jones,Indiana Jones,Licensed worlds,1,v1
+269,Cars,Cars,Licensed worlds,1,v1
+270,Ben 10,Ben 10,Other,1,v1
+271,Prince of Persia,Disney,Licensed worlds,1,v1
+272,SpongeBob SquarePants,SpongeBob SquarePants,Licensed worlds,1,v1
+273,Studios,Studios,Other,1,v1
+274,Jurassic Park III,Studios,Other,1,v1
+275,Toy Story,Disney,Licensed worlds,1,v1
+276,Sculptures,Sculptures,Other,1,v1
+277,Mosaic,Sculptures,Other,1,v1
+278,Model Team,Model Team,Technic & engineering,1,v1
+279,4 Juniors,4 Juniors,Other,1,v1
+280,Jack Stone,4 Juniors,Other,1,v1
+287,Spider-Man,4 Juniors,Other,1,v1
+296,Adventurers,Adventurers,Action & adventure,1,v1
+297,Desert,Adventurers,Action & adventure,1,v1
+298,Dino Island,Adventurers,Action & adventure,1,v1
+299,Jungle,Adventurers,Action & adventure,1,v1
+300,Orient Expedition,Adventurers,Action & adventure,1,v1
+301,Other,Other,Other,1,v1
+302,Agents,Agents,Action & adventure,1,v1
+303,Ultra Agents,Agents,Action & adventure,1,v1
+304,Alpha Team,Alpha Team,Action & adventure,1,v1
+305,Mission Deep Sea,Alpha Team,Action & adventure,1,v1
+306,Mission Deep Freeze,Alpha Team,Action & adventure,1,v1
+307,Aquazone,Aquazone,Other,1,v1
+308,Aquanauts,Aquazone,Other,1,v1
+309,Aquaraiders I,Aquazone,Other,1,v1
+310,Aquaraiders II,Aquazone,Other,1,v1
+311,Aquasharks,Aquazone,Other,1,v1
+312,Hydronauts,Aquazone,Other,1,v1
+313,Stingrays,Aquazone,Other,1,v1
+315,Atlantis,Atlantis,Action & adventure,1,v1
+317,Avatar: The Last Airbender,Avatar: The Last Airbender,Other,1,v1
+318,Belville,Belville,Other,1,v1
+324,Bionicle,Bionicle,Technic & engineering,1,v1
+341,Playsets,Bionicle,Technic & engineering,1,v1
+360,Protectors,Bionicle,Technic & engineering,1,v1
+363,Boat,Boat,Other,1,v1
+364,Building Set with People,Building Set with People,Other,1,v1
+365,System,System,Other,1,v1
+368,HO 1:87 Vehicles,System,Other,1,v1
+369,Jumbo Bricks,System,Other,1,v1
+371,Supplemental,System,Other,1,v1
+372,Town Plan,System,Other,1,v1
+385,Dino Attack / Dino 2010,Dino Attack / Dino 2010,Other,1,v1
+386,Dinosaurs,Dinosaurs,Other,1,v1
+387,Discovery,Discovery,Other,1,v1
+388,Mickey Mouse,Disney,Licensed worlds,1,v1
+389,Exo-Force,Exo-Force,Other,1,v1
+390,Fabuland,Fabuland,Other,1,v1
+397,Factory,Factory,Other,1,v1
+398,FIRST LEGO League,FIRST LEGO League,Other,1,v1
+399,Freestyle,Freestyle,Other,1,v1
+400,Hero Factory,Hero Factory,Technic & engineering,1,v1
+401,Heroes,Hero Factory,Technic & engineering,1,v1
+403,Villains,Hero Factory,Technic & engineering,1,v1
+404,Hobby Sets,Hobby Sets,Other,1,v1
+405,Homemaker,Homemaker,Other,1,v1
+406,Inventor,Creator,Creative building,1,v1
+407,Island Xtreme Stunts,Island Xtreme Stunts,Other,1,v1
+408,LEGO Brand Store,LEGO Brand Store,Other,1,v1
+409,Monthly Mini Model Build,LEGO Brand Store,Other,1,v1
+410,Pick A Model,LEGO Brand Store,Other,1,v1
+411,Legoland,Legoland,Other,1,v1
+412,Airport,Legoland,Other,1,v1
+413,Building,Legoland,Other,1,v1
+414,Castle,Legoland,Other,1,v1
+415,Coast Guard,Legoland,Other,1,v1
+416,Construction,Legoland,Other,1,v1
+417,Fire,Legoland,Other,1,v1
+418,Gas Station,Legoland,Other,1,v1
+419,Harbor,Legoland,Other,1,v1
+420,Hospital,Legoland,Other,1,v1
+421,Police,Legoland,Other,1,v1
+422,Space,Legoland,Other,1,v1
+423,Vehicle,Legoland,Other,1,v1
+424,Western,Legoland,Other,1,v1
+425,Legoland Parks,Legoland Parks,Other,1,v1
+432,Master Builder Academy,Master Builder Academy,Other,1,v1
+433,Minitalia,Minitalia,Other,1,v1
+434,Ninja,Ninja,Other,1,v1
+435,Ninjago,Ninjago,Action & adventure,1,v1
+437,Pharaoh's Quest,Pharaoh's Quest,Other,1,v1
+438,Power Functions,Power Functions,Other,1,v1
+439,Power Miners,Power Miners,Action & adventure,1,v1
+440,Primo,Primo,Preschool,1,v1
+441,Quatro,Quatro,Preschool,1,v1
+442,Rock Raiders,Rock Raiders,Other,1,v1
+443,Service Packs,Service Packs,Other,1,v1
+453,Technic,Service Packs,Other,1,v1
+456,Train,Service Packs,Other,1,v1
+458,Sports,Sports,Other,1,v1
+459,Basketball,Sports,Other,1,v1
+460,Gravity Games,Sports,Other,1,v1
+461,Hockey,Sports,Other,1,v1
+462,Soccer,Sports,Other,1,v1
+463,Spybotics,Spybotics,Other,1,v1
+464,Time Cruisers,Time Cruisers,Other,1,v1
+465,Universal Building Set,Universal Building Set,Creative building,1,v1
+467,Basic,Universal Building Set,Creative building,1,v1
+470,Classic Basic,Universal Building Set,Creative building,1,v1
+471,Ferries,Promotional,Other,1,v1
+472,Gears,Universal Building Set,Creative building,1,v1
+473,Supplemental,Universal Building Set,Creative building,1,v1
+474,Vikings,Vikings,Other,1,v1
+475,Western,Western,Other,1,v1
+478,X-Pod,Creator,Creative building,1,v1
+480,Znap,Znap,Other,1,v1
+481,Dino,Dino,Other,1,v1
+494,Friends,Friends,Town & everyday life,1,v1
+497,Books,Books,Other,0,v1
+498,Technic,Books,Other,0,v1
+500,Clikits,Clikits,Other,1,v1
+501,Gear,Gear,Other,0,v1
+502,Games,Games,Other,1,v1
+503,Key Chain,Gear,Other,0,v1
+504,Duplo,Duplo,Preschool,1,v1
+505,Basic Set,Duplo,Preschool,1,v1
+506,Cars,Duplo,Preschool,1,v1
+507,Educational and Dacta,Educational and Dacta,Other,1,v1
+509,SPIKE,Educational and Dacta,Other,1,v1
+510,Serious Play,Educational and Dacta,Other,1,v1
+511,Building Set with People,Educational and Dacta,Other,1,v1
+516,Duplo and Explore,Educational and Dacta,Other,1,v1
+517,Learning,Educational and Dacta,Other,1,v1
+518,Mindstorms,Educational and Dacta,Other,1,v1
+519,NXT,Educational and Dacta,Other,1,v1
+520,RCX,Educational and Dacta,Other,1,v1
+521,WeDo,Educational and Dacta,Other,1,v1
+523,Samsonite,Educational and Dacta,Other,1,v1
+524,Service Packs,Educational and Dacta,Other,1,v1
+525,Technic,Educational and Dacta,Other,1,v1
+526,Soft Bricks,Educational and Dacta,Other,1,v1
+528,Supplemental,Educational and Dacta,Other,1,v1
+529,Technic,Educational and Dacta,Other,1,v1
+530,Control Lab,Educational and Dacta,Other,1,v1
+531,eLAB,Educational and Dacta,Other,1,v1
+533,Town,Educational and Dacta,Other,1,v1
+534,Universal Building Set,Educational and Dacta,Other,1,v1
+535,Collectible Minifigures,Collectible Minifigures,Other,1,v1
+536,Series 1 Minifigures,Collectible Minifigures,Other,1,v1
+537,Series 2 Minifigures,Collectible Minifigures,Other,1,v1
+538,Series 3 Minifigures,Collectible Minifigures,Other,1,v1
+539,Series 4 Minifigures,Collectible Minifigures,Other,1,v1
+540,Series 5 Minifigures,Collectible Minifigures,Other,1,v1
+541,Series 6 Minifigures,Collectible Minifigures,Other,1,v1
+542,Series 7 Minifigures,Collectible Minifigures,Other,1,v1
+543,Series 8 Minifigures,Collectible Minifigures,Other,1,v1
+544,Series 9 Minifigures,Collectible Minifigures,Other,1,v1
+545,Series 10 Minifigures,Collectible Minifigures,Other,1,v1
+546,Team GB,Collectible Minifigures,Other,1,v1
+547,Series 11 Minifigures,Collectible Minifigures,Other,1,v1
+548,Series 12 Minifigures,Collectible Minifigures,Other,1,v1
+549,The LEGO Movie,Collectible Minifigures,Other,1,v1
+550,The Simpsons Series 1,Collectible Minifigures,Other,1,v1
+551,Series 13 Minifigures,Collectible Minifigures,Other,1,v1
+552,Series 14 Minifigures,Collectible Minifigures,Other,1,v1
+553,The Simpsons Series 2,Collectible Minifigures,Other,1,v1
+554,Series 15 Minifigures,Collectible Minifigures,Other,1,v1
+555,Disney Series 1,Collectible Minifigures,Other,1,v1
+556,Series 16 Minifigures,Collectible Minifigures,Other,1,v1
+557,DFB Minifigures,Collectible Minifigures,Other,1,v1
+558,Monster Fighters,Monster Fighters,Other,1,v1
+559,Value Packs,Value Packs,Other,1,v1
+560,Universe,Universe,Other,1,v1
+561,The Hobbit and Lord of the Rings,The Hobbit and Lord of the Rings,Other,1,v1
+562,The Hobbit,The Hobbit and Lord of the Rings,Other,1,v1
+566,The Lord of the Rings,The Hobbit and Lord of the Rings,Other,1,v1
+570,Teenage Mutant Ninja Turtles,Teenage Mutant Ninja Turtles,Licensed worlds,1,v1
+571,Legends of Chima,Legends of Chima,Other,1,v1
+572,Speedorz,Legends of Chima,Other,1,v1
+573,Constraction,Legends of Chima,Other,1,v1
+575,The Lone Ranger,The Lone Ranger,Other,1,v1
+576,LEGO Ideas and CUUSOO,LEGO Ideas and CUUSOO,Other,1,v1
+577,Minecraft,Minecraft,Licensed worlds,1,v1
+578,The LEGO Movie,The LEGO Movie,Other,1,v1
+579,Disney Princess,Disney,Licensed worlds,1,v1
+580,Mixels,Mixels,Other,1,v1
+590,Fusion,Fusion,Other,1,v1
+591,Juniors,Juniors,Other,1,v1
+592,DC Comics Super Heroes,Juniors,Other,1,v1
+593,Disney Princess,Juniors,Other,1,v1
+595,Friends,Juniors,Other,1,v1
+596,Marvel Super Heroes,Juniors,Other,1,v1
+597,Ninjago,Juniors,Other,1,v1
+598,Promotional,Promotional,Other,1,v1
+599,LEGO Exclusive,LEGO Exclusive,Other,1,v1
+600,Elves,Elves,Castle & fantasy,1,v1
+601,Speed Champions,Speed Champions,Vehicles & racing,1,v1
+602,Jurassic World,Jurassic World,Licensed worlds,1,v1
+603,Scooby-Doo,Scooby-Doo,Other,1,v1
+604,Dimensions,Dimensions,Other,1,v1
+605,Nexo Knights,Nexo Knights,Action & adventure,1,v1
+606,Angry Birds,Angry Birds,Other,1,v1
+607,Ghostbusters,Ghostbusters,Other,1,v1
+608,Disney,Disney,Licensed worlds,1,v1
+609,The LEGO Batman Movie Series 1,Collectible Minifigures,Other,1,v1
+610,Brickheadz,Brickheadz,Other,1,v1
+611,Series 17 Minifigures,Collectible Minifigures,Other,1,v1
+614,Jungle,City,Town & everyday life,1,v1
+615,Cars,Juniors,Other,1,v1
+616,The LEGO Ninjago Movie,Ninjago,Action & adventure,1,v1
+617,DC Super Hero Girls,DC Super Hero Girls,Other,1,v1
+618,The LEGO Ninjago Movie,Collectible Minifigures,Other,1,v1
+619,Cities of Wonders,LEGO Brand Store,Other,1,v1
+620,Jurassic World: Fallen Kingdom,Juniors,Other,1,v1
+621,Classic,Classic,Creative building,1,v1
+622,Series 18 Minifigures,Collectible Minifigures,Other,1,v1
+625,Unikitty!,Unikitty!,Other,1,v1
+626,Bob the Builder,Duplo,Preschool,1,v1
+627,Planes,Duplo,Preschool,1,v1
+628,Dora the Explorer,Duplo,Preschool,1,v1
+629,Miles From Tomorrowland,Duplo,Preschool,1,v1
+630,Marvel,Duplo,Preschool,1,v1
+631,Thomas & Friends,Duplo,Preschool,1,v1
+632,Town,Duplo,Preschool,1,v1
+633,Toy Story,Duplo,Preschool,1,v1
+634,Trains,Duplo,Preschool,1,v1
+635,Winnie the Pooh,Duplo,Preschool,1,v1
+636,My Town,Duplo,Preschool,1,v1
+638,Jake and the Never Land Pirates,Duplo,Preschool,1,v1
+639,Sofia the First,Duplo,Preschool,1,v1
+640,Disney Princess,Duplo,Preschool,1,v1
+641,Mickey & Friends,Duplo,Preschool,1,v1
+646,Xtra,Xtra,Other,1,v1
+647,Castle,Duplo,Preschool,1,v1
+648,Doc McStuffins,Duplo,Preschool,1,v1
+650,Legoville,Duplo,Preschool,1,v1
+651,Pirates,Duplo,Preschool,1,v1
+652,Playhouse,Duplo,Preschool,1,v1
+653,DC Comics,Duplo,Preschool,1,v1
+654,The Powerpuff Girls,The Powerpuff Girls,Other,1,v1
+655,Powered Up,Power Functions,Other,1,v1
+656,Harry Potter and Fantastic Beasts Series 1,Collectible Minifigures,Other,1,v1
+657,Action Wheelers,Duplo,Preschool,1,v1
+658,Dino,Duplo,Preschool,1,v1
+659,Dolls,Duplo,Preschool,1,v1
+660,Little Forest Friends,Duplo,Preschool,1,v1
+661,Little Robots,Duplo,Preschool,1,v1
+662,Princess Castle,Duplo,Preschool,1,v1
+663,Rattles,Duplo,Preschool,1,v1
+664,Toolo,Duplo,Preschool,1,v1
+665,Western,Duplo,Preschool,1,v1
+666,Zooters,Duplo,Preschool,1,v1
+667,Fantastic Beasts,Harry Potter,Licensed worlds,1,v1
+668,Scala,Scala,Other,1,v1
+669,Overwatch,Overwatch,Other,1,v1
+670,The LEGO Movie II,The LEGO Movie,Other,1,v1
+671,Forma,Forma,Other,1,v1
+672,Creator 3-in-1,Creator,Creative building,1,v1
+673,Creator Expert,Creator,Creative building,1,v1
+674,Early Creator,Creator,Creative building,1,v1
+675,The LEGO Movie II,Collectible Minifigures,Other,1,v1
+676,Hidden Side,Hidden Side,Action & adventure,1,v1
+677,Disney Series 2,Collectible Minifigures,Other,1,v1
+679,Mars Exploration,City,Town & everyday life,1,v1
+680,Stranger Things,Stranger Things,Other,1,v1
+681,Series 19 Minifigures,Collectible Minifigures,Other,1,v1
+682,Trolls: World Tour,Trolls: World Tour,Other,1,v1
+683,LEGO Originals,LEGO Originals,Other,1,v1
+684,DC Super Heroes,Collectible Minifigures,Other,1,v1
+685,Galidor,Galidor,Other,1,v1
+686,Chinese Traditional Festivals,Chinese Traditional Festivals,Other,1,v1
+687,Frozen,Disney,Licensed worlds,1,v1
+688,DOTS,DOTS,Other,1,v1
+689,Minions,Minions,Other,1,v1
+690,Super Mario,Super Mario,Licensed worlds,1,v1
+691,Harry Potter and Fantastic Beasts Series 2,Collectible Minifigures,Other,1,v1
+692,Series 20 Minifigures,Collectible Minifigures,Other,1,v1
+693,Monkie Kid,Monkie Kid,Action & adventure,1,v1
+694,Brick Sketches,Brick Sketches,Other,1,v1
+695,Super Heroes DC,Super Heroes DC,Other,1,v1
+696,Super Heroes Marvel,Super Heroes Marvel,Other,1,v1
+697,Batman,Super Heroes DC,Other,1,v1
+698,UCS,Super Heroes DC,Other,1,v1
+700,Justice League,Super Heroes DC,Other,1,v1
+701,Superman,Super Heroes DC,Other,1,v1
+702,Avengers,Super Heroes Marvel,Other,1,v1
+704,Guardians of the Galaxy,Super Heroes Marvel,Other,1,v1
+705,Iron Man,Super Heroes Marvel,Other,1,v1
+706,Spider-Man,Super Heroes Marvel,Other,1,v1
+707,X-Men,Super Heroes Marvel,Other,1,v1
+708,The LEGO Batman Movie,Super Heroes DC,Other,1,v1
+709,LEGO Art,LEGO Art,Other,1,v1
+710,Harry Potter,Seasonal,Other,1,v1
+711,The LEGO Batman Movie Series 2,Collectible Minifigures,Other,1,v1
+712,Series 21 Minifigures,Collectible Minifigures,Other,1,v1
+713,VIDIYO,VIDIYO,Other,1,v1
+714,Looney Tunes,Collectible Minifigures,Other,1,v1
+715,Marvel Series 1,Collectible Minifigures,Other,1,v1
+716,Modulex,Modulex,Other,1,v1
+717,Speed Racer,Speed Racer,Other,1,v1
+718,Series 22 Minifigures,Collectible Minifigures,Other,1,v1
+719,BrickLink Designer Program,BrickLink Designer Program,Other,1,v1
+720,The Muppets,Collectible Minifigures,Other,1,v1
+721,Icons,Icons,Buildings & display,1,v1
+722,Jurassic World,Duplo,Preschool,1,v1
+724,Avatar,Avatar,Licensed worlds,1,v1
+725,Series 23 Minifigures,Collectible Minifigures,Other,1,v1
+728,McDonalds,Promotional,Other,1,v1
+729,Airlines,Promotional,Other,1,v1
+730,Audio and Visual Media,Gear,Other,0,v1
+731,Bag and Luggage Tags,Gear,Other,0,v1
+732,Clocks and Watches,Gear,Other,0,v1
+733,Houseware,Gear,Other,0,v1
+734,Magnets,Gear,Other,0,v1
+735,Plush Toys,Gear,Other,0,v1
+736,Posters and Art Prints,Gear,Other,0,v1
+737,Role Play Toys and Costumes,Gear,Other,0,v1
+738,Seasonal,Gear,Other,0,v1
+739,Stationery and Office Supplies,Gear,Other,0,v1
+740,Storage,Gear,Other,0,v1
+741,Tabletop Games and Puzzles,Gear,Other,0,v1
+742,Video Games and Accessories,Gear,Other,0,v1
+743,Series 24 Minifigures,Collectible Minifigures,Other,1,v1
+744,Stuntz,City,Town & everyday life,1,v1
+745,Disney 100,Collectible Minifigures,Other,1,v1
+746,Database Sets,Other,Other,1,v1
+747,Sonic The Hedgehog,Sonic The Hedgehog,Licensed worlds,1,v1
+748,Gabby's Dollhouse,Gabby's Dollhouse,Other,1,v1
+749,Dreamzzz,Dreamzzz,Action & adventure,1,v1
+750,Marvel Series 2,Collectible Minifigures,Other,1,v1
+751,Marvel,Seasonal,Other,1,v1
+752,Animal Crossing,Animal Crossing,Other,1,v1
+753,Series 25 Minifigures,Collectible Minifigures,Other,1,v1
+754,Disney,Duplo,Preschool,1,v1
+755,Spidey and His Amazing Friends,Super Heroes Marvel,Other,1,v1
+756,Samsonite,System,Other,1,v1
+757,Ideas Books,Books,Other,0,v1
+758,Non-fiction Books,Books,Other,0,v1
+759,Story Books,Books,Other,0,v1
+760,Activity Books,Books,Other,0,v1
+761,Activity Books with LEGO Parts,Books,Other,0,v1
+762,Series 26 Minifigures,Collectible Minifigures,Other,1,v1
+763,Despicable Me 4,Despicable Me 4,Other,1,v1
+764,The Legend of Zelda,The Legend of Zelda,Other,1,v1
+765,Wicked,Wicked,Other,1,v1
+766,Fortnite,Fortnite,Other,1,v1
+767,Dungeons & Dragons,Collectible Minifigures,Other,1,v1
+768,Wednesday,Wednesday,Other,1,v1
+769,Botanicals,Botanicals,Buildings & display,1,v1
+770,Horizon Adventures,Horizon Adventures,Other,1,v1
+771,Series 27 Minifigures,Collectible Minifigures,Other,1,v1
+772,Bluey,Bluey,Other,1,v1
+774,Formula 1,Collectible Minifigures,Other,1,v1
+775,One Piece,One Piece,Other,1,v1
+776,Pokémon,Pokémon,Other,1,v1
+777,"Bags, Totes, & Luggage",Gear,Other,0,v1
+778,VIP Add-On Packs,Promotional,Other,1,v1
+779,Chinese (Lunar) New Year,Seasonal,Other,1,v1
+780,Disney,Seasonal,Other,1,v1
+781,The Infinity Saga,Super Heroes Marvel,Other,1,v1
+782,Captain America,Super Heroes Marvel,Other,1,v1
+783,Incredibles 2,Juniors,Other,1,v1
+784,Spider-Man - Across the Spider-Verse,Collectible Minifigures,Other,1,v1
+785,Nike,Nike,Other,1,v1
+786,Series 28 Minifigures,Collectible Minifigures,Other,1,v1
+787,Editions,Editions,Other,1,v1
+788,Bluey,Duplo,Preschool,1,v1
+789,Peppa Pig,Duplo,Preschool,1,v1
+790,Seasonal,Duplo,Preschool,1,v1
+791,Learning at Home,Educational and Dacta,Other,1,v1
+792,KPop Demon Hunters,KPop Demon Hunters,Other,1,v1
+793,Space,City,Town & everyday life,1,v1
+794,Lightyear,Disney,Licensed worlds,1,v1
+795,Series 29 Minifigures,Collectible Minifigures,Other,1,v1
+796,Shrek,Shrek,Other,1,v1
+797,Iron Man and His Awesome Friends,Super Heroes Marvel,Other,1,v1
+798,Shrek,Collectible Minifigures,Other,1,v1
+799,Clothing & Footwear,Gear,Other,0,v1

@@ -1,0 +1,644 @@
+theme_id,theme_name,root_theme,theme_family,decision,set_count
+1,Technic,Technic,Technic & engineering,After selected end year,40
+1,Technic,Technic,Technic & engineering,Included,422
+3,Competition,Technic,Technic & engineering,Included,18
+4,Expert Builder,Technic,Technic & engineering,Included,39
+16,RoboRiders,Technic,Technic & engineering,Bundle name rule,1
+16,RoboRiders,Technic,Technic & engineering,Included,28
+17,Speed Slammers,Technic,Technic & engineering,Included,5
+18,Star Wars,Technic,Technic & engineering,Included,11
+19,Supplemental,Technic,Technic & engineering,Included,16
+20,Throwbot Slizer,Technic,Technic & engineering,Included,17
+21,Universal Building Set,Technic,Technic & engineering,Included,21
+22,Creator,Creator,Creative building,After selected end year,5
+22,Creator,Creator,Creative building,Bundle name rule,1
+22,Creator,Creator,Creative building,Included,188
+34,Make & Create,Make & Create,Creative building,Bundle name rule,2
+34,Make & Create,Make & Create,Creative building,Included,49
+35,Bricks & More,Make & Create,Creative building,Bundle name rule,5
+35,Bricks & More,Make & Create,Creative building,Included,63
+50,Town,Town,Town & everyday life,Included,34
+51,Arctic,Town,Town & everyday life,Included,11
+52,City,City,Town & everyday life,After selected end year,13
+52,City,City,Town & everyday life,Bundle name rule,7
+52,City,City,Town & everyday life,Included,218
+53,Airport,City,Town & everyday life,After selected end year,3
+53,Airport,City,Town & everyday life,Bundle name rule,2
+53,Airport,City,Town & everyday life,Included,37
+54,Cargo,City,Town & everyday life,Included,9
+55,Coast Guard,City,Town & everyday life,After selected end year,3
+55,Coast Guard,City,Town & everyday life,Included,27
+56,Construction,City,Town & everyday life,After selected end year,7
+56,Construction,City,Town & everyday life,Bundle name rule,4
+56,Construction,City,Town & everyday life,Included,77
+57,Farm,City,Town & everyday life,After selected end year,1
+57,Farm,City,Town & everyday life,Included,21
+58,Fire,City,Town & everyday life,After selected end year,4
+58,Fire,City,Town & everyday life,Bundle name rule,7
+58,Fire,City,Town & everyday life,Included,106
+59,Harbor,City,Town & everyday life,Included,23
+60,Hospital,City,Town & everyday life,Bundle name rule,1
+60,Hospital,City,Town & everyday life,Included,22
+61,Police,City,Town & everyday life,After selected end year,5
+61,Police,City,Town & everyday life,Bundle name rule,4
+61,Police,City,Town & everyday life,Included,192
+63,Traffic,City,Town & everyday life,After selected end year,9
+63,Traffic,City,Town & everyday life,Included,68
+64,Off-Road,City,Town & everyday life,After selected end year,1
+64,Off-Road,City,Town & everyday life,Included,12
+65,Arctic,City,Town & everyday life,Included,29
+66,Trains,City,Town & everyday life,After selected end year,2
+66,Trains,City,Town & everyday life,Included,33
+67,Classic Town,Town,Town & everyday life,Bundle name rule,13
+67,Classic Town,Town,Town & everyday life,Included,399
+86,Divers,Town,Town & everyday life,Included,12
+87,Extreme Team,Town,Town & everyday life,Included,21
+88,Launch Command,Town,Town & everyday life,Bundle name rule,1
+88,Launch Command,Town,Town & everyday life,Included,5
+89,Outback,Town,Town & everyday life,Included,5
+90,Paradisa,Town,Town & everyday life,Included,18
+91,Race,Town,Town & everyday life,Included,16
+92,Res-Q,Town,Town & everyday life,Included,11
+93,Space Port,Town,Town & everyday life,Bundle name rule,1
+93,Space Port,Town,Town & everyday life,Included,22
+94,Town Jr.,Town,Town & everyday life,Bundle name rule,1
+94,Town Jr.,Town,Town & everyday life,Included,40
+104,Town Plan,Town,Town & everyday life,Included,1
+105,World City,Town,Town & everyday life,Bundle name rule,1
+105,World City,Town,Town & everyday life,Included,45
+106,City Center,Town,Town & everyday life,Bundle name rule,1
+106,City Center,Town,Town & everyday life,Included,21
+112,Racers,Racers,Vehicles & racing,Bundle name rule,1
+112,Racers,Racers,Vehicles & racing,Included,195
+114,Ferrari,Racers,Vehicles & racing,Included,32
+118,Promotional,Racers,Vehicles & racing,Included,21
+122,RC,Racers,Vehicles & racing,Included,25
+123,World Racers,Racers,Vehicles & racing,Included,9
+126,Space,Space,Space,Included,5
+127,Alien Conquest,Space,Space,Included,10
+128,Blacktron I,Space,Space,Included,7
+129,Blacktron II,Space,Space,Included,14
+130,Classic Space,Space,Space,Bundle name rule,6
+130,Classic Space,Space,Space,Included,83
+131,Exploriens,Space,Space,Included,9
+132,Futuron,Space,Space,Included,19
+133,Ice Planet 2002,Space,Space,Included,11
+134,Insectoids,Space,Space,Included,19
+135,Life On Mars,Space,Space,Included,26
+136,M:Tron,Space,Space,Included,9
+137,Mars Mission,Space,Space,Included,21
+138,RoboForce,Space,Space,Included,4
+139,Space Police I,Space,Space,Included,6
+140,Space Police II,Space,Space,Included,8
+141,Space Police III,Space,Space,Included,17
+142,Spyrius,Space,Space,Included,9
+143,Supplemental,Space,Space,Included,15
+144,UFO,Space,Space,Bundle name rule,1
+144,UFO,Space,Space,Included,18
+145,Unitron,Space,Space,Included,4
+146,Galaxy Squad,Space,Space,Included,12
+147,Pirates,Pirates,Pirates,Included,1
+148,Pirates I,Pirates,Pirates,Bundle name rule,1
+148,Pirates I,Pirates,Pirates,Included,66
+153,Pirates II,Pirates,Pirates,Bundle name rule,1
+153,Pirates II,Pirates,Pirates,Included,14
+154,Pirates III,Pirates,Pirates,Included,9
+155,Modular Buildings,Modular Buildings,Other,After selected end year,1
+155,Modular Buildings,Modular Buildings,Other,Included,20
+156,Mini,Modular Buildings,Other,Included,1
+157,Bricktober,Promotional,Other,Included,44
+158,Star Wars,Star Wars,Licensed worlds,After selected end year,54
+158,Star Wars,Star Wars,Licensed worlds,Bundle name rule,5
+158,Star Wars,Star Wars,Licensed worlds,Included,993
+171,Ultimate Collector Series,Star Wars,Licensed worlds,After selected end year,1
+171,Ultimate Collector Series,Star Wars,Licensed worlds,Included,49
+186,Castle,Castle,Castle & fantasy,Included,20
+187,Black Falcons,Castle,Castle & fantasy,Included,7
+188,Black Knights,Castle,Castle & fantasy,Included,14
+189,Classic Castle,Castle,Castle & fantasy,Included,8
+190,Dragon Knights,Castle,Castle & fantasy,Included,13
+191,Dark Forest,Castle,Castle & fantasy,Included,3
+193,Fantasy Era,Castle,Castle & fantasy,Included,31
+194,Forestmen,Castle,Castle & fantasy,Included,7
+195,Fright Knights,Castle,Castle & fantasy,Included,16
+196,Kingdoms,Castle,Castle & fantasy,Included,17
+197,Knights Kingdom I,Castle,Castle & fantasy,Included,21
+198,Knights Kingdom II,Castle,Castle & fantasy,Bundle name rule,6
+198,Knights Kingdom II,Castle,Castle & fantasy,Included,70
+199,Lion Knights,Castle,Castle & fantasy,Bundle name rule,1
+199,Lion Knights,Castle,Castle & fantasy,Included,25
+201,Royal Knights,Castle,Castle & fantasy,Included,9
+203,Wolfpack,Castle,Castle & fantasy,Included,3
+204,Designer Sets,Creator,Creative building,Bundle name rule,1
+204,Designer Sets,Creator,Creative building,Included,48
+206,Seasonal,Seasonal,Other,After selected end year,3
+206,Seasonal,Seasonal,Other,Included,33
+207,Advent,Seasonal,Other,Included,5
+208,City,Seasonal,Other,After selected end year,1
+208,City,Seasonal,Other,Included,21
+209,Star Wars,Seasonal,Other,After selected end year,1
+209,Star Wars,Seasonal,Other,Included,15
+210,Belville,Seasonal,Other,Included,1
+211,Castle,Seasonal,Other,Included,2
+212,Classic Basic,Seasonal,Other,Included,1
+213,Clikits,Seasonal,Other,Included,2
+214,Creator,Seasonal,Other,Included,4
+215,Pirates,Seasonal,Other,Included,1
+216,Friends,Seasonal,Other,After selected end year,1
+216,Friends,Seasonal,Other,Included,14
+227,Christmas,Seasonal,Other,After selected end year,8
+227,Christmas,Seasonal,Other,Included,205
+228,Creator,Seasonal,Other,After selected end year,1
+228,Creator,Seasonal,Other,Included,35
+229,Easter,Seasonal,Other,After selected end year,4
+229,Easter,Seasonal,Other,Included,59
+230,Halloween,Seasonal,Other,After selected end year,5
+230,Halloween,Seasonal,Other,Included,43
+231,Thanksgiving,Seasonal,Other,Included,10
+232,Valentine,Seasonal,Other,After selected end year,4
+232,Valentine,Seasonal,Other,Included,28
+234,12V,Train,Other,Included,53
+235,4.5V,Train,Other,Included,88
+236,9V,Train,Other,Included,102
+246,Harry Potter,Harry Potter,Licensed worlds,After selected end year,22
+246,Harry Potter,Harry Potter,Licensed worlds,Included,190
+252,Architecture,Architecture,Buildings & display,After selected end year,4
+252,Architecture,Architecture,Buildings & display,Included,48
+253,Skylines,Architecture,Buildings & display,Included,14
+254,Bulk Bricks,Bulk Bricks,Other,Included,136
+258,Mindstorms,Mindstorms,Technic & engineering,Included,4
+259,NXT,Mindstorms,Technic & engineering,Included,44
+260,RCX,Mindstorms,Technic & engineering,Included,22
+261,Star Wars,Mindstorms,Technic & engineering,Included,2
+262,EV3,Mindstorms,Technic & engineering,Included,13
+263,Pirates of the Caribbean,Disney,Licensed worlds,Included,18
+264,Indiana Jones,Indiana Jones,Licensed worlds,Included,23
+269,Cars,Cars,Licensed worlds,Included,28
+270,Ben 10,Ben 10,Other,Included,6
+271,Prince of Persia,Disney,Licensed worlds,Included,6
+272,SpongeBob SquarePants,SpongeBob SquarePants,Licensed worlds,Included,14
+273,Studios,Studios,Other,Included,53
+274,Jurassic Park III,Studios,Other,Included,2
+275,Toy Story,Disney,Licensed worlds,After selected end year,4
+275,Toy Story,Disney,Licensed worlds,Included,22
+276,Sculptures,Sculptures,Other,Included,3
+277,Mosaic,Sculptures,Other,Included,7
+278,Model Team,Model Team,Technic & engineering,Included,16
+279,4 Juniors,4 Juniors,Other,Bundle name rule,1
+279,4 Juniors,4 Juniors,Other,Included,22
+280,Jack Stone,4 Juniors,Other,Included,28
+287,Spider-Man,4 Juniors,Other,Included,3
+297,Desert,Adventurers,Action & adventure,Bundle name rule,1
+297,Desert,Adventurers,Action & adventure,Included,25
+298,Dino Island,Adventurers,Action & adventure,Bundle name rule,1
+298,Dino Island,Adventurers,Action & adventure,Included,18
+299,Jungle,Adventurers,Action & adventure,Included,10
+300,Orient Expedition,Adventurers,Action & adventure,Bundle name rule,1
+300,Orient Expedition,Adventurers,Action & adventure,Included,27
+301,Other,Other,Other,After selected end year,14
+301,Other,Other,Other,Included,171
+302,Agents,Agents,Action & adventure,Included,13
+303,Ultra Agents,Agents,Action & adventure,Included,15
+304,Alpha Team,Alpha Team,Action & adventure,Included,7
+305,Mission Deep Sea,Alpha Team,Action & adventure,Included,17
+306,Mission Deep Freeze,Alpha Team,Action & adventure,Included,8
+307,Aquazone,Aquazone,Other,Included,1
+308,Aquanauts,Aquazone,Other,Included,8
+309,Aquaraiders I,Aquazone,Other,Included,3
+310,Aquaraiders II,Aquazone,Other,Included,9
+311,Aquasharks,Aquazone,Other,Included,4
+312,Hydronauts,Aquazone,Other,Included,7
+313,Stingrays,Aquazone,Other,Included,5
+315,Atlantis,Atlantis,Action & adventure,Included,24
+317,Avatar: The Last Airbender,Avatar: The Last Airbender,Other,Included,2
+318,Belville,Belville,Other,Included,88
+324,Bionicle,Bionicle,Technic & engineering,Bundle name rule,13
+324,Bionicle,Bionicle,Technic & engineering,Included,436
+341,Playsets,Bionicle,Technic & engineering,Included,13
+360,Protectors,Bionicle,Technic & engineering,Included,6
+363,Boat,Boat,Other,Included,21
+364,Building Set with People,Building Set with People,Other,Included,30
+365,System,System,Other,Included,53
+368,HO 1:87 Vehicles,System,Other,Included,62
+369,Jumbo Bricks,System,Other,Included,7
+371,Supplemental,System,Other,Included,220
+372,Town Plan,System,Other,Included,40
+385,Dino Attack / Dino 2010,Dino Attack / Dino 2010,Other,Included,12
+386,Dinosaurs,Dinosaurs,Other,Included,17
+387,Discovery,Discovery,Other,Included,8
+388,Mickey Mouse,Disney,Licensed worlds,Included,15
+389,Exo-Force,Exo-Force,Other,Bundle name rule,5
+389,Exo-Force,Exo-Force,Other,Included,47
+390,Fabuland,Fabuland,Other,Included,107
+397,Factory,Factory,Other,Included,7
+398,FIRST LEGO League,FIRST LEGO League,Other,After selected end year,3
+398,FIRST LEGO League,FIRST LEGO League,Other,Included,132
+399,Freestyle,Freestyle,Other,Included,67
+400,Hero Factory,Hero Factory,Technic & engineering,Bundle name rule,2
+400,Hero Factory,Hero Factory,Technic & engineering,Included,32
+401,Heroes,Hero Factory,Technic & engineering,Included,44
+403,Villains,Hero Factory,Technic & engineering,Included,33
+404,Hobby Sets,Hobby Sets,Other,Included,9
+405,Homemaker,Homemaker,Other,Included,32
+406,Inventor,Creator,Creative building,Included,6
+407,Island Xtreme Stunts,Island Xtreme Stunts,Other,Included,13
+408,LEGO Brand Store,LEGO Brand Store,Other,After selected end year,34
+408,LEGO Brand Store,LEGO Brand Store,Other,Included,324
+409,Monthly Mini Model Build,LEGO Brand Store,Other,Included,153
+410,Pick A Model,LEGO Brand Store,Other,Included,32
+412,Airport,Legoland,Other,Included,18
+413,Building,Legoland,Other,Included,21
+414,Castle,Legoland,Other,Included,1
+415,Coast Guard,Legoland,Other,Included,1
+416,Construction,Legoland,Other,Included,41
+417,Fire,Legoland,Other,Included,12
+418,Gas Station,Legoland,Other,Included,6
+419,Harbor,Legoland,Other,Included,3
+420,Hospital,Legoland,Other,Included,9
+421,Police,Legoland,Other,Included,10
+422,Space,Legoland,Other,Included,3
+423,Vehicle,Legoland,Other,Included,31
+424,Western,Legoland,Other,Included,4
+425,Legoland Parks,Legoland Parks,Other,After selected end year,1
+425,Legoland Parks,Legoland Parks,Other,Included,57
+432,Master Builder Academy,Master Builder Academy,Other,Included,21
+433,Minitalia,Minitalia,Other,Included,19
+434,Ninja,Ninja,Other,Included,37
+435,Ninjago,Ninjago,Action & adventure,After selected end year,46
+435,Ninjago,Ninjago,Action & adventure,Included,598
+437,Pharaoh's Quest,Pharaoh's Quest,Other,Included,9
+438,Power Functions,Power Functions,Other,Included,19
+439,Power Miners,Power Miners,Action & adventure,Included,23
+440,Primo,Primo,Preschool,Included,137
+441,Quatro,Quatro,Preschool,Included,11
+442,Rock Raiders,Rock Raiders,Other,Included,17
+443,Service Packs,Service Packs,Other,Included,278
+453,Technic,Service Packs,Other,Bundle name rule,1
+453,Technic,Service Packs,Other,Included,150
+456,Train,Service Packs,Other,Included,75
+458,Sports,Sports,Other,Included,5
+459,Basketball,Sports,Other,Included,35
+460,Gravity Games,Sports,Other,Included,11
+461,Hockey,Sports,Other,Included,19
+462,Soccer,Sports,Other,Included,104
+463,Spybotics,Spybotics,Other,Included,4
+464,Time Cruisers,Time Cruisers,Other,Included,9
+465,Universal Building Set,Universal Building Set,Creative building,Included,61
+467,Basic,Universal Building Set,Creative building,Included,204
+470,Classic Basic,Universal Building Set,Creative building,Bundle name rule,1
+470,Classic Basic,Universal Building Set,Creative building,Included,51
+471,Ferries,Promotional,Other,Included,17
+472,Gears,Universal Building Set,Creative building,Included,9
+473,Supplemental,Universal Building Set,Creative building,Included,92
+474,Vikings,Vikings,Other,Included,9
+475,Western,Western,Other,Included,22
+478,X-Pod,Creator,Creative building,Included,24
+480,Znap,Znap,Other,Included,19
+481,Dino,Dino,Other,Included,7
+494,Friends,Friends,Town & everyday life,After selected end year,39
+494,Friends,Friends,Town & everyday life,Bundle name rule,2
+494,Friends,Friends,Town & everyday life,Included,642
+497,Books,Books,Other,Excluded theme branch,2
+498,Technic,Books,Other,Excluded theme branch,8
+500,Clikits,Clikits,Other,Included,83
+501,Gear,Gear,Other,After selected end year,99
+501,Gear,Gear,Other,Excluded theme branch,520
+502,Games,Games,Other,Included,47
+503,Key Chain,Gear,Other,After selected end year,36
+503,Key Chain,Gear,Other,Excluded theme branch,820
+504,Duplo,Duplo,Preschool,After selected end year,5
+504,Duplo,Duplo,Preschool,Bundle name rule,8
+504,Duplo,Duplo,Preschool,Included,113
+505,Basic Set,Duplo,Preschool,After selected end year,3
+505,Basic Set,Duplo,Preschool,Bundle name rule,5
+505,Basic Set,Duplo,Preschool,Included,419
+506,Cars,Duplo,Preschool,Included,22
+507,Educational and Dacta,Educational and Dacta,Other,After selected end year,9
+507,Educational and Dacta,Educational and Dacta,Other,Bundle name rule,1
+507,Educational and Dacta,Educational and Dacta,Other,Included,136
+509,SPIKE,Educational and Dacta,Other,Bundle name rule,1
+509,SPIKE,Educational and Dacta,Other,Included,31
+510,Serious Play,Educational and Dacta,Other,Included,21
+511,Building Set with People,Educational and Dacta,Other,Included,2
+516,Duplo and Explore,Educational and Dacta,Other,Bundle name rule,1
+516,Duplo and Explore,Educational and Dacta,Other,Included,293
+517,Learning,Educational and Dacta,Other,Included,10
+518,Mindstorms,Educational and Dacta,Other,Bundle name rule,1
+518,Mindstorms,Educational and Dacta,Other,Included,28
+519,NXT,Educational and Dacta,Other,Bundle name rule,1
+519,NXT,Educational and Dacta,Other,Included,8
+520,RCX,Educational and Dacta,Other,Included,14
+521,WeDo,Educational and Dacta,Other,Included,37
+523,Samsonite,Educational and Dacta,Other,Included,2
+524,Service Packs,Educational and Dacta,Other,Included,89
+525,Technic,Educational and Dacta,Other,Included,280
+526,Soft Bricks,Educational and Dacta,Other,Included,6
+528,Supplemental,Educational and Dacta,Other,After selected end year,1
+528,Supplemental,Educational and Dacta,Other,Included,29
+529,Technic,Educational and Dacta,Other,Included,55
+530,Control Lab,Educational and Dacta,Other,Included,9
+531,eLAB,Educational and Dacta,Other,Included,5
+533,Town,Educational and Dacta,Other,Included,33
+534,Universal Building Set,Educational and Dacta,Other,Included,21
+535,Collectible Minifigures,Collectible Minifigures,Other,Included,39
+536,Series 1 Minifigures,Collectible Minifigures,Other,Included,19
+537,Series 2 Minifigures,Collectible Minifigures,Other,Included,19
+538,Series 3 Minifigures,Collectible Minifigures,Other,Included,19
+539,Series 4 Minifigures,Collectible Minifigures,Other,Included,19
+540,Series 5 Minifigures,Collectible Minifigures,Other,Included,19
+541,Series 6 Minifigures,Collectible Minifigures,Other,Included,19
+542,Series 7 Minifigures,Collectible Minifigures,Other,Included,19
+543,Series 8 Minifigures,Collectible Minifigures,Other,Included,19
+544,Series 9 Minifigures,Collectible Minifigures,Other,Included,19
+545,Series 10 Minifigures,Collectible Minifigures,Other,Included,20
+546,Team GB,Collectible Minifigures,Other,Included,12
+547,Series 11 Minifigures,Collectible Minifigures,Other,Included,19
+548,Series 12 Minifigures,Collectible Minifigures,Other,Included,19
+549,The LEGO Movie,Collectible Minifigures,Other,Included,19
+550,The Simpsons Series 1,Collectible Minifigures,Other,Included,19
+551,Series 13 Minifigures,Collectible Minifigures,Other,Included,19
+552,Series 14 Minifigures,Collectible Minifigures,Other,Included,19
+553,The Simpsons Series 2,Collectible Minifigures,Other,Included,19
+554,Series 15 Minifigures,Collectible Minifigures,Other,Included,19
+555,Disney Series 1,Collectible Minifigures,Other,Included,21
+556,Series 16 Minifigures,Collectible Minifigures,Other,Included,19
+557,DFB Minifigures,Collectible Minifigures,Other,Included,19
+558,Monster Fighters,Monster Fighters,Other,Included,14
+559,Value Packs,Value Packs,Other,Bundle name rule,10
+559,Value Packs,Value Packs,Other,Included,27
+560,Universe,Universe,Other,Included,2
+561,The Hobbit and Lord of the Rings,The Hobbit and Lord of the Rings,Other,After selected end year,1
+562,The Hobbit,The Hobbit and Lord of the Rings,Other,Included,23
+566,The Lord of the Rings,The Hobbit and Lord of the Rings,Other,Included,18
+570,Teenage Mutant Ninja Turtles,Teenage Mutant Ninja Turtles,Licensed worlds,Included,23
+571,Legends of Chima,Legends of Chima,Other,Included,98
+572,Speedorz,Legends of Chima,Other,Included,30
+573,Constraction,Legends of Chima,Other,Included,16
+575,The Lone Ranger,The Lone Ranger,Other,Included,8
+576,LEGO Ideas and CUUSOO,LEGO Ideas and CUUSOO,Other,After selected end year,12
+576,LEGO Ideas and CUUSOO,LEGO Ideas and CUUSOO,Other,Included,93
+577,Minecraft,Minecraft,Licensed worlds,After selected end year,28
+577,Minecraft,Minecraft,Licensed worlds,Included,182
+578,The LEGO Movie,The LEGO Movie,Other,Included,33
+579,Disney Princess,Disney,Licensed worlds,After selected end year,10
+579,Disney Princess,Disney,Licensed worlds,Included,105
+580,Mixels,Mixels,Other,Included,123
+590,Fusion,Fusion,Other,Included,4
+591,Juniors,Juniors,Other,Included,29
+592,DC Comics Super Heroes,Juniors,Other,Included,4
+593,Disney Princess,Juniors,Other,Included,5
+595,Friends,Juniors,Other,Included,8
+596,Marvel Super Heroes,Juniors,Other,Included,4
+597,Ninjago,Juniors,Other,Included,4
+598,Promotional,Promotional,Other,After selected end year,28
+598,Promotional,Promotional,Other,Included,241
+599,LEGO Exclusive,LEGO Exclusive,Other,After selected end year,3
+599,LEGO Exclusive,LEGO Exclusive,Other,Included,80
+600,Elves,Elves,Castle & fantasy,Included,42
+601,Speed Champions,Speed Champions,Vehicles & racing,After selected end year,14
+601,Speed Champions,Speed Champions,Vehicles & racing,Included,92
+602,Jurassic World,Jurassic World,Licensed worlds,After selected end year,11
+602,Jurassic World,Jurassic World,Licensed worlds,Bundle name rule,1
+602,Jurassic World,Jurassic World,Licensed worlds,Included,117
+603,Scooby-Doo,Scooby-Doo,Other,Included,10
+604,Dimensions,Dimensions,Other,Included,68
+605,Nexo Knights,Nexo Knights,Action & adventure,Included,110
+606,Angry Birds,Angry Birds,Other,Included,6
+607,Ghostbusters,Ghostbusters,Other,Included,2
+608,Disney,Disney,Licensed worlds,After selected end year,12
+608,Disney,Disney,Licensed worlds,Included,60
+609,The LEGO Batman Movie Series 1,Collectible Minifigures,Other,Included,23
+610,Brickheadz,Brickheadz,Other,After selected end year,15
+610,Brickheadz,Brickheadz,Other,Included,186
+611,Series 17 Minifigures,Collectible Minifigures,Other,Included,19
+614,Jungle,City,Town & everyday life,Included,17
+615,Cars,Juniors,Other,Included,8
+616,The LEGO Ninjago Movie,Ninjago,Action & adventure,Included,35
+617,DC Super Hero Girls,DC Super Hero Girls,Other,Included,12
+618,The LEGO Ninjago Movie,Collectible Minifigures,Other,Included,23
+619,Cities of Wonders,LEGO Brand Store,Other,Included,18
+620,Jurassic World: Fallen Kingdom,Juniors,Other,Included,3
+621,Classic,Classic,Creative building,After selected end year,1
+621,Classic,Classic,Creative building,Bundle name rule,1
+621,Classic,Classic,Creative building,Included,77
+622,Series 18 Minifigures,Collectible Minifigures,Other,Included,20
+625,Unikitty!,Unikitty!,Other,Included,26
+626,Bob the Builder,Duplo,Preschool,Included,31
+627,Planes,Duplo,Preschool,Included,4
+628,Dora the Explorer,Duplo,Preschool,Bundle name rule,1
+628,Dora the Explorer,Duplo,Preschool,Included,4
+629,Miles From Tomorrowland,Duplo,Preschool,Included,3
+630,Marvel,Duplo,Preschool,After selected end year,2
+630,Marvel,Duplo,Preschool,Included,9
+631,Thomas & Friends,Duplo,Preschool,Included,18
+632,Town,Duplo,Preschool,After selected end year,5
+632,Town,Duplo,Preschool,Included,357
+633,Toy Story,Duplo,Preschool,Included,6
+634,Trains,Duplo,Preschool,Bundle name rule,1
+634,Trains,Duplo,Preschool,Included,70
+635,Winnie the Pooh,Duplo,Preschool,Included,19
+636,My Town,Duplo,Preschool,Included,11
+638,Jake and the Never Land Pirates,Duplo,Preschool,Included,7
+639,Sofia the First,Duplo,Preschool,Included,3
+640,Disney Princess,Duplo,Preschool,After selected end year,1
+640,Disney Princess,Duplo,Preschool,Included,19
+641,Mickey & Friends,Duplo,Preschool,After selected end year,1
+641,Mickey & Friends,Duplo,Preschool,Included,18
+646,Xtra,Xtra,Other,Included,19
+647,Castle,Duplo,Preschool,Included,13
+648,Doc McStuffins,Duplo,Preschool,Included,4
+650,Legoville,Duplo,Preschool,Bundle name rule,7
+650,Legoville,Duplo,Preschool,Included,70
+651,Pirates,Duplo,Preschool,Included,4
+652,Playhouse,Duplo,Preschool,Included,59
+653,DC Comics,Duplo,Preschool,Included,8
+654,The Powerpuff Girls,The Powerpuff Girls,Other,Included,2
+655,Powered Up,Power Functions,Other,After selected end year,5
+655,Powered Up,Power Functions,Other,Included,19
+656,Harry Potter and Fantastic Beasts Series 1,Collectible Minifigures,Other,Included,25
+657,Action Wheelers,Duplo,Preschool,Included,9
+658,Dino,Duplo,Preschool,Included,16
+659,Dolls,Duplo,Preschool,Included,6
+660,Little Forest Friends,Duplo,Preschool,Included,10
+661,Little Robots,Duplo,Preschool,Bundle name rule,1
+661,Little Robots,Duplo,Preschool,Included,15
+662,Princess Castle,Duplo,Preschool,Included,6
+663,Rattles,Duplo,Preschool,Included,23
+664,Toolo,Duplo,Preschool,Included,13
+665,Western,Duplo,Preschool,Included,9
+666,Zooters,Duplo,Preschool,Included,3
+667,Fantastic Beasts,Harry Potter,Licensed worlds,Included,2
+668,Scala,Scala,Other,Included,73
+669,Overwatch,Overwatch,Other,Included,13
+670,The LEGO Movie II,The LEGO Movie,Other,Included,42
+671,Forma,Forma,Other,Included,4
+672,Creator 3-in-1,Creator,Creative building,After selected end year,23
+672,Creator 3-in-1,Creator,Creative building,Bundle name rule,1
+672,Creator 3-in-1,Creator,Creative building,Included,252
+673,Creator Expert,Creator,Creative building,Included,51
+674,Early Creator,Creator,Creative building,Included,37
+675,The LEGO Movie II,Collectible Minifigures,Other,Included,23
+676,Hidden Side,Hidden Side,Action & adventure,Included,32
+677,Disney Series 2,Collectible Minifigures,Other,Included,21
+679,Mars Exploration,City,Town & everyday life,Included,12
+680,Stranger Things,Stranger Things,Other,Included,3
+681,Series 19 Minifigures,Collectible Minifigures,Other,Included,20
+682,Trolls: World Tour,Trolls: World Tour,Other,Included,9
+683,LEGO Originals,LEGO Originals,Other,Included,21
+684,DC Super Heroes,Collectible Minifigures,Other,Included,19
+685,Galidor,Galidor,Other,Included,21
+686,Chinese Traditional Festivals,Chinese Traditional Festivals,Other,After selected end year,2
+686,Chinese Traditional Festivals,Chinese Traditional Festivals,Other,Included,35
+687,Frozen,Disney,Licensed worlds,After selected end year,3
+687,Frozen,Disney,Licensed worlds,Included,36
+688,DOTS,DOTS,Other,Included,94
+689,Minions,Minions,Other,Included,9
+690,Super Mario,Super Mario,Licensed worlds,After selected end year,10
+690,Super Mario,Super Mario,Licensed worlds,Included,180
+691,Harry Potter and Fantastic Beasts Series 2,Collectible Minifigures,Other,Included,19
+692,Series 20 Minifigures,Collectible Minifigures,Other,Included,19
+693,Monkie Kid,Monkie Kid,Action & adventure,Included,58
+694,Brick Sketches,Brick Sketches,Other,Included,8
+695,Super Heroes DC,Super Heroes DC,Other,Included,30
+696,Super Heroes Marvel,Super Heroes Marvel,Other,After selected end year,2
+696,Super Heroes Marvel,Super Heroes Marvel,Other,Included,55
+697,Batman,Super Heroes DC,Other,After selected end year,12
+697,Batman,Super Heroes DC,Other,Included,138
+698,UCS,Super Heroes DC,Other,Included,6
+700,Justice League,Super Heroes DC,Other,Included,16
+701,Superman,Super Heroes DC,Other,Included,16
+702,Avengers,Super Heroes Marvel,Other,After selected end year,9
+702,Avengers,Super Heroes Marvel,Other,Included,98
+704,Guardians of the Galaxy,Super Heroes Marvel,Other,Included,16
+705,Iron Man,Super Heroes Marvel,Other,Included,6
+706,Spider-Man,Super Heroes Marvel,Other,After selected end year,15
+706,Spider-Man,Super Heroes Marvel,Other,Included,114
+707,X-Men,Super Heroes Marvel,Other,Included,9
+708,The LEGO Batman Movie,Super Heroes DC,Other,Included,44
+709,LEGO Art,LEGO Art,Other,After selected end year,3
+709,LEGO Art,LEGO Art,Other,Included,23
+710,Harry Potter,Seasonal,Other,Included,7
+711,The LEGO Batman Movie Series 2,Collectible Minifigures,Other,Included,23
+712,Series 21 Minifigures,Collectible Minifigures,Other,Included,16
+713,VIDIYO,VIDIYO,Other,Included,50
+714,Looney Tunes,Collectible Minifigures,Other,Included,16
+715,Marvel Series 1,Collectible Minifigures,Other,Included,16
+716,Modulex,Modulex,Other,Included,35
+717,Speed Racer,Speed Racer,Other,Included,4
+718,Series 22 Minifigures,Collectible Minifigures,Other,Included,16
+719,BrickLink Designer Program,BrickLink Designer Program,Other,After selected end year,20
+719,BrickLink Designer Program,BrickLink Designer Program,Other,Included,53
+720,The Muppets,Collectible Minifigures,Other,Included,16
+721,Icons,Icons,Buildings & display,After selected end year,22
+721,Icons,Icons,Buildings & display,Included,68
+722,Jurassic World,Duplo,Preschool,Included,5
+724,Avatar,Avatar,Licensed worlds,Included,9
+725,Series 23 Minifigures,Collectible Minifigures,Other,Included,16
+728,McDonalds,Promotional,Other,Included,20
+729,Airlines,Promotional,Other,Included,16
+730,Audio and Visual Media,Gear,Other,Excluded theme branch,94
+731,Bag and Luggage Tags,Gear,Other,After selected end year,9
+731,Bag and Luggage Tags,Gear,Other,Excluded theme branch,126
+732,Clocks and Watches,Gear,Other,After selected end year,4
+732,Clocks and Watches,Gear,Other,Excluded theme branch,226
+733,Houseware,Gear,Other,After selected end year,63
+733,Houseware,Gear,Other,Excluded theme branch,563
+734,Magnets,Gear,Other,After selected end year,38
+734,Magnets,Gear,Other,Excluded theme branch,154
+735,Plush Toys,Gear,Other,After selected end year,22
+735,Plush Toys,Gear,Other,Excluded theme branch,140
+736,Posters and Art Prints,Gear,Other,After selected end year,9
+736,Posters and Art Prints,Gear,Other,Excluded theme branch,95
+737,Role Play Toys and Costumes,Gear,Other,After selected end year,1
+737,Role Play Toys and Costumes,Gear,Other,Excluded theme branch,235
+738,Seasonal,Gear,Other,After selected end year,1
+738,Seasonal,Gear,Other,Excluded theme branch,76
+739,Stationery and Office Supplies,Gear,Other,After selected end year,118
+739,Stationery and Office Supplies,Gear,Other,Excluded theme branch,723
+740,Storage,Gear,Other,After selected end year,2
+740,Storage,Gear,Other,Excluded theme branch,183
+741,Tabletop Games and Puzzles,Gear,Other,After selected end year,25
+741,Tabletop Games and Puzzles,Gear,Other,Excluded theme branch,84
+742,Video Games and Accessories,Gear,Other,After selected end year,1
+742,Video Games and Accessories,Gear,Other,Excluded theme branch,296
+743,Series 24 Minifigures,Collectible Minifigures,Other,Included,16
+744,Stuntz,City,Town & everyday life,Included,26
+745,Disney 100,Collectible Minifigures,Other,Included,22
+746,Database Sets,Other,Other,After selected end year,4
+746,Database Sets,Other,Other,Included,127
+747,Sonic The Hedgehog,Sonic The Hedgehog,Licensed worlds,After selected end year,5
+747,Sonic The Hedgehog,Sonic The Hedgehog,Licensed worlds,Included,20
+748,Gabby's Dollhouse,Gabby's Dollhouse,Other,After selected end year,3
+748,Gabby's Dollhouse,Gabby's Dollhouse,Other,Included,9
+749,Dreamzzz,Dreamzzz,Action & adventure,After selected end year,6
+749,Dreamzzz,Dreamzzz,Action & adventure,Included,61
+750,Marvel Series 2,Collectible Minifigures,Other,Included,17
+751,Marvel,Seasonal,Other,After selected end year,1
+751,Marvel,Seasonal,Other,Included,4
+752,Animal Crossing,Animal Crossing,Other,After selected end year,2
+752,Animal Crossing,Animal Crossing,Other,Included,17
+753,Series 25 Minifigures,Collectible Minifigures,Other,Included,16
+755,Spidey and His Amazing Friends,Super Heroes Marvel,Other,After selected end year,3
+755,Spidey and His Amazing Friends,Super Heroes Marvel,Other,Included,13
+756,Samsonite,System,Other,Included,119
+757,Ideas Books,Books,Other,After selected end year,6
+757,Ideas Books,Books,Other,Excluded theme branch,123
+758,Non-fiction Books,Books,Other,After selected end year,4
+758,Non-fiction Books,Books,Other,Excluded theme branch,187
+759,Story Books,Books,Other,After selected end year,26
+759,Story Books,Books,Other,Excluded theme branch,393
+760,Activity Books,Books,Other,After selected end year,11
+760,Activity Books,Books,Other,Excluded theme branch,247
+761,Activity Books with LEGO Parts,Books,Other,After selected end year,51
+761,Activity Books with LEGO Parts,Books,Other,Excluded theme branch,416
+762,Series 26 Minifigures,Collectible Minifigures,Other,Included,16
+763,Despicable Me 4,Despicable Me 4,Other,Included,5
+764,The Legend of Zelda,The Legend of Zelda,Other,After selected end year,1
+764,The Legend of Zelda,The Legend of Zelda,Other,Included,1
+765,Wicked,Wicked,Other,Included,11
+766,Fortnite,Fortnite,Other,After selected end year,4
+766,Fortnite,Fortnite,Other,Included,11
+767,Dungeons & Dragons,Collectible Minifigures,Other,Included,16
+768,Wednesday,Wednesday,Other,After selected end year,2
+768,Wednesday,Wednesday,Other,Included,5
+769,Botanicals,Botanicals,Buildings & display,After selected end year,22
+769,Botanicals,Botanicals,Buildings & display,Included,33
+770,Horizon Adventures,Horizon Adventures,Other,Included,1
+771,Series 27 Minifigures,Collectible Minifigures,Other,Included,16
+772,Bluey,Bluey,Other,After selected end year,4
+772,Bluey,Bluey,Other,Included,5
+774,Formula 1,Collectible Minifigures,Other,Included,17
+775,One Piece,One Piece,Other,After selected end year,11
+775,One Piece,One Piece,Other,Included,6
+776,Pokémon,Pokémon,Other,After selected end year,31
+777,"Bags, Totes, & Luggage",Gear,Other,After selected end year,83
+777,"Bags, Totes, & Luggage",Gear,Other,Excluded theme branch,894
+778,VIP Add-On Packs,Promotional,Other,Included,10
+779,Chinese (Lunar) New Year,Seasonal,Other,After selected end year,1
+779,Chinese (Lunar) New Year,Seasonal,Other,Included,31
+780,Disney,Seasonal,Other,After selected end year,1
+780,Disney,Seasonal,Other,Included,2
+781,The Infinity Saga,Super Heroes Marvel,Other,After selected end year,4
+781,The Infinity Saga,Super Heroes Marvel,Other,Included,54
+782,Captain America,Super Heroes Marvel,Other,Included,11
+783,Incredibles 2,Juniors,Other,Included,3
+784,Spider-Man - Across the Spider-Verse,Collectible Minifigures,Other,Included,17
+785,Nike,Nike,Other,After selected end year,1
+785,Nike,Nike,Other,Included,4
+786,Series 28 Minifigures,Collectible Minifigures,Other,After selected end year,16
+787,Editions,Editions,Other,After selected end year,25
+788,Bluey,Duplo,Preschool,After selected end year,1
+788,Bluey,Duplo,Preschool,Included,2
+789,Peppa Pig,Duplo,Preschool,After selected end year,3
+789,Peppa Pig,Duplo,Preschool,Included,8
+790,Seasonal,Duplo,Preschool,Included,4
+791,Learning at Home,Educational and Dacta,Other,After selected end year,4
+792,KPop Demon Hunters,KPop Demon Hunters,Other,After selected end year,1
+793,Space,City,Town & everyday life,Included,18
+794,Lightyear,Disney,Licensed worlds,Included,3
+795,Series 29 Minifigures,Collectible Minifigures,Other,After selected end year,16
+796,Shrek,Shrek,Other,After selected end year,1
+797,Iron Man and His Awesome Friends,Super Heroes Marvel,Other,After selected end year,2
+798,Shrek,Collectible Minifigures,Other,After selected end year,17
+799,Clothing & Footwear,Gear,Other,After selected end year,77
+799,Clothing & Footwear,Gear,Other,Excluded theme branch,636

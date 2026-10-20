@@ -77,7 +77,7 @@
       },
 
       "legend": {
-        "orient": "bottom"
+        "orient": "bottom-left"
       }
     },
 
@@ -101,9 +101,6 @@
   },
 
   "config": {
-    "view": {
-      "stroke": null
-    },
     "font": "Arial",
     "title": {
       "fontSize": 18,

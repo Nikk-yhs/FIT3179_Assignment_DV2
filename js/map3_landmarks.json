@@ -80,7 +80,6 @@
 
       "mark": {
         "type": "circle",
-        "color": "#2563eb",
         "opacity": 0.75,
         "stroke": "white",
         "strokeWidth": 1
@@ -109,10 +108,37 @@
           },
 
           "legend": {
-            "orient": "bottom",
+            "orient": "bottom-left",
             "values": [1500, 3000, 10000],
-            "format": ","
+            "format": ",.0f"
           }
+        },
+
+        "color": {
+            "field": "continent",
+            "type": "nominal",
+            "title": "Continent",
+            "scale": {
+                "domain": [
+                    "Africa",
+                    "Asia",
+                    "Europe",
+                    "North America",
+                    "Oceania"
+                ],
+                "range": [
+                    "#E69F00",
+                    "#009E73",
+                    "#0072B2",
+                    "#CC79A7",
+                    "#D55E00"
+                ]
+            },
+            "legend": {
+                "orient": "top-right",
+                "symbolType": "circle",
+                "symbolSize": 100
+            } 
         },
 
         "tooltip": [
@@ -143,9 +169,6 @@
   ],
 
   "config": {
-    "view": {
-      "stroke": null
-    },
     "font": "Arial",
     "title": {
       "fontSize": 18,
