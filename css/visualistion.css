@@ -33,6 +33,47 @@
 #c2-annual{
     display: block;
     width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: auto;
+    padding-right: 0;
+}
+
+.outer.theme-chart-container {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+#c3-set-themes {
+    display: block;
+    width: max-content;
+    margin: 0;
+    padding: 0;
+}
+
+#c4-set-change-time{
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+}
+
+#c5-record-pieces{
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+}
+
+#c6-themes-endure{
+    display: block;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding-right: 0;

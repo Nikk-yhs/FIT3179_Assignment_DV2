@@ -27,3 +27,27 @@ var vg_4 = "js/c2.json"
 vegaEmbed('#c2-annual', vg_4).then(function(result){
 
 }).catch(console.error);
+
+var vg_4 = "js/c3.json"
+
+vegaEmbed('#c3-set-themes', vg_4).then(function(result){
+
+}).catch(console.error);
+
+var vg_5 = "js/c4.json"
+
+vegaEmbed('#c4-set-change-time', vg_5).then(function(result){
+
+}).catch(console.error);
+
+var vg_6 = "js/c5.json"
+
+vegaEmbed('#c5-record-pieces', vg_6).then(function(result){
+
+}).catch(console.error);
+
+var vg_6 = "js/c6.json"
+
+vegaEmbed('#c6-themes-endure', vg_6).then(function(result){
+
+}).catch(console.error);

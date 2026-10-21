@@ -1,0 +1,213 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": 800,
+  "height": {"step": 32},
+
+  "title": {
+    "text": "Themes that endure",
+    "subtitle": [
+      "Dot area shows set designs released. Families are ordered by first observed release.",
+      "× = no records and coverage unverified. Blank = no records in reviewed coverage.",
+      "A first-to-last span does not establish uninterrupted production."
+    ],
+    "anchor": "start"
+  },
+
+  "params": [
+    {
+      "name": "activityFamily",
+      "value": "All families",
+      "bind": {
+        "input": "select",
+        "name": "Theme family: ",
+        "options": [
+          "All families",
+          "Town & everyday life",
+          "Space",
+          "Castle & fantasy",
+          "Pirates",
+          "Technic & engineering",
+          "Creative building",
+          "Preschool",
+          "Buildings & display",
+          "Vehicles & racing",
+          "Action & adventure",
+          "Licensed worlds",
+          "Other"
+        ]
+      }
+    }
+  ],
+
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "title": "Release year",
+      "scale": {"zero": false},
+      "axis": {
+        "format": "d",
+        "tickMinStep": 1,
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "theme_family",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+        "field": "first_year",
+        "op": "min",
+        "order": "ascending"
+      },
+      "axis": {
+        "labelLimit": 200
+      }
+    }
+  },
+
+  "layer": [
+    {
+      "data": {
+        "url": "data/theme_coverage.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "year": "number",
+            "set_count": "number",
+            "first_year": "number"
+          }
+        }
+      },
+
+      "transform": [
+        {
+          "filter": "activityFamily == 'All families' || datum.theme_family == activityFamily"
+        },
+        {
+          "filter": "datum.set_count == 0 && datum.coverage_status == 'unknown'"
+        }
+      ],
+
+      "mark": {
+        "type": "point",
+        "shape": "cross",
+        "angle": 45,
+        "size": 18,
+        "color": "#b1b5bc",
+        "strokeWidth": 0.7
+      },
+
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "theme_family",
+            "type": "nominal",
+            "title": "Theme family"
+          },
+          {
+            "field": "year",
+            "type": "quantitative",
+            "title": "Year",
+            "format": "d"
+          },
+          {
+            "field": "coverage_status",
+            "type": "nominal",
+            "title": "No records; coverage"
+          }
+        ]
+      }
+    },
+
+    {
+      "data": {
+        "url": "data/theme_activity.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "year": "number",
+            "set_count": "number"
+          }
+        }
+      },
+
+      "transform": [
+        {
+          "joinaggregate": [
+            {
+              "op": "min",
+              "field": "year",
+              "as": "first_year"
+            }
+          ],
+          "groupby": ["theme_family"]
+        },
+        {
+          "filter": "activityFamily == 'All families' || datum.theme_family == activityFamily"
+        }
+      ],
+
+      "mark": {
+        "type": "circle",
+        "color": "#147d64",
+        "opacity": 0.85
+      },
+
+      "encoding": {
+        "size": {
+          "field": "set_count",
+          "type": "quantitative",
+          "title": "Set designs released",
+          "scale": {
+            "type": "linear",
+            "zero": true,
+            "range": [0, 320]
+          },
+          "legend": {
+            "orient": "bottom"
+          }
+        },
+
+        "tooltip": [
+          {
+            "field": "theme_family",
+            "type": "nominal",
+            "title": "Theme family"
+          },
+          {
+            "field": "year",
+            "type": "quantitative",
+            "title": "Release year",
+            "format": "d"
+          },
+          {
+            "field": "set_count",
+            "type": "quantitative",
+            "title": "Set designs released",
+            "format": ",d"
+          },
+          {
+            "field": "first_year",
+            "type": "quantitative",
+            "title": "First observed release year",
+            "format": "d"
+          }
+        ]
+      }
+    }
+  ],
+
+  "config": {
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#eeeeee"
+    },
+    "title": {
+      "fontSize": 20,
+      "subtitleFontSize": 12
+    }
+  }
+}
