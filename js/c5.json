@@ -1,0 +1,136 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Ten largest eligible catalogue entries by piece count, through 2025.",
+  "title": {
+    "text": "10 largest LEGO sets through 2025",
+    "subtitle": [
+      "Ranked by catalogue piece count. Includes eligible promotional entries.",
+      "Equal piece counts share a rank."
+    ],
+    "anchor": "start",
+    "fontSize": 22,
+    "subtitleFontSize": 12,
+    "offset": 20
+  },
+  "data": {
+    "url": "data/largest_sets.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "rank": "number",
+        "position": "number",
+        "year": "number",
+        "pieces": "number"
+      }
+    }
+  },
+  "width": 620,
+  "height": {
+    "step": 44
+  },
+  "encoding": {
+    "y": {
+        "field": "label",
+        "type": "nominal",
+        "sort": {
+            "field": "pieces",
+            "op": "max",
+            "order": "descending"
+        },
+        "axis": {
+        "title": null,
+        "labelFontSize": 12,
+        "labelLimit": 300,
+        "labelPadding": 10,
+        "ticks": false,
+        "domain": false
+        }
+    },
+    "x": {
+      "field": "pieces",
+      "type": "quantitative",
+      "scale": {
+        "domain": [0, 13000],
+        "zero": true
+      },
+      "axis": {
+        "title": "Number of pieces",
+        "format": ",d",
+        "tickCount": 6,
+        "grid": true,
+        "domain": false,
+        "titlePadding": 12
+      }
+    },
+    "tooltip": [
+      {
+        "field": "rank",
+        "type": "ordinal",
+        "title": "Rank"
+      },
+      {
+        "field": "name",
+        "type": "nominal",
+        "title": "Set"
+      },
+      {
+        "field": "set_num",
+        "type": "nominal",
+        "title": "Set number"
+      },
+      {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Release year"
+      },
+      {
+        "field": "pieces",
+        "type": "quantitative",
+        "title": "Pieces",
+        "format": ",d"
+      },
+      {
+        "field": "verification",
+        "type": "nominal",
+        "title": "Verification"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "color": "#99A3A8",
+        "stroke": "#737D82",
+        "strokeWidth": 1,
+        "cornerRadiusEnd": 3,
+        "size": 30
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 7,
+        "fontSize": 13,
+        "fontWeight": "bold",
+        "color": "#252525"
+      },
+      "encoding": {
+        "text": {
+          "field": "pieces",
+          "type": "quantitative",
+          "format": ",d"
+        }
+      }
+    }
+  ],
+  "config": {
+    "axis": {
+      "gridColor": "#EAEAEA",
+      "labelColor": "#444444",
+      "titleColor": "#333333"
+    }
+  }
+}

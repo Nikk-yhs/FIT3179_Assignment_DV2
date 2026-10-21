@@ -2,6 +2,10 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
   "spacing": 30,
+  "autosize":{
+    "type": "pad",
+    "resize": true
+  },
   "vconcat": [
     {
       "width": 750,
