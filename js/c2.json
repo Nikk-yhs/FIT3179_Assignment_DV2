@@ -63,11 +63,6 @@
       "labelFontSize": 11,
       "titleFontSize": 12,
       "gridColor": "#eeeeee"
-    },
-    "title": {
-      "fontSize": 20,
-      "subtitleFontSize": 12,
-      "subtitlePadding": 8
     }
   }
 }

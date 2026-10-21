@@ -1,0 +1,227 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "spacing": 30,
+  "vconcat": [
+    {
+      "width": 750,
+      "height": {
+        "step": 29
+      },
+      "data": {
+        "url": "data/theme_decades.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "decade": "number",
+            "set_count": "number"
+          }
+        }
+      },
+      "params": [
+        {
+          "name": "selectedThemeCell",
+          "select": {
+            "type": "point",
+            "fields": [
+              "decade",
+              "theme_family"
+            ],
+            "toggle": false,
+            "clear": "dblclick"
+          }
+        }
+      ],
+      "mark": {
+        "type": "rect",
+        "stroke": "white",
+        "strokeWidth": 2,
+        "cursor": "pointer"
+      },
+      "encoding": {
+        "x": {
+          "field": "decade",
+          "type": "ordinal",
+          "sort": "ascending",
+          "title": "Release decade",
+          "axis": {
+            "labelAngle": 0,
+            "labelExpr": "datum.label + 's'"
+          }
+        },
+        "y": {
+          "field": "theme_family",
+          "type": "nominal",
+          "title": null,
+          "sort": [
+            "Town & everyday life",
+            "Space",
+            "Castle & fantasy",
+            "Pirates",
+            "Technic & engineering",
+            "Creative building",
+            "Preschool",
+            "Buildings & display",
+            "Vehicles & racing",
+            "Action & adventure",
+            "Licensed worlds",
+            "Other"
+          ],
+          "axis": {
+            "labelLimit": 170,
+            "labelPadding": 8,
+            "minExtent": 185,
+            "maxExtent": 200
+          }
+        },
+        "color": {
+          "field": "set_count",
+          "type": "quantitative",
+          "title": "Set designs released",
+          "scale": {
+            "scheme": "yelloworangered",
+            "zero": true
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "gradientLength": 260,
+            "format": ",.0f"
+          }
+        },
+        "opacity": {
+          "condition": {
+            "param": "selectedThemeCell",
+            "value": 1
+          },
+          "value": 0.4
+        },
+        "tooltip": [
+          {
+            "field": "theme_family",
+            "type": "nominal",
+            "title": "Theme family"
+          },
+          {
+            "field": "decade",
+            "type": "ordinal",
+            "title": "Decade starting"
+          },
+          {
+            "field": "set_count",
+            "type": "quantitative",
+            "title": "Set designs released",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "width": 750,
+      "height": {
+        "step": 24
+      },
+      "title": {
+        "text": "Themes in the selected family and decade",
+        "subtitle": "Click a heatmap cell above. A zero-count cell has no theme bars.",
+        "anchor": "start",
+        "align": "left",
+        "frame": "group",
+        "fontSize": 15,
+        "offset":12
+      },
+      "data": {
+        "url": "data/theme_drilldown.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "decade": "number",
+            "theme_id": "number",
+            "set_count": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": {
+            "param": "selectedThemeCell",
+            "empty": false
+          }
+        }
+      ],
+      "mark": {
+        "type": "bar",
+        "color": "#2563eb"
+      },
+      "encoding": {
+        "y": {
+          "field": "theme_label",
+          "type": "nominal",
+          "title": null,
+          "sort": "-x",
+          "axis": {
+            "labelLimit": 230
+          }
+        },
+        "x": {
+          "field": "set_count",
+          "type": "quantitative",
+          "title": "Set designs released",
+          "scale": {
+            "zero": true
+          },
+          "axis": {
+            "labelLimit": 170,
+            "labelPadding": 8,
+            "minExtent": 185,
+            "maxExtent": 200
+          }
+        },
+        "tooltip": [
+          {
+            "field": "theme_label",
+            "type": "nominal",
+            "title": "Theme [ID]"
+          },
+          {
+            "field": "theme_family",
+            "type": "nominal",
+            "title": "Theme family"
+          },
+          {
+            "field": "decade",
+            "type": "ordinal",
+            "title": "Decade starting"
+          },
+          {
+            "field": "set_count",
+            "type": "quantitative",
+            "title": "Set designs released",
+            "format": ",.0f"
+          }
+        ]
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "x": "independent",
+      "y": "independent",
+      "color": "independent"
+    }
+  },
+  "config": {
+    "axisY": {
+    "labelLimit": 170,
+    "labelPadding": 8,
+    "minExtent": 185,
+    "maxExtent": 185  
+    },
+    "axis": {
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#eeeeee"
+    }
+  }
+}
