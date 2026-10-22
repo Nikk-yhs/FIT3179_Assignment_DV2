@@ -46,8 +46,15 @@ vegaEmbed('#c5-record-pieces', vg_6).then(function(result){
 
 }).catch(console.error);
 
-var vg_6 = "js/c6.json"
+var vg_7 = "js/c6.json"
 
-vegaEmbed('#c6-themes-endure', vg_6).then(function(result){
+vegaEmbed('#c6-themes-endure', vg_7).then(function(result){
 
 }).catch(console.error);
+
+var vg_8 = "js/c7.json"
+
+vegaEmbed('#c7-licensed-products', vg_8).then(function(result){
+
+}).catch(console.error);
+

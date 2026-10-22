@@ -1,0 +1,177 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 900,
+  "height": 340,
+  "autosize": {"type": "pad", "resize": true},
+
+  "title": {
+    "text": "Familiar stories enter the toy box",
+    "subtitle": [
+      "Share of eligible set designs released each year",
+      "Classification in progress — grey entries have not been resolved."
+    ],
+    "anchor": "start"
+  },
+
+  "data": {
+    "url": "data/licence_mix.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "set_count": "number",
+        "total_eligible": "number"
+      }
+    }
+  },
+
+  "params": [
+    {
+      "name": "franchiseChoice",
+      "value": "All licensed",
+      "bind": {
+        "input": "select",
+        "name": "Licensed selection: ",
+        "options": [
+          "All licensed",
+          "Star Wars",
+          "Harry Potter / Fantastic Beasts",
+          "Jurassic Park / World",
+          "Marvel",
+          "DC",
+          "Disney / Pixar",
+          "Minecraft",
+          "Super Mario",
+          "Sonic the Hedgehog",
+          "Branded vehicles",
+          "Formula 1",
+          "Nike",
+          "FIRST LEGO League"
+        ]
+      }
+    }
+  ],
+
+  "transform": [
+    {
+      "calculate": "datum.licence_status !== 'Licensed' ? datum.licence_status : (franchiseChoice === 'All licensed' || datum.franchise === franchiseChoice ? 'Licensed: selected' : 'Licensed: other')",
+      "as": "segment"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "set_count",
+          "as": "n"
+        },
+        {
+          "op": "max",
+          "field": "total_eligible",
+          "as": "eligible_n"
+        }
+      ],
+      "groupby": ["year", "segment"]
+    },
+    {
+      "calculate": "datum.n / datum.eligible_n",
+      "as": "share"
+    },
+    {
+      "calculate": "datum.segment === 'Original' ? 0 : datum.segment === 'Licensed: selected' ? 1 : datum.segment === 'Licensed: other' ? 2 : 3",
+      "as": "stack_order"
+    }
+  ],
+
+  "mark": {"type": "bar"},
+
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "sort": "ascending",
+      "title": "Release year",
+      "axis": {
+        "labelAngle": 0,
+        "labelExpr": "datum.value % 5 === 0 ? datum.label : ''"
+      }
+    },
+    "y": {
+      "field": "share",
+      "type": "quantitative",
+      "stack": "zero",
+      "title": "Share of all eligible releases",
+      "scale": {"domain": [0, 1]},
+      "axis": {"format": ".0%"}
+    },
+    "color": {
+      "field": "segment",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+        "domain": [
+          "Original",
+          "Licensed: selected",
+          "Licensed: other",
+          "Unresolved"
+        ],
+        "range": [
+          "#E5B93F",
+          "#2466A8",
+          "#9FC6E0",
+          "#C7C7C7"
+        ]
+      },
+      "legend": {
+        "orient": "bottom",
+        "columns": 2
+      }
+    },
+    "order": {
+      "field": "stack_order",
+      "type": "quantitative",
+      "sort": "ascending"
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      {
+        "field": "segment",
+        "title": "Classification"
+      },
+      {
+        "field": "n",
+        "type": "quantitative",
+        "title": "Set designs",
+        "format": ",d"
+      },
+      {
+        "field": "eligible_n",
+        "type": "quantitative",
+        "title": "All eligible releases",
+        "format": ",d"
+      },
+      {
+        "field": "share",
+        "type": "quantitative",
+        "title": "Share",
+        "format": ".1%"
+      }
+    ]
+  },
+
+  "config": {
+    "font": "Arial",
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "title": {
+      "fontSize": 20,
+      "subtitleFontSize": 12,
+      "offset": 16
+    }
+  }
+}
