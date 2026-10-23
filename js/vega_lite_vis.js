@@ -64,3 +64,8 @@ vegaEmbed('#c8-film-to-lego', vg_9).then(function(result){
 
 }).catch(console.error);
 
+var vg_10 = "js/c9.json"
+vegaEmbed('#c9-adult-releases', vg_10).then(function(result){
+
+}).catch(console.error);
+
