@@ -58,3 +58,9 @@ vegaEmbed('#c7-licensed-products', vg_8).then(function(result){
 
 }).catch(console.error);
 
+var vg_9 = "js/c8.json"
+
+vegaEmbed('#c8-film-to-lego', vg_9).then(function(result){
+
+}).catch(console.error);
+

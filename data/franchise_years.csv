@@ -1,0 +1,82 @@
+franchise,year,set_count,film_code,film_title,source_url
+Star Wars,1999,14,I,The Phantom Menace,https://www.starwars.com/news/star-wars-movies-and-series-guide
+Star Wars,2000,27,,,
+Star Wars,2001,14,,,
+Star Wars,2002,31,II,Attack of the Clones,https://www.starwars.com/news/star-wars-movies-and-series-guide
+Star Wars,2003,26,,,
+Star Wars,2004,24,,,
+Star Wars,2005,29,III,Revenge of the Sith,https://www.starwars.com/news/star-wars-movies-and-series-guide
+Star Wars,2006,11,,,
+Star Wars,2007,17,,,
+Star Wars,2008,24,CW,The Clone Wars,https://www.starwars.com/news/star-wars-movies-and-series-guide
+Star Wars,2009,37,,,
+Star Wars,2010,30,,,
+Star Wars,2011,34,,,
+Star Wars,2012,44,,,
+Star Wars,2013,44,,,
+Star Wars,2014,48,,,
+Star Wars,2015,71,VII,The Force Awakens,https://www.starwars.com/news/star-wars-movies-and-series-guide
+Star Wars,2016,65,R1,Rogue One,https://www.starwars.com/news/star-wars-movies-and-series-guide
+Star Wars,2017,70,VIII,The Last Jedi,https://www.starwars.com/news/star-wars-movies-and-series-guide
+Star Wars,2018,80,Solo,Solo,https://www.starwars.com/news/star-wars-movies-and-series-guide
+Star Wars,2019,60,IX,The Rise of Skywalker,https://www.starwars.com/news/star-wars-movies-and-series-guide
+Star Wars,2020,51,,,
+Star Wars,2021,38,,,
+Star Wars,2022,44,,,
+Star Wars,2023,50,,,
+Star Wars,2024,60,,,
+Star Wars,2025,54,,,
+Harry Potter / Fantastic Beasts,1999,0,,,
+Harry Potter / Fantastic Beasts,2000,0,,,
+Harry Potter / Fantastic Beasts,2001,11,HP1,Harry Potter and the Sorcerer's Stone,https://www.warnerbros.com/movies/harry-potter-and-sorcerers-stone
+Harry Potter / Fantastic Beasts,2002,19,HP2,Harry Potter and the Chamber of Secrets,https://www.warnerbros.com/movies/harry-potter-and-chamber-secrets
+Harry Potter / Fantastic Beasts,2003,3,,,
+Harry Potter / Fantastic Beasts,2004,14,HP3,Harry Potter and the Prisoner of Azkaban,https://www.warnerbros.com/movies/harry-potter-and-prisoner-azkaban
+Harry Potter / Fantastic Beasts,2005,5,HP4,Harry Potter and the Goblet of Fire,https://www.warnerbros.com/movies/harry-potter-and-goblet-fire
+Harry Potter / Fantastic Beasts,2006,0,,,
+Harry Potter / Fantastic Beasts,2007,1,HP5,Harry Potter and the Order of the Phoenix,https://www.warnerbros.com/movies/harry-potter-and-order-phoenix
+Harry Potter / Fantastic Beasts,2008,0,,,
+Harry Potter / Fantastic Beasts,2009,0,HP6,Harry Potter and the Half-Blood Prince,https://www.warnerbros.com/movies/harry-potter-and-half-blood-prince
+Harry Potter / Fantastic Beasts,2010,6,HP7,Harry Potter and the Deathly Hallows: Part 1,https://www.warnerbros.com/movies/harry-potter-and-deathly-hallows-part-1
+Harry Potter / Fantastic Beasts,2011,8,HP8,Harry Potter and the Deathly Hallows: Part 2,https://www.warnerbros.com/movies/harry-potter-and-deathly-hallows-part-2
+Harry Potter / Fantastic Beasts,2012,0,,,
+Harry Potter / Fantastic Beasts,2013,0,,,
+Harry Potter / Fantastic Beasts,2014,0,,,
+Harry Potter / Fantastic Beasts,2015,0,,,
+Harry Potter / Fantastic Beasts,2016,3,FB1,Fantastic Beasts and Where to Find Them,https://www.warnerbros.com/movies/fantastic-beasts-and-where-find-them
+Harry Potter / Fantastic Beasts,2017,1,,,
+Harry Potter / Fantastic Beasts,2018,48,FB2,Fantastic Beasts: The Crimes of Grindelwald,https://www.warnerbros.com/movies/fantastic-beasts-crimes-grindelwald
+Harry Potter / Fantastic Beasts,2019,9,,,
+Harry Potter / Fantastic Beasts,2020,31,,,
+Harry Potter / Fantastic Beasts,2021,20,,,
+Harry Potter / Fantastic Beasts,2022,16,FB3,Fantastic Beasts: The Secrets of Dumbledore,https://fantasticbeasts.com/
+Harry Potter / Fantastic Beasts,2023,26,,,
+Harry Potter / Fantastic Beasts,2024,22,,,
+Harry Potter / Fantastic Beasts,2025,22,,,
+Jurassic Park / World,1999,0,,,
+Jurassic Park / World,2000,0,,,
+Jurassic Park / World,2001,2,JP3,Jurassic Park III,https://www.universalpicturesathome.com/movies/jurassic-park-iii
+Jurassic Park / World,2002,0,,,
+Jurassic Park / World,2003,0,,,
+Jurassic Park / World,2004,0,,,
+Jurassic Park / World,2005,0,,,
+Jurassic Park / World,2006,0,,,
+Jurassic Park / World,2007,0,,,
+Jurassic Park / World,2008,0,,,
+Jurassic Park / World,2009,0,,,
+Jurassic Park / World,2010,0,,,
+Jurassic Park / World,2011,0,,,
+Jurassic Park / World,2012,0,,,
+Jurassic Park / World,2013,0,,,
+Jurassic Park / World,2014,0,,,
+Jurassic Park / World,2015,10,JW,Jurassic World,https://www.universalpicturesathome.com/movies/jurassic-world
+Jurassic Park / World,2016,0,,,
+Jurassic Park / World,2017,0,,,
+Jurassic Park / World,2018,21,JW2,Jurassic World: Fallen Kingdom,https://www.universalpicturesathome.com/movies/jurassic-world-fallen-kingdom
+Jurassic Park / World,2019,7,,,
+Jurassic Park / World,2020,11,,,
+Jurassic Park / World,2021,10,,,
+Jurassic Park / World,2022,24,JW3,Jurassic World Dominion,https://www.universalpicturesathome.com/movies/jurassic-world-dominion
+Jurassic Park / World,2023,15,,,
+Jurassic Park / World,2024,14,,,
+Jurassic Park / World,2025,15,JW4,Jurassic World Rebirth,https://www.universalpicturesathome.com/movies/jurassic-world-rebirth
