@@ -94,3 +94,34 @@
     margin-right: auto;
     padding-right: 0;
 }
+
+.c9-section {
+    width: 100%;
+    max-width: 1100px;
+    min-width: 0;
+    margin: 48px auto;
+    box-sizing: border-box;
+}
+
+.c9-scroll {
+    width: 100%;
+    min-width: 0;
+    overflow-x: auto;
+    padding: 12px 0;
+}
+
+#c9-adult-releases {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.c9-note {
+    max-width: 900px;
+    margin: 16px auto 0;
+    padding: 0 16px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555555;
+}

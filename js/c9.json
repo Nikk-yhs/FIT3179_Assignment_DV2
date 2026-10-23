@@ -1,0 +1,214 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Observed 18+ counts in the eligible catalogue. Age coverage is incomplete; catalogue release years are retained.",
+  "background": "white",
+  "autosize": {
+    "type": "pad",
+    "resize": true
+  },
+  "title": {
+    "text": "Adults are explicitly invited",
+    "subtitle": [
+      "Identified 18+ set designs by catalogue release year, 2020–2025",
+      "Provisional counts: missing age labels are excluded, and coverage varies by year."
+    ],
+    "anchor": "start",
+    "fontSize": 22,
+    "subtitleFontSize": 12,
+    "offset": 18
+  },
+  "data": {
+    "url": "data/adult_releases.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "transform": [
+    {
+      "calculate": "format(datum.known_age_count, ',.0f') + ' / ' + format(datum.eligible_count, ',.0f')",
+      "as": "coverage_counts"
+    }
+  ],
+  "spacing": 25,
+  "vconcat": [
+    {
+      "width": 820,
+      "height": 290,
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "sort": "ascending",
+          "axis": {
+            "title": "Catalogue release year",
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "field": "adult_count",
+          "type": "quantitative",
+          "title": "Identified 18+ set designs",
+          "scale": {
+            "zero": true,
+            "nice": true
+          },
+          "axis": {
+            "tickMinStep": 1
+          }
+        },
+        "tooltip": [
+          {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Catalogue year"
+          },
+          {
+            "field": "adult_count",
+            "type": "quantitative",
+            "title": "Identified 18+ sets",
+            "format": ",.0f"
+          },
+          {
+            "field": "eligible_count",
+            "type": "quantitative",
+            "title": "Eligible sets",
+            "format": ",.0f"
+          },
+          {
+            "field": "known_age_count",
+            "type": "quantitative",
+            "title": "Known ages",
+            "format": ",.0f"
+          },
+          {
+            "field": "unknown_age_count",
+            "type": "quantitative",
+            "title": "Unknown ages",
+            "format": ",.0f"
+          },
+          {
+            "field": "known_age_coverage",
+            "type": "quantitative",
+            "title": "Known-age coverage",
+            "format": ".1%"
+          },
+          {
+            "field": "unmatched_count",
+            "type": "quantitative",
+            "title": "No exact Brickset match"
+          },
+          {
+            "field": "year_conflict_count",
+            "type": "quantitative",
+            "title": "Release-year disagreements"
+          },
+          {
+            "field": "release_conflict_count",
+            "type": "quantitative",
+            "title": "Release-status flags"
+          }
+        ]
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "bar",
+            "color": "#d92328",
+            "size": 70
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "dy": -10,
+            "fontSize": 14,
+            "fontWeight": "bold"
+          },
+          "encoding": {
+            "text": {
+              "field": "adult_count",
+              "type": "quantitative",
+              "format": ",.0f"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "height": 45,
+      "title": {
+        "text": "Known-age coverage",
+        "subtitle": "Percentage and number of eligible sets with a recorded age",
+        "anchor": "start",
+        "fontSize": 14,
+        "subtitleFontSize": 11,
+        "offset": 12
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "sort": "ascending",
+          "axis": null
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "color": "#1e40af"
+          },
+          "encoding": {
+            "y": {
+              "value": 10
+            },
+            "text": {
+              "field": "known_age_coverage",
+              "type": "quantitative",
+              "format": ".1%"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "fontSize": 12,
+            "color": "#555555"
+          },
+          "encoding": {
+            "y": {
+              "value": 32
+            },
+            "text": {
+              "field": "coverage_counts"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "x": "shared"
+    }
+  },
+  "config": {
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "titlePadding": 12,
+      "gridColor": "#eeeeee"
+    },
+    "title": {
+      "color": "#222222",
+      "subtitleColor": "#555555"
+    }
+  }
+}
