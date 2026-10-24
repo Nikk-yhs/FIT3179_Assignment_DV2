@@ -11,10 +11,29 @@ html, body {
 
 /* Text settings */
 
-.chapter_text{
-    width: 100%;
+.text-container {
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    max-width: 1500px;
+    margin: 48px auto;
+    padding: 32px 24px;
+    background-color: #0088dd;
+    border: 1px solid #e5e7eb;
     text-align: center;
-    margin: 60px 0 30px;
+}
+
+.text-container h2 {
+    margin: 0 0 20px;
+    font-size: 32px;
+}
+
+.text-container p {
+    max-width: 750px;
+    margin: 0 auto;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
 }
 
 .center_text {
@@ -30,13 +49,9 @@ html, body {
 }
 
 h1 {
-  font-family: "Rubik Mono One", monospace;
-  font-size: 30;
-  font-style: bold;
-}
-
-h2{
-    font-family: "Rubik Mono One", monospace; /* might change the heading 2 fonts */
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: Bold;
 }
 
 p{
