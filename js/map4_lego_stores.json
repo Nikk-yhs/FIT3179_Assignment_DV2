@@ -1,0 +1,173 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 900,
+  "height": 480,
+  "autosize": {
+    "type": "pad",
+    "contains": "padding"
+  },
+
+  "title": {
+    "text": "LEGO's retail reach",
+    "subtitle": [
+      "Countries and regions with a listing in LEGO's official store directory",
+      "Directory snapshot: 24 October 2026 · Coverage is incomplete"
+    ]
+  },
+
+  "data": {
+    "url": "data/lego_store_map.topojson",
+    "format": {
+      "type": "topojson",
+      "feature": "countries"
+    }
+  },
+
+  "params": [
+    {
+      "name": "storeRegion",
+      "value": "World",
+      "bind": {
+        "input": "select",
+        "options": [
+          "World",
+          "Africa",
+          "Asia",
+          "Europe",
+          "North America",
+          "South America",
+          "Oceania"
+        ],
+        "name": "Explore region: "
+      }
+    },
+    {
+      "name": "hoverCountry",
+      "select": {
+        "type": "point",
+        "fields": ["country_name"],
+        "on": "mouseover",
+        "clear": "mouseout"
+      }
+    }
+  ],
+
+  "projection": {
+    "type": "equalEarth",
+    "rotate": {
+      "expr": "storeRegion == 'Asia' ? [-95,0,0] : storeRegion == 'Europe' ? [-15,0,0] : storeRegion == 'North America' ? [100,0,0] : storeRegion == 'South America' ? [60,0,0] : storeRegion == 'Oceania' ? [-150,0,0] : storeRegion == 'Africa' ? [-20,0,0] : [0,0,0]"
+    },
+    "center": {
+      "expr": "storeRegion == 'Asia' ? [0,20] : storeRegion == 'Europe' ? [0,54] : storeRegion == 'North America' ? [0,35] : storeRegion == 'South America' ? [0,-15] : storeRegion == 'Oceania' ? [0,-20] : storeRegion == 'Africa' ? [0,0] : [0,15]"
+    },
+    "scale": {
+      "expr": "storeRegion == 'Europe' ? 650 : storeRegion == 'North America' || storeRegion == 'Africa' ? 270 : storeRegion == 'South America' ? 330 : storeRegion == 'World' ? 165 : 300"
+    }
+  },
+
+  "transform": [
+    {
+      "filter": "datum.properties.continent != 'Antarctica'"
+    },
+    {
+      "filter": "storeRegion == 'World' || datum.properties.continent == storeRegion"
+    },
+    {
+      "calculate": "datum.properties.country_name",
+      "as": "country_name"
+    }
+  ],
+
+  "mark": {
+    "type": "geoshape",
+    "clip": true
+  },
+
+  "encoding": {
+    "color": {
+      "field": "properties.directory_status",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+        "domain": [
+          "Listed in directory",
+          "No listing in this snapshot"
+        ],
+        "range": ["#FFD700", "#e2e8f0"]
+      },
+      "legend": {
+        "orient": "bottom",
+        "direction": "horizontal",
+        "labelLimit": 300,
+        "symbolType": "square"
+      }
+    },
+
+    "stroke": {
+      "condition": {
+        "param": "hoverCountry",
+        "empty": false,
+        "value": "#0f172a"
+      },
+      "value": "#ffffff"
+    },
+
+    "strokeWidth": {
+      "condition": {
+        "param": "hoverCountry",
+        "empty": false,
+        "value": 1.5
+      },
+      "value": 0.5
+    },
+
+    "tooltip": [
+      {
+        "field": "country_name",
+        "title": "Country / region"
+      },
+      {
+        "field": "properties.directory_status",
+        "title": "Directory status"
+      },
+      {
+        "field": "properties.total_text",
+        "title": "Included listings"
+      },
+      {
+        "field": "properties.certified_text",
+        "title": "Marked Certified"
+      },
+      {
+        "field": "properties.other_text",
+        "title": "Not marked Certified"
+      },
+      {
+        "field": "properties.unknown_text",
+        "title": "Unspecified store type"
+      },
+      {
+        "field": "properties.snapshot_date",
+        "title": "Snapshot date"
+      }
+    ]
+  },
+
+  "config": {
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "padding": 12
+    },
+    "title": {
+      "anchor": "start",
+      "fontSize": 22,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 8,
+      "offset": 16
+    }
+  }
+}

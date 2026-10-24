@@ -69,3 +69,17 @@ vegaEmbed('#c9-adult-releases', vg_10).then(function(result){
 
 }).catch(console.error);
 
+var vg_11 = "js/c10.json" 
+vegaEmbed('#c10-fans-influence', vg_11).then(function(result){
+
+}).catch(console.error);
+
+var vg_12 = "js/c11.json" 
+vegaEmbed('#c11-turning-point', vg_12).then(function(result){
+
+}).catch(console.error);
+
+var vg_13 = "js/map4_lego_stores.json" 
+vegaEmbed('#m4-lego-stores', vg_13).then(function(result){
+
+}).catch(console.error);

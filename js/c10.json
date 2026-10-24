@@ -1,0 +1,228 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 820,
+  "height": 390,
+  "autosize": {"type": "pad", "contains": "padding"},
+
+  "title": {
+    "text": "Fans help shape the range",
+    "subtitle": [
+      "CUUSOO and Ideas packaged product releases, 2011–2025",
+      "Catalogue release years; repaired variants count once."
+    ]
+  },
+
+  "data": {
+    "url": "data/fan_releases.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "set_count": "number",
+        "stack_order": "number"
+      }
+    }
+  },
+
+  "params": [
+    {
+      "name": "releaseScope",
+      "value": "All releases",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All releases",
+          "Exclude reissues",
+          "New retail sets only"
+        ],
+        "name": "Include: "
+      }
+    }
+  ],
+
+  "datasets": {
+    "examples": [
+      {
+        "year": 2011,
+        "label": "Shinkai 6500",
+        "label_y": 8,
+        "bar_y": 1.7,
+        "source": "https://www.lego.com/en-us/history/articles/j-lego-ideas"
+      },
+      {
+        "year": 2014,
+        "label": "Research Institute",
+        "label_y": 11,
+        "bar_y": 4.7,
+        "source": "https://www.lego.com/en-us/history/articles/j-lego-ideas"
+      },
+      {
+        "year": 2019,
+        "label": "Space Rocket Ride",
+        "label_y": 15,
+        "bar_y": 6.7,
+        "source": "https://ideas.lego.com/blogs/a4ae09b6-0d4c-4307-9da8-3ee9f3d368d6/post/f56a0f37-db4d-48d7-a86e-34a9186eea43"
+      }
+    ]
+  },
+
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": "Release year",
+      "axis": {"labelAngle": 0}
+    }
+  },
+
+  "layer": [
+    {
+      "transform": [
+        {
+          "filter": "releaseScope == 'All releases' || (releaseScope == 'Exclude reissues' && datum.release_type != 'Reissues') || (releaseScope == 'New retail sets only' && datum.release_type == 'New retail sets')"
+        }
+      ],
+
+      "mark": {"type": "bar", "size": 34},
+
+      "encoding": {
+        "y": {
+          "field": "set_count",
+          "type": "quantitative",
+          "stack": "zero",
+          "title": "Product releases",
+          "scale": {"domain": [0, 17], "nice": false},
+          "axis": {"tickMinStep": 1}
+        },
+        "color": {
+          "field": "release_type",
+          "type": "nominal",
+          "title": null,
+          "scale": {
+            "domain": [
+              "New retail sets",
+              "Fan-designed promotions",
+              "Reissues"
+            ],
+            "range": ["#2563eb", "#e89c16", "#94a3b8"]
+          },
+          "legend": {
+            "orient": "bottom",
+            "columns": 3,
+            "labelLimit": 250
+          }
+        },
+        "order": {
+          "field": "stack_order",
+          "type": "quantitative",
+          "sort": "ascending"
+        },
+        "tooltip": [
+          {"field": "year", "type": "ordinal", "title": "Year"},
+          {"field": "release_type", "title": "Release type"},
+          {
+            "field": "set_count",
+            "type": "quantitative",
+            "title": "Product releases",
+            "format": ",d"
+          },
+          {"field": "set_names", "title": "Included sets"}
+        ]
+      }
+    },
+
+    {
+      "transform": [
+        {
+          "filter": "releaseScope == 'All releases' || (releaseScope == 'Exclude reissues' && datum.release_type != 'Reissues') || (releaseScope == 'New retail sets only' && datum.release_type == 'New retail sets')"
+        },
+        {
+          "aggregate": [
+            {"op": "sum", "field": "set_count", "as": "total"}
+          ],
+          "groupby": ["year"]
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dy": -9,
+        "fontSize": 12,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "y": {"field": "total", "type": "quantitative"},
+        "text": {
+          "field": "total",
+          "type": "quantitative",
+          "format": "d"
+        }
+      }
+    },
+
+    {
+      "data": {"name": "examples"},
+      "transform": [
+        {
+          "filter": "datum.year != 2019 || releaseScope != 'New retail sets only'"
+        }
+      ],
+      "mark": {
+        "type": "rule",
+        "strokeDash": [3, 3],
+        "color": "#64748b"
+      },
+      "encoding": {
+        "y": {"field": "bar_y", "type": "quantitative"},
+        "y2": {"field": "label_y"}
+      }
+    },
+
+    {
+      "data": {"name": "examples"},
+      "transform": [
+        {
+          "filter": "datum.year != 2019 || releaseScope != 'New retail sets only'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 5,
+        "dy": -5,
+        "fontSize": 12,
+        "color": "#334155",
+        "cursor": "pointer"
+      },
+      "encoding": {
+        "y": {"field": "label_y", "type": "quantitative"},
+        "text": {"field": "label"},
+        "href": {"field": "source"},
+        "tooltip": [
+          {"field": "label", "title": "Verified example"},
+          {"field": "source", "title": "Click to open LEGO source"}
+        ]
+      }
+    }
+  ],
+
+  "config": {
+    "font": "Arial",
+    "view": {"stroke": null},
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "titlePadding": 12,
+      "gridColor": "#e5e7eb",
+      "domain": false,
+      "tickColor": "#cbd5e1"
+    },
+    "legend": {"labelFontSize": 12, "titleFontSize": 12},
+    "title": {
+      "fontSize": 21,
+      "anchor": "start",
+      "offset": 18,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 8
+    }
+  }
+}

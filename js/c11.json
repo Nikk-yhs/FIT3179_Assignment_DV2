@@ -1,0 +1,221 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 820,
+  "height": 420,
+  "autosize": {"type": "pad", "contains": "padding"},
+
+  "title": {
+    "text": "A company with its own turning points",
+    "subtitle": [
+      "Annual revenue in nominal DKK millions, 1999–2025",
+      "Orange points and line gaps mark changes in reporting basis."
+    ]
+  },
+
+  "data": {
+    "url": "data/revenue.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "revenue": "number",
+        "segment": "number",
+        "basis_break": "number",
+        "label_y": "number",
+        "page": "number",
+        "report_year": "number"
+      }
+    }
+  },
+
+  "params": [
+    {
+      "name": "firstYear",
+      "value": 1999,
+      "bind": {
+        "input": "range",
+        "min": 1999,
+        "max": 2025,
+        "step": 1,
+        "name": "From year: "
+      }
+    },
+    {
+      "name": "lastYear",
+      "value": 2025,
+      "bind": {
+        "input": "range",
+        "min": 1999,
+        "max": 2025,
+        "step": 1,
+        "name": "To year: "
+      }
+    }
+  ],
+
+  "transform": [
+    {
+      "filter": "datum.year >= min(firstYear, lastYear) && datum.year <= max(firstYear, lastYear)"
+    }
+  ],
+
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "title": "Year",
+      "scale": {
+        "domain": {
+          "expr": "[min(firstYear,lastYear)-0.6, max(firstYear,lastYear)+0.6]"
+        },
+        "nice": false,
+        "zero": false
+      },
+      "axis": {
+        "format": "d",
+        "tickMinStep": 1,
+        "tickCount": 10,
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "revenue",
+      "type": "quantitative",
+      "title": "Revenue (nominal DKK millions)",
+      "scale": {"domain": [0, 100000], "nice": false},
+      "axis": {"format": ",d"}
+    }
+  },
+
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3,
+        "color": "#2563eb"
+      },
+      "encoding": {
+        "detail": {"field": "segment", "type": "nominal"},
+        "order": {"field": "year"}
+      }
+    },
+
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 65,
+        "stroke": "white",
+        "strokeWidth": 1,
+        "cursor": "pointer"
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "test": "datum.basis_break == 1",
+            "value": "#d97706"
+          },
+          "value": "#2563eb"
+        },
+        "href": {"field": "source_link"},
+        "tooltip": [
+          {"field": "year", "type": "ordinal", "title": "Year"},
+          {
+            "field": "revenue",
+            "type": "quantitative",
+            "title": "Revenue (DKK millions)",
+            "format": ",d"
+          },
+          {"field": "reporting_scope", "title": "Reporting basis"},
+          {"field": "restatement_note", "title": "Comparability note"},
+          {
+            "field": "report_year",
+            "type": "ordinal",
+            "title": "Source annual report"
+          },
+          {"field": "page", "type": "ordinal", "title": "PDF page"},
+          {"field": "source_link", "title": "Click point to open report"}
+        ]
+      }
+    },
+
+    {
+      "transform": [{"filter": "datum.event != ''"}],
+      "mark": {
+        "type": "rule",
+        "color": "#64748b",
+        "strokeDash": [3, 3]
+      },
+      "encoding": {
+        "y2": {"field": "label_y"}
+      }
+    },
+
+    {
+      "transform": [{"filter": "datum.year == 2005"}],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 7,
+        "dy": -5,
+        "fontSize": 12,
+        "color": "#334155",
+        "cursor": "pointer"
+      },
+      "encoding": {
+        "y": {"field": "label_y", "type": "quantitative"},
+        "text": {"field": "event"},
+        "href": {"field": "event_source"},
+        "tooltip": [
+          {"field": "event", "title": "Milestone"},
+          {"field": "event_page", "title": "PDF page"},
+          {"field": "event_source", "title": "Click label to open source"}
+        ]
+      }
+    },
+
+    {
+      "transform": [{"filter": "datum.year == 2025"}],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -7,
+        "dy": -5,
+        "fontSize": 12,
+        "color": "#334155",
+        "cursor": "pointer"
+      },
+      "encoding": {
+        "y": {"field": "label_y", "type": "quantitative"},
+        "text": {"field": "event"},
+        "href": {"field": "event_source"},
+        "tooltip": [
+          {"field": "event", "title": "Milestone"},
+          {"field": "event_page", "title": "PDF page"},
+          {"field": "event_source", "title": "Click label to open source"}
+        ]
+      }
+    }
+  ],
+
+  "config": {
+    "font": "Arial",
+    "view": {"stroke": null},
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "titlePadding": 12,
+      "gridColor": "#e5e7eb",
+      "domain": false,
+      "tickColor": "#cbd5e1"
+    },
+    "legend": {"labelFontSize": 12, "titleFontSize": 12},
+    "title": {
+      "fontSize": 21,
+      "anchor": "start",
+      "offset": 18,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 8
+    }
+  }
+}
