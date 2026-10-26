@@ -1,13 +1,18 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-
+  "title": {
+    "text": "From Billund to the world",
+    "subtitle": [
+      "Each line runs from Billund, Denmark, to a country where LEGO opened an office, sales company or distribution centre.",
+      "Drag the year slider to show the connections established by that year."
+    ],
+    "anchor": "middle"
+  },
   "width": 850,
   "height": 450,
-
   "projection": {
     "type": "equalEarth"
   },
-
   "params": [
     {
       "name": "selectedYear",
@@ -21,7 +26,6 @@
       }
     }
   ],
-
   "layer": [
     {
       "data": {
@@ -31,7 +35,6 @@
           "feature": "ne_50m_admin_0_countries"
         }
       },
-
       "mark": {
         "type": "geoshape",
         "fill": "lightgrey",
@@ -39,7 +42,6 @@
         "strokeWidth": 1
       }
     },
-
     {
       "data": {
         "url": "data/expansion_events.csv",
@@ -55,7 +57,6 @@
           }
         }
       },
-
       "transform": [
         {
           "filter": "datum.year_end <= selectedYear"
@@ -65,7 +66,6 @@
           "as": "date_label"
         }
       ],
-
       "layer": [
         {
           "mark": {
@@ -74,7 +74,6 @@
             "strokeWidth": 1.8,
             "opacity": 0.6
           },
-
           "encoding": {
             "longitude": {
               "field": "origin_lon",
@@ -92,7 +91,6 @@
             }
           }
         },
-
         {
           "mark": {
             "type": "circle",
@@ -102,7 +100,6 @@
             "strokeWidth": 1,
             "opacity": 1
           },
-
           "encoding": {
             "longitude": {
               "field": "destination_lon",
@@ -112,7 +109,6 @@
               "field": "destination_lat",
               "type": "quantitative"
             },
-
             "tooltip": [
               {
                 "field": "destination",
@@ -139,7 +135,6 @@
         }
       ]
     },
-
     {
       "data": {
         "values": [
@@ -150,7 +145,6 @@
           }
         ]
       },
-
       "encoding": {
         "longitude": {
           "field": "longitude",
@@ -161,7 +155,6 @@
           "type": "quantitative"
         }
       },
-
       "layer": [
         {
           "mark": {
@@ -174,7 +167,6 @@
             "strokeWidth": 1,
             "opacity": 1
           },
-
           "encoding": {
             "tooltip": [
               {
@@ -185,7 +177,6 @@
             ]
           }
         },
-
         {
           "mark": {
             "type": "text",
@@ -196,7 +187,6 @@
             "fontWeight": "bold",
             "color": "#a51217"
           },
-
           "encoding": {
             "text": {
               "field": "place"
@@ -206,7 +196,6 @@
       ]
     }
   ],
-
   "config": {
     "font": "Arial",
     "title": {

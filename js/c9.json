@@ -9,10 +9,10 @@
   "title": {
     "text": "Adults are explicitly invited",
     "subtitle": [
-      "Identified 18+ set designs by catalogue release year, 2020–2025",
-      "Provisional counts: missing age labels are excluded, and coverage varies by year."
+      "Horizontal axis: catalogue release year, 2020 – 2025. Vertical axis: identified 18+ set designs.",
+      "Provisional counts: sets without an age label are excluded, and coverage varies by year (see below)."
     ],
-    "anchor": "start",
+    "anchor": "middle",
     "fontSize": 22,
     "subtitleFontSize": 12,
     "offset": 18
@@ -140,7 +140,7 @@
       "title": {
         "text": "Known-age coverage",
         "subtitle": "Percentage and number of eligible sets with a recorded age",
-        "anchor": "start",
+        "anchor": "middle",
         "fontSize": 14,
         "subtitleFontSize": 11,
         "offset": 12

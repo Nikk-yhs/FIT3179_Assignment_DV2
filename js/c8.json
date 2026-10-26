@@ -1,16 +1,17 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "autosize": {"type": "pad", "resize": true},
-
+  "autosize": {
+    "type": "pad",
+    "resize": true
+  },
   "title": {
     "text": "When screen stories meet brick stories",
     "subtitle": [
-      "Mapped set designs released, 1999 – 2025; the three panels share one count scale.",
-      "Red labels mark original theatrical film-release years. Hover for titles; click for sources."
+      "Set designs released each year for three film franchises, 1999–2025; the three panels share one count scale.",
+      "Red dashed lines and labels mark original theatrical film-release years. Hover for titles; click for sources."
     ],
-    "anchor": "start"
+    "anchor": "middle"
   },
-
   "data": {
     "url": "data/franchise_years.csv",
     "format": {
@@ -21,7 +22,6 @@
       }
     }
   },
-
   "facet": {
     "field": "franchise",
     "type": "nominal",
@@ -37,24 +37,22 @@
       "labelLimit": 500
     }
   },
-
   "columns": 1,
   "spacing": 30,
-
   "spec": {
     "width": 900,
     "height": 170,
-
     "encoding": {
       "x": {
         "field": "year",
         "type": "ordinal",
         "sort": "ascending",
         "title": "Release year",
-        "axis": {"labelAngle": -45}
+        "axis": {
+          "labelAngle": -45
+        }
       }
     },
-
     "layer": [
       {
         "mark": {
@@ -67,8 +65,12 @@
             "field": "set_count",
             "type": "quantitative",
             "title": "Set designs released",
-            "scale": {"zero": true},
-            "axis": {"tickMinStep": 1}
+            "scale": {
+              "zero": true
+            },
+            "axis": {
+              "tickMinStep": 1
+            }
           },
           "tooltip": [
             {
@@ -98,7 +100,10 @@
         "mark": {
           "type": "rule",
           "color": "#C63836",
-          "strokeDash": [3, 3],
+          "strokeDash": [
+            3,
+            3
+          ],
           "strokeWidth": 1.5
         },
         "encoding": {
@@ -130,8 +135,12 @@
           "cursor": "pointer"
         },
         "encoding": {
-          "y": {"value": -5},
-          "text": {"field": "film_code"},
+          "y": {
+            "value": -5
+          },
+          "text": {
+            "field": "film_code"
+          },
           "href": {
             "field": "source_url",
             "type": "nominal"
@@ -155,14 +164,12 @@
       }
     ]
   },
-
   "resolve": {
     "scale": {
       "x": "shared",
       "y": "shared"
     }
   },
-
   "config": {
     "font": "Arial",
     "axis": {

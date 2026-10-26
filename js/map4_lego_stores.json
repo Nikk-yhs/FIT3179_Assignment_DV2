@@ -6,15 +6,14 @@
     "type": "pad",
     "contains": "padding"
   },
-
   "title": {
     "text": "LEGO's retail reach",
     "subtitle": [
-      "Countries and regions with a listing in LEGO's official store directory",
-      "Directory snapshot: 24 October 2026 · Coverage is incomplete"
-    ]
+      "Countries and regions in yellow have a listing in LEGO's official store directory.",
+      "Use the menu to zoom to a region. Directory snapshot: 24 October 2026; coverage is incomplete."
+    ],
+    "anchor": "middle"
   },
-
   "data": {
     "url": "data/lego_store_map.topojson",
     "format": {
@@ -22,7 +21,6 @@
       "feature": "countries"
     }
   },
-
   "params": [
     {
       "name": "storeRegion",
@@ -45,13 +43,14 @@
       "name": "hoverCountry",
       "select": {
         "type": "point",
-        "fields": ["country_name"],
+        "fields": [
+          "country_name"
+        ],
         "on": "mouseover",
         "clear": "mouseout"
       }
     }
   ],
-
   "projection": {
     "type": "equalEarth",
     "rotate": {
@@ -64,7 +63,6 @@
       "expr": "storeRegion == 'Europe' ? 650 : storeRegion == 'North America' || storeRegion == 'Africa' ? 270 : storeRegion == 'South America' ? 330 : storeRegion == 'World' ? 165 : 300"
     }
   },
-
   "transform": [
     {
       "filter": "datum.properties.continent != 'Antarctica'"
@@ -77,12 +75,10 @@
       "as": "country_name"
     }
   ],
-
   "mark": {
     "type": "geoshape",
     "clip": true
   },
-
   "encoding": {
     "color": {
       "field": "properties.directory_status",
@@ -93,7 +89,10 @@
           "Listed in directory",
           "No listing in this snapshot"
         ],
-        "range": ["#FFD700", "#e2e8f0"]
+        "range": [
+          "#FFD700",
+          "#e2e8f0"
+        ]
       },
       "legend": {
         "orient": "bottom",
@@ -102,7 +101,6 @@
         "symbolType": "square"
       }
     },
-
     "stroke": {
       "condition": {
         "param": "hoverCountry",
@@ -111,7 +109,6 @@
       },
       "value": "#ffffff"
     },
-
     "strokeWidth": {
       "condition": {
         "param": "hoverCountry",
@@ -120,7 +117,6 @@
       },
       "value": 0.5
     },
-
     "tooltip": [
       {
         "field": "country_name",
@@ -152,12 +148,8 @@
       }
     ]
   },
-
   "config": {
     "font": "Arial",
-    "view": {
-      "stroke": null
-    },
     "legend": {
       "labelFontSize": 12,
       "padding": 12

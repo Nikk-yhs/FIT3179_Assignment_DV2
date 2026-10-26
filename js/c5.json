@@ -4,10 +4,10 @@
   "title": {
     "text": "10 largest LEGO sets through 2025",
     "subtitle": [
-      "Ranked by catalogue piece count. Includes eligible promotional entries.",
-      "Equal piece counts share a rank."
+      "Horizontal axis: total pieces per set, ranked from largest to smallest.",
+      "Includes eligible promotional entries. Equal piece counts share a rank."
     ],
-    "anchor": "start",
+    "anchor": "middle",
     "fontSize": 22,
     "subtitleFontSize": 12,
     "offset": 20
@@ -30,27 +30,30 @@
   },
   "encoding": {
     "y": {
-        "field": "label",
-        "type": "nominal",
-        "sort": {
-            "field": "pieces",
-            "op": "max",
-            "order": "descending"
-        },
-        "axis": {
+      "field": "label",
+      "type": "nominal",
+      "sort": {
+        "field": "pieces",
+        "op": "max",
+        "order": "descending"
+      },
+      "axis": {
         "title": null,
         "labelFontSize": 12,
         "labelLimit": 300,
         "labelPadding": 10,
         "ticks": false,
         "domain": false
-        }
+      }
     },
     "x": {
       "field": "pieces",
       "type": "quantitative",
       "scale": {
-        "domain": [0, 13000],
+        "domain": [
+          0,
+          13000
+        ],
         "zero": true
       },
       "axis": {

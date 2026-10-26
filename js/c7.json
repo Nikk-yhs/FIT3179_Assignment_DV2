@@ -2,17 +2,19 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 900,
   "height": 340,
-  "autosize": {"type": "pad", "resize": true},
-
+  "autosize": {
+    "type": "pad",
+    "resize": true
+  },
   "title": {
     "text": "Familiar stories enter the toy box",
     "subtitle": [
-      "Share of eligible set designs released each year",
-      "Classification in progress — grey entries have not been resolved."
+      "Horizontal axis: release year. Vertical axis: share of eligible set designs released that year.",
+      "Gold: original LEGO themes. Blue: licensed franchises; pick one from the menu to highlight it.",
+      "Classification in progress: grey entries have not been resolved."
     ],
-    "anchor": "start"
+    "anchor": "middle"
   },
-
   "data": {
     "url": "data/licence_mix.csv",
     "format": {
@@ -24,7 +26,6 @@
       }
     }
   },
-
   "params": [
     {
       "name": "franchiseChoice",
@@ -51,7 +52,6 @@
       }
     }
   ],
-
   "transform": [
     {
       "calculate": "datum.licence_status !== 'Licensed' ? datum.licence_status : (franchiseChoice === 'All licensed' || datum.franchise === franchiseChoice ? 'Licensed: selected' : 'Licensed: other')",
@@ -70,7 +70,10 @@
           "as": "eligible_n"
         }
       ],
-      "groupby": ["year", "segment"]
+      "groupby": [
+        "year",
+        "segment"
+      ]
     },
     {
       "calculate": "datum.n / datum.eligible_n",
@@ -81,9 +84,9 @@
       "as": "stack_order"
     }
   ],
-
-  "mark": {"type": "bar"},
-
+  "mark": {
+    "type": "bar"
+  },
   "encoding": {
     "x": {
       "field": "year",
@@ -100,8 +103,15 @@
       "type": "quantitative",
       "stack": "zero",
       "title": "Share of all eligible releases",
-      "scale": {"domain": [0, 1]},
-      "axis": {"format": ".0%"}
+      "scale": {
+        "domain": [
+          0,
+          1
+        ]
+      },
+      "axis": {
+        "format": ".0%"
+      }
     },
     "color": {
       "field": "segment",
@@ -161,7 +171,6 @@
       }
     ]
   },
-
   "config": {
     "font": "Arial",
     "axis": {

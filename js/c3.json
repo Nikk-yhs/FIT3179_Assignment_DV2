@@ -1,8 +1,15 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  
   "spacing": 30,
-  "autosize":{
+  "title": {
+    "text": "Which themes defined each decade",
+    "subtitle": [
+      "Rows: theme families. Columns: release decade, 1940s–2020s.",
+      "Darker cells mean more set designs released. Click a cell to list its themes below."
+    ],
+    "anchor": "middle"
+  },
+  "autosize": {
     "type": "pad",
     "resize": true
   },
@@ -128,11 +135,10 @@
       "title": {
         "text": "Themes in the selected family and decade",
         "subtitle": "Click a heatmap cell above. A zero-count cell has no theme bars.",
-        "anchor": "start",
-        "align": "left",
+        "anchor": "middle",
         "frame": "group",
         "fontSize": 15,
-        "offset":12
+        "offset": 12
       },
       "data": {
         "url": "data/theme_drilldown.csv",
@@ -216,10 +222,10 @@
   },
   "config": {
     "axisY": {
-    "labelLimit": 170,
-    "labelPadding": 8,
-    "minExtent": 185,
-    "maxExtent": 185  
+      "labelLimit": 170,
+      "labelPadding": 8,
+      "minExtent": 185,
+      "maxExtent": 185
     },
     "axis": {
       "domain": false,

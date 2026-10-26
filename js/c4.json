@@ -1,18 +1,16 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-
   "width": 800,
   "height": 350,
-
   "title": {
     "text": "How the typical build changed",
     "subtitle": [
-      "Line: median pieces. Shaded band: the middle 50% of set sizes.",
+      "Horizontal axis: release year. Vertical axis: pieces per set.",
+      "Line: median pieces. Shaded band: the middle 50% of set sizes. Pick a theme family from the menu.",
       "Piece count measures size, not building difficulty."
     ],
-    "anchor": "start"
+    "anchor": "middle"
   },
-
   "data": {
     "url": "data/piece_summary.csv",
     "format": {
@@ -29,7 +27,6 @@
       }
     }
   },
-
   "params": [
     {
       "name": "pieceFamily",
@@ -55,7 +52,6 @@
       }
     }
   ],
-
   "transform": [
     {
       "filter": "datum.theme_family == pieceFamily"
@@ -64,13 +60,14 @@
       "filter": "datum.n > 0"
     }
   ],
-
   "encoding": {
     "x": {
       "field": "year",
       "type": "quantitative",
       "title": "Release year",
-      "scale": {"zero": false},
+      "scale": {
+        "zero": false
+      },
       "axis": {
         "format": "d",
         "tickMinStep": 1,
@@ -86,7 +83,6 @@
       "type": "quantitative"
     }
   },
-
   "layer": [
     {
       "mark": {
@@ -99,7 +95,9 @@
           "field": "q1",
           "type": "quantitative",
           "title": "Pieces per set",
-          "scale": {"zero": true}
+          "scale": {
+            "zero": true
+          }
         },
         "y2": {
           "field": "q3"
@@ -121,7 +119,9 @@
           "field": "median",
           "type": "quantitative",
           "title": "Pieces per set",
-          "scale": {"zero": true}
+          "scale": {
+            "zero": true
+          }
         },
         "tooltip": [
           {
@@ -169,7 +169,6 @@
       }
     }
   ],
-
   "config": {
     "title": {
       "fontSize": 20,

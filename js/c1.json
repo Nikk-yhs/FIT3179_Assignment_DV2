@@ -3,11 +3,20 @@
   "description": "Taken inspiration from https://vega.github.io/vega/examples/serpentine-timeline/ but I altered the serpent shape into a brick rectangle for the lego theme and added my own data into the visualizaiton.",
   "width": 1000,
   "height": 430,
+  "title": {
+    "text": "Lego milestones timeline",
+    "subtitle": [
+      "A brief history of LEGO's milestones, from 1926 to 2026.",
+      "Follow the edge of the brick clockwise from the top-left corner; each red marker is a milestone.",
+      "Hover over a marker for details."
+    ],
+    "anchor": "middle"
+  },
   "padding": {
-      "top": 10,
-      "bottom": 10,
-      "left": 10,
-      "right": 10
+    "top": 10,
+    "bottom": 10,
+    "left": 10,
+    "right": 10
   },
   "signals": [
     {
@@ -106,7 +115,6 @@
           "label": "The first plastic bricks",
           "description": "The first ever product marketed under the name automatic binding bricks were released.",
           "source_url": "https://www.lego.com/en-us/history/articles/c-entering-the-age-of-plastics"
-
         },
         {
           "domain": 1958,
@@ -119,21 +127,18 @@
           "label": "Production of Lego in North America",
           "description": "The Lego group began production in North America with a licensing agreement with Samsonite.",
           "source_url": "https://www.lego.com/en-us/history/articles/e-production-of-lego-bricks-in-north-america"
-
         },
         {
           "domain": 1968,
           "label": "Legoland was born",
           "description": "The first Legoland was created in Billund Denmark with a large opening day. The success sparked Legoland to go global.",
           "source_url": "https://www.lego.com/en-us/history/articles/e-the-first-legoland-park"
-
         },
         {
           "domain": 1969,
           "label": "Lego DUPLO bricks is launched globally",
           "description": "LEGO DUPLO bricks is the first set of bricks that expanded their target audience to preschool children,",
           "source_url": "https://www.lego.com/en-us/history/articles/e-lego-duplo"
-
         },
         {
           "domain": 1973,
@@ -171,7 +176,6 @@
           "description": "The lego group opens a new factory in Vietnam marking the company's sixth factory worldwide and second in Asia.",
           "source_url": "https://www.lego.com/en-us/aboutus/news/2025/april/the-lego-group-opens-new-state-of-the-art-factory-in-Vietnam"
         }
-
       ]
     },
     {
@@ -346,13 +350,13 @@
           "fraction": 0.15
         },
         {
-          "fraction": 0.30
+          "fraction": 0.3
         },
         {
           "fraction": 0.45
         },
         {
-          "fraction": 0.60
+          "fraction": 0.6
         },
         {
           "fraction": 0.75
@@ -725,7 +729,7 @@
             "signal": "datum.y+datum.ny*18"
           },
           "text": {
-            "signal": "datum.position + ' \u00b7 ' + format(datum.domain, '.0f')"
+            "signal": "datum.position + ' · ' + format(datum.domain, '.0f')"
           },
           "align": {
             "field": "align"
@@ -833,7 +837,7 @@
             "signal": "datum.y+datum.ny*labelOffset"
           },
           "text": {
-            "signal": "datum.domain + ' \u2014 ' + datum.label"
+            "signal": "datum.domain + ' — ' + datum.label"
           },
           "align": {
             "field": "align"
@@ -859,5 +863,13 @@
         "data": "milestones"
       }
     }
-  ]
+  ],
+  "config": {
+    "font": "Arial",
+    "title": {
+      "fontSize": 22,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 8
+    }
+  }
 }

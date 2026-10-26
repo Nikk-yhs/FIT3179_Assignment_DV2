@@ -1,25 +1,25 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-
-  "width": 850,
-  "height": 450,
-
+  "width": 500,
+  "height": 270,
   "title": {
-    "text": "The world, rebuilt in LEGO"
+    "text": "The world, rebuilt in LEGO",
+    "subtitle": [
+      "Each circle is a LEGO set of a real landmark, placed at the landmark's location.",
+      "Circle size shows the set's piece count; colour shows its continent.",
+      "Use the menu to filter by continent."
+    ],
+    "anchor": "middle"
   },
-
   "projection": {
     "type": "equalEarth"
   },
-
   "params": [
     {
       "name": "selectedContinent",
       "value": "All",
-
       "bind": {
         "input": "select",
-
         "options": [
           "All continents",
           "Africa",
@@ -28,23 +28,19 @@
           "North America",
           "Oceania"
         ],
-
         "name": "Show landmarks in: "
       }
     }
   ],
-
   "layer": [
     {
       "data": {
         "url": "data/ne_50m_admin_0_countries.topojson",
-
         "format": {
           "type": "topojson",
           "feature": "ne_50m_admin_0_countries"
         }
       },
-
       "mark": {
         "type": "geoshape",
         "fill": "#e5e7eb",
@@ -52,11 +48,9 @@
         "strokeWidth": 0.5
       }
     },
-
     {
       "data": {
         "url": "data/landmarks_sets.csv",
-
         "format": {
           "type": "csv",
           "parse": {
@@ -68,79 +62,80 @@
           }
         }
       },
-
       "transform": [
         {
           "filter": "selectedContinent === 'All' || datum.continent === selectedContinent"
         },
         {
-            "filter": "datum.map_default === 1"
+          "filter": "datum.map_default === 1"
         }
       ],
-
       "mark": {
         "type": "circle",
         "opacity": 0.75,
         "stroke": "white",
         "strokeWidth": 1
       },
-
       "encoding": {
         "longitude": {
           "field": "longitude",
           "type": "quantitative"
         },
-
         "latitude": {
           "field": "latitude",
           "type": "quantitative"
         },
-
         "size": {
           "field": "pieces",
           "type": "quantitative",
           "title": "Pieces in selected set",
-
           "scale": {
             "type": "linear",
-            "domain": [0, 11000],
-            "range": [0, 1500]
+            "domain": [
+              0,
+              11000
+            ],
+            "range": [
+              0,
+              1500
+            ]
           },
-
           "legend": {
             "orient": "bottom-left",
-            "values": [1500, 3000, 10000],
+            "values": [
+              1500,
+              3000,
+              10000
+            ],
             "format": ",.0f"
           }
         },
-
         "color": {
-            "field": "continent",
-            "type": "nominal",
-            "title": "Continent",
-            "scale": {
-                "domain": [
-                    "Africa",
-                    "Asia",
-                    "Europe",
-                    "North America",
-                    "Oceania"
-                ],
-                "range": [
-                    "#E69F00",
-                    "#009E73",
-                    "#0072B2",
-                    "#CC79A7",
-                    "#D55E00"
-                ]
-            },
-            "legend": {
-                "orient": "top-right",
-                "symbolType": "circle",
-                "symbolSize": 100
-            } 
+          "field": "continent",
+          "type": "nominal",
+          "title": "Continent",
+          "scale": {
+            "domain": [
+              "Africa",
+              "Asia",
+              "Europe",
+              "North America",
+              "Oceania"
+            ],
+            "range": [
+              "#E69F00",
+              "#009E73",
+              "#0072B2",
+              "#CC79A7",
+              "#D55E00"
+            ]
+          },
+          "legend": {
+            "orient": "right",
+            "symbolType": "circle",
+            "symbolSize": 100
+          }
         },
-
         "tooltip": [
           {
             "field": "landmark",
@@ -167,7 +162,6 @@
       }
     }
   ],
-
   "config": {
     "font": "Arial",
     "title": {

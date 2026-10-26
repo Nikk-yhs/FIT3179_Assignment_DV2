@@ -2,16 +2,19 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 820,
   "height": 390,
-  "autosize": {"type": "pad", "contains": "padding"},
-
+  "autosize": {
+    "type": "pad",
+    "contains": "padding"
+  },
   "title": {
     "text": "Fans help shape the range",
     "subtitle": [
-      "CUUSOO and Ideas packaged product releases, 2011–2025",
+      "Horizontal axis: release year, 2011–2025. Vertical axis: fan-designed product releases (CUUSOO and LEGO Ideas).",
+      "Bars are split into new retail sets, reissues and fan-designed promotions.",
       "Catalogue release years; repaired variants count once."
-    ]
+    ],
+    "anchor": "middle"
   },
-
   "data": {
     "url": "data/fan_releases.csv",
     "format": {
@@ -23,7 +26,6 @@
       }
     }
   },
-
   "params": [
     {
       "name": "releaseScope",
@@ -39,7 +41,6 @@
       }
     }
   ],
-
   "datasets": {
     "examples": [
       {
@@ -65,16 +66,16 @@
       }
     ]
   },
-
   "encoding": {
     "x": {
       "field": "year",
       "type": "ordinal",
       "title": "Release year",
-      "axis": {"labelAngle": 0}
+      "axis": {
+        "labelAngle": 0
+      }
     }
   },
-
   "layer": [
     {
       "transform": [
@@ -82,17 +83,26 @@
           "filter": "releaseScope == 'All releases' || (releaseScope == 'Exclude reissues' && datum.release_type != 'Reissues') || (releaseScope == 'New retail sets only' && datum.release_type == 'New retail sets')"
         }
       ],
-
-      "mark": {"type": "bar", "size": 34},
-
+      "mark": {
+        "type": "bar",
+        "size": 34
+      },
       "encoding": {
         "y": {
           "field": "set_count",
           "type": "quantitative",
           "stack": "zero",
           "title": "Product releases",
-          "scale": {"domain": [0, 17], "nice": false},
-          "axis": {"tickMinStep": 1}
+          "scale": {
+            "domain": [
+              0,
+              17
+            ],
+            "nice": false
+          },
+          "axis": {
+            "tickMinStep": 1
+          }
         },
         "color": {
           "field": "release_type",
@@ -104,7 +114,11 @@
               "Fan-designed promotions",
               "Reissues"
             ],
-            "range": ["#2563eb", "#e89c16", "#94a3b8"]
+            "range": [
+              "#2563eb",
+              "#e89c16",
+              "#94a3b8"
+            ]
           },
           "legend": {
             "orient": "bottom",
@@ -118,19 +132,28 @@
           "sort": "ascending"
         },
         "tooltip": [
-          {"field": "year", "type": "ordinal", "title": "Year"},
-          {"field": "release_type", "title": "Release type"},
+          {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "release_type",
+            "title": "Release type"
+          },
           {
             "field": "set_count",
             "type": "quantitative",
             "title": "Product releases",
             "format": ",d"
           },
-          {"field": "set_names", "title": "Included sets"}
+          {
+            "field": "set_names",
+            "title": "Included sets"
+          }
         ]
       }
     },
-
     {
       "transform": [
         {
@@ -138,9 +161,15 @@
         },
         {
           "aggregate": [
-            {"op": "sum", "field": "set_count", "as": "total"}
+            {
+              "op": "sum",
+              "field": "set_count",
+              "as": "total"
+            }
           ],
-          "groupby": ["year"]
+          "groupby": [
+            "year"
+          ]
         }
       ],
       "mark": {
@@ -150,7 +179,10 @@
         "fontWeight": "bold"
       },
       "encoding": {
-        "y": {"field": "total", "type": "quantitative"},
+        "y": {
+          "field": "total",
+          "type": "quantitative"
+        },
         "text": {
           "field": "total",
           "type": "quantitative",
@@ -158,9 +190,10 @@
         }
       }
     },
-
     {
-      "data": {"name": "examples"},
+      "data": {
+        "name": "examples"
+      },
       "transform": [
         {
           "filter": "datum.year != 2019 || releaseScope != 'New retail sets only'"
@@ -168,17 +201,26 @@
       ],
       "mark": {
         "type": "rule",
-        "strokeDash": [3, 3],
+        "strokeDash": [
+          3,
+          3
+        ],
         "color": "#64748b"
       },
       "encoding": {
-        "y": {"field": "bar_y", "type": "quantitative"},
-        "y2": {"field": "label_y"}
+        "y": {
+          "field": "bar_y",
+          "type": "quantitative"
+        },
+        "y2": {
+          "field": "label_y"
+        }
       }
     },
-
     {
-      "data": {"name": "examples"},
+      "data": {
+        "name": "examples"
+      },
       "transform": [
         {
           "filter": "datum.year != 2019 || releaseScope != 'New retail sets only'"
@@ -194,20 +236,34 @@
         "cursor": "pointer"
       },
       "encoding": {
-        "y": {"field": "label_y", "type": "quantitative"},
-        "text": {"field": "label"},
-        "href": {"field": "source"},
+        "y": {
+          "field": "label_y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        },
+        "href": {
+          "field": "source"
+        },
         "tooltip": [
-          {"field": "label", "title": "Verified example"},
-          {"field": "source", "title": "Click to open LEGO source"}
+          {
+            "field": "label",
+            "title": "Verified example"
+          },
+          {
+            "field": "source",
+            "title": "Click to open LEGO source"
+          }
         ]
       }
     }
   ],
-
   "config": {
     "font": "Arial",
-    "view": {"stroke": null},
+    "view": {
+      "stroke": null
+    },
     "axis": {
       "labelFontSize": 12,
       "titleFontSize": 13,
@@ -216,7 +272,10 @@
       "domain": false,
       "tickColor": "#cbd5e1"
     },
-    "legend": {"labelFontSize": 12, "titleFontSize": 12},
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    },
     "title": {
       "fontSize": 21,
       "anchor": "start",

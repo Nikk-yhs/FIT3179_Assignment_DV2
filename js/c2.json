@@ -1,6 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-
+  "title": {
+    "text": "Set designs released each year",
+    "subtitle": [
+      "Horizontal axis: release year, 1949–2025. Vertical axis: number of set designs released that year."
+    ],
+    "anchor": "middle"
+  },
   "data": {
     "url": "data/annual_releases.csv",
     "format": {
@@ -11,13 +17,10 @@
       }
     }
   },
-
-
   "mark": {
     "type": "bar",
     "color": "#d62828"
   },
-
   "encoding": {
     "x": {
       "field": "year",
@@ -29,7 +32,6 @@
         "labelOverlap": true
       }
     },
-
     "y": {
       "field": "set_count",
       "type": "quantitative",
@@ -42,7 +44,6 @@
         "tickMinStep": 1
       }
     },
-
     "tooltip": [
       {
         "field": "year",
@@ -57,7 +58,6 @@
       }
     ]
   },
-
   "config": {
     "axis": {
       "labelFontSize": 11,
