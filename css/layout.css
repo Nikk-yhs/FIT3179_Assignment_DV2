@@ -1,61 +1,231 @@
-/*Layout of html settings*/
+:root {
+    /* LEGO brick colours */
+    --lego-red:    #DA291C;
+    --lego-blue:   #0055BF;
+    --lego-yellow: #FFD700;
+    --lego-green:  #237841;
+    --ink:        #222222;
+    --ink-soft:   #555555;
+    --baseplate:  #ECEEF1;   
+    --panel:      #FFFFFF;  
+    --line:       #DADDE2;
 
-html, body { 
-    background-color: #FFFFFF;
+    --story-width: 1120px;
 }
 
-.pure-u-1 img {
-    width: 100vw;
-    height: 20vw;
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
 }
 
-/* Text settings */
+body {
+    margin: 0;
+    background-color: var(--baseplate);
+    color: var(--ink);
+    font-family: "DM Sans", Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
 
-.text-container {
-    box-sizing: border-box;
-    width: calc(100% - 40px);
-    max-width: 1500px;
-    margin: 48px auto;
-    padding: 32px 24px;
-    background-color: #0088dd;
-    border: 1px solid #e5e7eb;
+img { max-width: 100%; display: block; }
+
+a:focus-visible {
+    outline: 3px solid var(--lego-blue);
+    outline-offset: 3px;
+}
+
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--lego-red);
+    color: #FFFFFF;
+}
+
+.site-nav__inner {
+    max-width: var(--story-width);
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.site-nav__brand {
+    font-family: "Boldonse", system-ui, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.site-nav__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 22px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-nav__links a {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.site-nav__links a:hover { border-bottom-color: var(--lego-yellow); }
+.site-nav__links a:focus-visible { outline-color: var(--lego-yellow); }
+
+.hero img {
+    width: 100%;
+    height: auto;        
+}
+
+.story {
+    max-width: var(--story-width);
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+
+.chapter { padding-top: 72px; }
+
+.brick {
+    --brick: var(--lego-blue);
+    --brick-text: #FFFFFF;
+    --brick-emphasis: var(--lego-yellow);
+
+    position: relative;
+    margin-top: 16px;             
+    margin-bottom: 28px;
+    padding: 40px 48px 44px;
+    background: var(--brick);
+    color: var(--brick-text);
+    border-radius: 6px;
     text-align: center;
 }
 
-.text-container h2 {
-    margin: 0 0 20px;
-    font-size: 32px;
+/* Studs along the top edge */
+.brick::before {
+    content: "";
+    position: absolute;
+    left: 28px;
+    right: 28px;
+    top: -14px;
+    height: 14px;
+    background:
+        repeating-linear-gradient(90deg,
+            var(--brick) 0 56px,
+            transparent 56px 96px);
+    border-radius: 4px 4px 0 0;
+    -webkit-mask: repeating-linear-gradient(90deg, #000 0 56px, transparent 56px 96px);
+            mask: repeating-linear-gradient(90deg, #000 0 56px, transparent 56px 96px);
 }
 
-.text-container p {
-    max-width: 750px;
-    margin: 0 auto;
+.brick--blue   { --brick: var(--lego-blue); }
+.brick--red    { --brick: var(--lego-red); }
+.brick--green  { --brick: var(--lego-green); }
+.brick--yellow {
+    --brick: var(--lego-yellow);
+    --brick-text: var(--ink);
+    --brick-emphasis: var(--lego-red);
+}
 
-    font-family: Arial, sans-serif;
-    font-size: 18px;
+.brick__number {
+    margin: 0 0 10px;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0.85;
+}
+
+.brick h1 {
+    margin: 0 0 22px;
+    font-family: "Boldonse", system-ui, sans-serif;
+    font-weight: 400;
+    font-size: clamp(26px, 4vw, 40px);
+    line-height: 1.5;
+}
+
+.brick p:last-child {
+    max-width: 62ch;
+    margin: 0 auto;
+    font-size: 19px;
     line-height: 1.7;
 }
 
-.center_text {
+.emphasis_text {
+    color: var(--brick-emphasis);
+    font-weight: 700;
+}
+
+/* Pure grid sets its own font on columns; */
+.pure-g [class*="pure-u"] { font-family: inherit; }
+
+.photo-row {
+    margin: 0 -10px 28px;       
+}
+
+.photo-row [class*="pure-u"] { padding: 0 10px 20px; }
+
+.photo {
+    margin: 0;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.photo img {
     width: 100%;
+    height: 240px;
+    object-fit: cover;              /* crops each photo to the same frame */
+}
+
+.photo img.photo--top { object-position: center 20%; }   /* keep the face in frame */
+
+.photo figcaption {
+    padding: 12px 16px 14px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--ink-soft);
+}
+
+.photo--feature {
+    height: auto;
+    max-width: 720px;              
+    margin: 4px auto 24px;
+}
+
+.photo--feature img { height: auto; }
+
+.site-footer {
+    padding: 28px 20px 40px;
     text-align: center;
-    margin-bottom: 40px;
 }
 
-.outer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space space-evenly;
+.site-footer a {
+    color: var(--lego-blue);
+    font-weight: 700;
 }
 
-h1 {
-  font-family: "Boldonse", system-ui;
-  font-weight: 400;
-  font-style: Bold;
-}
-
-p{
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 20px
+@media (max-width: 720px) {
+    body { font-size: 17px; }
+    .site-nav { position: static; }   
+    .site-nav__inner { padding: 10px 16px; }
+    .site-nav__links { gap: 4px 14px; }
+    .site-nav__links a { font-size: 14px; }
+    .story { padding: 0 16px 32px; }
+    .chapter { padding-top: 48px; }
+    .brick { padding: 28px 20px 30px; }
+    .brick::before { left: 14px; right: 14px; }
+    .brick p:last-child { font-size: 17px; }
+    .photo img { height: 220px; }
 }

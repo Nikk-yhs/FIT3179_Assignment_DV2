@@ -1,151 +1,48 @@
-#c1-timeline {
-    display: block;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: auto;
-}
-
-#m1-map {
-    display: block;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 0;
-}
-
-#m2-map {
-    display: block;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 0;
-}
-
-#m3-map {
-    display: block;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 0;
-}
-
-#c2-annual{
-    display: block;
-    width: 1000px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    margin-left: 100px;
-    margin-right: auto;
-    padding-right: 0;
-}
-
-.outer.theme-chart-container {
-    display: block;
-    width: 100%;
-    min-width: 0;
-    box-sizing: border-box;
+.panel {
+    margin: 0 0 24px;
+    padding: 28px 24px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 6px;
     overflow-x: auto;
 }
 
-#c3-set-themes {
+.chart {
     display: block;
-    width: max-content;
-    margin: 0;
-    padding: 0;
+    width: max-content;   
+    max-width: none;
+    margin: 0 auto;       
 }
 
-#c4-set-change-time{
-    display: block;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 0;
+.panel .chart.vega-embed { display: block; padding-right: 0; }
+
+.panel--wide {
+    width: min(calc(100vw - 40px), 1680px);
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-#c5-record-pieces{
-    display: block;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 0;
+.wide-row {
+    width: min(calc(100vw - 40px), 1680px);
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
-#c6-themes-endure{
-    display: block;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 0;
+.wide-row .pure-g { margin: 0 -12px; }
+.wide-row [class*="pure-u"] { padding: 0 12px; }
+
+.panel--half {
+    height: calc(100% - 24px);      /* both panels in a row match in height */
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
-#c7-licensed-products{
-    display: block;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 0;
-}
+.chart .vega-actions a { font-family: "DM Sans", Arial, sans-serif; }
 
-#c8-film-to-lego{
-    display: block;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 0;
-}
-
-.c9-section {
-    width: 100%;
-    max-width: 1100px;
-    min-width: 0;
-    margin: 48px auto;
-    box-sizing: border-box;
-}
-
-.c9-scroll {
-    width: 100%;
-    min-width: 0;
-    overflow-x: auto;
-    padding: 12px 0;
-}
-
-#c9-adult-releases {
-    display: block;
-    width: max-content;
-    margin: 0 auto;
-}
-
-.c9-note {
-    max-width: 900px;
-    margin: 16px auto 0;
-    padding: 0 16px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.6;
-    color: #555555;
-}
-
-#c10-fans-influence{
-    display: block;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 0;
-}
-
-#c11-turning-point{
-    display: block;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 0;
-}
-
-
-#m4-lego-stores{
-    display: block;
-    width: max-content;
-    margin: 0 auto;
-    padding-right: 0;
+@media (max-width: 720px) {
+    .panel { padding: 16px 12px; }
+    .panel--wide,
+    .wide-row { width: calc(100vw - 32px); }
 }
