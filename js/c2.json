@@ -3,7 +3,9 @@
   "title": {
     "text": "Set designs released each year",
     "subtitle": [
-      "Horizontal axis: release year, 1949–2025. Vertical axis: number of set designs released that year."
+      "Horizontal axis: release year, 1949 – 2025. Vertical axis: number of set designs released that year.",
+      "",
+      "Explore and examine the companies effort in diversifying their set design releases as time passes."
     ],
     "anchor": "middle"
   },
@@ -18,7 +20,7 @@
     }
   },
   "mark": {
-    "type": "bar",
+    "type": "line",
     "color": "#d62828"
   },
   "encoding": {

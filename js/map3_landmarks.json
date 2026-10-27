@@ -7,7 +7,9 @@
     "subtitle": [
       "Each circle is a LEGO set of a real landmark, placed at the landmark's location.",
       "Circle size shows the set's piece count; colour shows its continent.",
-      "Use the menu to filter by continent."
+      "Use the menu to filter by continent.",
+      "",
+      "Explore the locations of real life landmarks turned into lego sets."
     ],
     "anchor": "middle"
   },

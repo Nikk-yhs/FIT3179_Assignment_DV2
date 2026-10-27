@@ -6,7 +6,9 @@
     "text": "Where LEGO is made",
     "subtitle": [
       "Countries in red have an operating LEGO factory; grey countries are not listed in this dataset.",
-      "Hover over a country to see its factory."
+      "Hover over a country to see its factory.",
+      "",
+      "Discover the companies expansion in factories to produce your beloved lego sets."
     ],
     "anchor": "middle"
   },

@@ -4,8 +4,10 @@
   "title": {
     "text": "Which themes defined each decade",
     "subtitle": [
-      "Rows: theme families. Columns: release decade, 1940s–2020s.",
-      "Darker cells mean more set designs released. Click a cell to list its themes below."
+      "Rows: theme families. Columns: release decade, 1940s – 2020s.",
+      "Darker cells mean more set designs released. Click a cell to list its themes below.",
+      "",
+      "The heat map reveals the themes that contribute the most to each decade."
     ],
     "anchor": "middle"
   },

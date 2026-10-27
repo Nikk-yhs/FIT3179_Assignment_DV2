@@ -7,7 +7,9 @@
     "subtitle": [
       "Horizontal axis: release year. Vertical axis: pieces per set.",
       "Line: median pieces. Shaded band: the middle 50% of set sizes. Pick a theme family from the menu.",
-      "Piece count measures size, not building difficulty."
+      "Piece count measures size, not building difficulty.",
+      "",
+      "Shows the average piece amount for each set released in each year."
     ],
     "anchor": "middle"
   },

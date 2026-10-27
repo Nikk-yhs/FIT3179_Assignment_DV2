@@ -10,7 +10,9 @@
       "Rows: theme families, ordered by first observed release. Horizontal axis: release year.",
       "Dot area shows set designs released that year. Pick a theme family from the menu.",
       "× = no records and coverage unverified. Blank = no records in reviewed coverage.",
-      "A first-to-last span does not establish uninterrupted production."
+      "A first-to-last span does not establish uninterrupted production.",
+      "",
+      "The dot plot shows which themes stay relevant through time."
     ],
     "anchor": "middle"
   },
