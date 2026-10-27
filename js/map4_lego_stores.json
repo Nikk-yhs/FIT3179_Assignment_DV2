@@ -88,8 +88,8 @@
       "title": null,
       "scale": {
         "domain": [
-          "Has a retail store.",
-          "Does not have a retail store."
+          "Has a retail store",
+          "Not listed retail store"
         ],
         "range": [
           "#FFD700",
