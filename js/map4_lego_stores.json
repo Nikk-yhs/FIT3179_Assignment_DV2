@@ -88,8 +88,8 @@
       "title": null,
       "scale": {
         "domain": [
-          "Listed in directory",
-          "No listing in this snapshot"
+          "Has a retail store.",
+          "Does not have a retail store."
         ],
         "range": [
           "#FFD700",
