@@ -4,6 +4,7 @@
     --lego-blue:   #0055BF;
     --lego-yellow: #FFD700;
     --lego-green:  #237841;
+    --lego-black: #000000;
     --ink:        #222222;
     --ink-soft:   #555555;
     --baseplate:  #ECEEF1;   
@@ -137,6 +138,7 @@ a:focus-visible {
     --brick-text: var(--ink);
     --brick-emphasis: var(--lego-red);
 }
+.brick--black { --brick: var(--lego-black);}
 
 .brick__number {
     margin: 0 0 10px;
